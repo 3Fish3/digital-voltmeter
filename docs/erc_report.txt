@@ -1,42 +1,9 @@
-ERC report (2026-09-20T15:35:20, Encoding UTF8)
+ERC report (2026-09-20T16:08:38, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(43.18 mm, 128.27 mm): 水平线, 长度 33.02 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(78.74 mm, 91.44 mm): 水平线, 长度 10.16 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(81.28 mm, 134.62 mm): 垂直线, 长度 2.54 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(107.95 mm, 78.74 mm): 水平线, 长度 8.89 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(124.46 mm, 78.74 mm): 水平线, 长度 5.08 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(144.78 mm, 153.67 mm): 水平线, 长度 11.43 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(165.10 mm, 132.08 mm): 水平线, 长度 12.70 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(194.31 mm, 69.85 mm): 水平线, 长度 15.24 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(194.31 mm, 72.39 mm): 水平线, 长度 15.24 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(226.06 mm, 40.64 mm): 水平线, 长度 1.27 mm
-[unconnected_wire_endpoint]: 未连接的连线端点
-    ; warning
-    @(226.06 mm, 36.83 mm): 水平线, 长度 8.89 mm
 
- ** ERC messages: 11  Errors 0  Warnings 11
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
