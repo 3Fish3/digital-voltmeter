@@ -37,3 +37,18 @@ All other pins are currently unconnected.
 
 ## 3. Reviewer Assumptions and Blockers
 - **J1 Footprint Blocker:** Due to instructions explicitly prohibiting guessing physical Blue Pill dimensions (like exact inter-row spacing or header pin numbering direction), J1 remains without a footprint. This serves as a hard gate preventing PCB production until the physical Blue Pill module is measured and mapped.
+
+## 4. Blue Pill J1 Pin - Net Name - STM32 Pin Mapping Table
+| J1 Pin | Current Net Name | Target Blue Pill Pin |
+|--------|------------------|----------------------|
+| 2      | +3.3V            | 3V3 Output           |
+| 4      | GND              | GND                  |
+| 6      | +5V              | 5V Input             |
+| 12     | /I2C_SDA         | PB7                  |
+| 14     | /I2C_SCL         | PB6                  |
+| 28     | /UART_RX         | PA10                 |
+| 30     | /UART_TX         | PA9                  |
+| 34     | /ADC_DI_3V3      | PB15                 |
+| 36     | /ADC_DO_3V3      | PB14                 |
+| 38     | /ADC_CLK_3V3     | PB13                 |
+| 40     | /ADC_CS_3V3      | PB12                 |
