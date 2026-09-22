@@ -933,6 +933,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -4282,22 +4520,10 @@
 		(uuid "096b2337-806a-42cc-a916-fca10ed5c9ce")
 	)
 	(junction
-		(at 300.99 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "126b1a15-bd8e-4e88-b600-217395639ec8")
-	)
-	(junction
 		(at 74.93 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20535ac3-75e9-48fa-b866-287cacd9eb5d")
-	)
-	(junction
-		(at 274.32 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34630763-b389-49d5-bc79-fd4f65bc9052")
 	)
 	(junction
 		(at 96.52 45.72)
@@ -4318,12 +4544,6 @@
 		(uuid "52a6281d-ee8e-4df5-ab92-7efc617da60e")
 	)
 	(junction
-		(at 316.23 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a320242-a2bf-484f-99a5-c3a99c07ed6d")
-	)
-	(junction
 		(at 67.31 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4334,12 +4554,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62e24ee8-10dd-4294-8c5a-3e81fc9d2769")
-	)
-	(junction
-		(at 46.99 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "635d6582-d4fc-496f-8d9b-32b895f697ee")
 	)
 	(junction
 		(at 66.04 205.74)
@@ -4366,6 +4580,12 @@
 		(uuid "8d8a006c-37ad-4ace-aebb-7912a46d85a5")
 	)
 	(junction
+		(at 40.64 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f65a7a-7095-4459-ad0b-6f8f8afeb822")
+	)
+	(junction
 		(at 66.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4390,12 +4610,6 @@
 		(uuid "c8d376a4-71b4-4f6e-93cd-c9b6eae5a176")
 	)
 	(junction
-		(at 270.51 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd187e85-229b-4f84-83ae-52bba8286dd7")
-	)
-	(junction
 		(at 278.13 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4408,6 +4622,12 @@
 		(uuid "d26dd8f4-93f5-44ae-bf73-fb14c53e281e")
 	)
 	(junction
+		(at 40.64 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d27ae0a2-0a44-47c5-a208-81c08a165733")
+	)
+	(junction
 		(at 33.02 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4418,12 +4638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e76fb454-78fc-4850-b726-d85322c6edb3")
-	)
-	(junction
-		(at 41.91 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e95264b9-4f29-45a8-a5fb-57c5a8e2686e")
 	)
 	(junction
 		(at 50.8 45.72)
@@ -4442,6 +4656,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed56050f-db4a-45f3-9a9f-7bbdd5d79650")
+	)
+	(no_connect
+		(at 36.83 48.26)
+		(uuid "27dbc5d6-d879-4626-ac0f-bc0a3b4ecfad")
 	)
 	(no_connect
 		(at 156.21 35.56)
@@ -4615,16 +4833,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 199.39) (xy 243.84 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08cfefdc-baa0-49b4-919b-14ac571a2cbf")
-	)
-	(wire
-		(pts
 			(xy 63.5 231.14) (xy 63.5 233.68)
 		)
 		(stroke
@@ -4715,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 55.88) (xy 274.32 44.45)
+			(xy 274.32 44.45) (xy 274.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4752,26 +4960,6 @@
 			(type default)
 		)
 		(uuid "1d45d521-b6b5-4c60-aca7-94859f6a9379")
-	)
-	(wire
-		(pts
-			(xy 316.23 179.07) (xy 345.44 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e034856-e932-46eb-889a-5021cd2aeb60")
-	)
-	(wire
-		(pts
-			(xy 350.52 64.77) (xy 364.49 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21496514-fcc3-4ca2-8ddd-0a9b631d21c5")
 	)
 	(wire
 		(pts
@@ -4865,16 +5053,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 179.07) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3025662e-e5bf-498e-8b52-c294d582e23e")
-	)
-	(wire
-		(pts
 			(xy 279.4 179.07) (xy 316.23 179.07)
 		)
 		(stroke
@@ -4882,16 +5060,6 @@
 			(type default)
 		)
 		(uuid "315bb622-b7e3-45ae-b01f-2d037b201f00")
-	)
-	(wire
-		(pts
-			(xy 41.91 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33beda40-aac8-4329-89e3-d239e7217d4c")
 	)
 	(wire
 		(pts
@@ -4925,16 +5093,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 46.99) (xy 259.08 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "383fb088-81ee-428e-8998-b4dd02a73695")
-	)
-	(wire
-		(pts
 			(xy 71.12 227.33) (xy 71.12 224.79)
 		)
 		(stroke
@@ -4942,16 +5100,6 @@
 			(type default)
 		)
 		(uuid "389e65f4-cfcf-4578-a86f-75c251ce059d")
-	)
-	(wire
-		(pts
-			(xy 350.52 60.96) (xy 350.52 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390c9cb9-67b0-4d8e-9d64-b40060b0a2f5")
 	)
 	(wire
 		(pts
@@ -4992,16 +5140,6 @@
 			(type default)
 		)
 		(uuid "3e693c8d-ad2d-4836-9b11-4fcb77ade965")
-	)
-	(wire
-		(pts
-			(xy 270.51 46.99) (xy 259.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e72fbc-8f58-4098-94e1-59f25e52f2e5")
 	)
 	(wire
 		(pts
@@ -5215,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 45.72) (xy 50.8 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64bcb92b-37fe-4113-9571-71c32566ed52")
-	)
-	(wire
-		(pts
 			(xy 45.72 40.64) (xy 50.8 40.64)
 		)
 		(stroke
@@ -5302,26 +5430,6 @@
 			(type default)
 		)
 		(uuid "6e74fc1b-f538-4c1f-8b9f-ab244d01e2b9")
-	)
-	(wire
-		(pts
-			(xy 168.91 81.28) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebab346-228e-43a7-982a-a2bc2927bd2e")
-	)
-	(wire
-		(pts
-			(xy 274.32 57.15) (xy 274.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7093aec2-8968-457f-932d-6bdb97e24f06")
 	)
 	(wire
 		(pts
@@ -5435,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 48.26) (xy 41.91 49.53)
+			(xy 41.91 50.8) (xy 41.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5495,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 199.39) (xy 262.89 199.39)
+			(xy 252.73 199.39) (xy 262.89 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5505,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 179.07) (xy 264.16 179.07)
+			(xy 254 179.07) (xy 264.16 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5565,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 45.72) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc11083-83df-4e68-a21c-ab2f0fc2c72d")
+	)
+	(wire
+		(pts
 			(xy 82.55 233.68) (xy 82.55 219.71)
 		)
 		(stroke
@@ -5582,16 +5700,6 @@
 			(type default)
 		)
 		(uuid "a15db0cb-b36e-4988-89d3-2447c4d78e0b")
-	)
-	(wire
-		(pts
-			(xy 280.67 55.88) (xy 274.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a345d2a6-dcbe-4dcb-89b3-498747753bd0")
 	)
 	(wire
 		(pts
@@ -5705,13 +5813,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 153.67) (xy 322.58 153.67)
+			(xy 36.83 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5010221-3eb0-44d5-9dce-a26fbc80b6da")
+		(uuid "b50bb245-f07a-49b0-88e3-296b93272bfd")
 	)
 	(wire
 		(pts
@@ -5732,16 +5840,6 @@
 			(type default)
 		)
 		(uuid "bb24904a-bd26-46a9-8287-f852bbce4ed5")
-	)
-	(wire
-		(pts
-			(xy 364.49 62.23) (xy 358.14 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc32a9d6-5bf6-4275-8371-030e6934d2ff")
 	)
 	(wire
 		(pts
@@ -5812,16 +5910,6 @@
 			(type default)
 		)
 		(uuid "c7fcb3fc-97cd-4c2b-9ceb-d2f5c6d66d7e")
-	)
-	(wire
-		(pts
-			(xy 346.71 67.31) (xy 364.49 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae6ed54-d702-4275-8c07-eaedc152f431")
 	)
 	(wire
 		(pts
@@ -5935,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 50.8) (xy 41.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6999205-cdd6-4159-a767-c419fa40f5c6")
+	)
+	(wire
+		(pts
 			(xy 68.58 45.72) (xy 96.52 45.72)
 		)
 		(stroke
@@ -5972,26 +6070,6 @@
 			(type default)
 		)
 		(uuid "e0679393-b1bf-40d6-ad59-9832ac78b59c")
-	)
-	(wire
-		(pts
-			(xy 261.62 30.48) (xy 261.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1996003-56ec-4512-b9af-6e2e24c89baf")
-	)
-	(wire
-		(pts
-			(xy 346.71 63.5) (xy 346.71 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2042969-53c4-41ec-a4f0-bd2d580d810c")
 	)
 	(wire
 		(pts
@@ -6075,16 +6153,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 49.53) (xy 41.91 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e804ab-29fe-4eeb-9aae-e8be960c1e3b")
-	)
-	(wire
-		(pts
 			(xy 184.15 111.76) (xy 185.42 111.76)
 		)
 		(stroke
@@ -6092,6 +6160,16 @@
 			(type default)
 		)
 		(uuid "f93bf8d0-497e-4eec-aa69-a5f1aae94e05")
+	)
+	(wire
+		(pts
+			(xy 36.83 50.8) (xy 40.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97faf56-b534-42b1-ba23-5dd1a294eaca")
 	)
 	(wire
 		(pts
@@ -6618,90 +6696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 46.99 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "060a1663-1266-4067-bc5f-6ee8f1cfad40")
-		(property "Reference" "#FLG01"
-			(at 46.99 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 46.99 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9a7beca-bccb-48a3-affa-085147c65860")
-		)
-		(instances
-			(project "digital-voltmeter-pcb-A3-blocks-cn"
-				(path "/27805fe7-8533-4ead-b16f-9e0f115aecbe"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-			(project "digital-voltmeter-pcb"
-				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 39.37 0)
 		(unit 1)
@@ -7075,6 +7069,84 @@
 			(project "digital-voltmeter-pcb"
 				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e579541-4d5d-4af0-b1f7-7ad7bc100527")
+		(property "Reference" "#FLG01"
+			(at 40.64 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec0e0889-3a5b-41cf-8d54-336d5be03ef0")
+		)
+		(instances
+			(project "digital-voltmeter-pcb-A3-blocks-cn"
+				(path "/27805fe7-8533-4ead-b16f-9e0f115aecbe"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7503,91 +7575,6 @@
 			(project "digital-voltmeter-pcb"
 				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 49.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22ea1dc1-37b6-440e-a86b-5fcfc9198183")
-		(property "Reference" "#FLG02"
-			(at 43.815 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "962af10f-158b-438d-85f6-e2acea1a1d5f")
-		)
-		(instances
-			(project "digital-voltmeter-pcb-A3-blocks-cn"
-				(path "/27805fe7-8533-4ead-b16f-9e0f115aecbe"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "digital-voltmeter-pcb"
-				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8534,9 +8521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DigitalVoltmeter:TerminalBlock_01x02")
-		(at 36.83 45.72 0)
-		(mirror y)
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 29.21 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8546,7 +8532,7 @@
 		(dnp no)
 		(uuid "55dfd0a0-5526-4075-bde5-157256b91707")
 		(property "Reference" "J6"
-			(at 34.29 45.7199 0)
+			(at 31.75 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8556,19 +8542,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 34.29 48.2599 0)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 29.21 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 36.83 45.72 0)
+		(property "Footprint" "DigitalVoltmeter:BarrelJack_CUI_PJ-102AH_Horizontal"
+			(at 30.48 49.276 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 45.72 0)
+			(at 30.48 49.276 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,8 +8574,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 45.72 0)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 29.21 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8605,6 +8590,9 @@
 		)
 		(pin "2"
 			(uuid "84badc11-f62b-471d-9aef-66efcf502a66")
+		)
+		(pin "3"
+			(uuid "a1ce6ed7-a722-4b30-848e-dd0c4ec3ca58")
 		)
 		(instances
 			(project "digital-voltmeter-pcb-A3-blocks-cn"
@@ -9756,90 +9744,6 @@
 			(project "digital-voltmeter-pcb"
 				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d572b9f-5ed4-4635-9bce-e58a3060246b")
-		(property "Reference" "#PWR011"
-			(at 261.62 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1a327ea-0ce9-49c8-97dc-5b378cbefc23")
-		)
-		(instances
-			(project "digital-voltmeter-pcb-A3-blocks-cn"
-				(path "/27805fe7-8533-4ead-b16f-9e0f115aecbe"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-			(project "digital-voltmeter-pcb"
-				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11086,7 +10990,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 53.34 0)
+		(at 41.91 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11097,7 +11001,7 @@
 		(fields_autoplaced yes)
 		(uuid "a50a8587-cb92-4d0c-a5c5-db069dbc0a94")
 		(property "Reference" "#PWR04"
-			(at 41.91 59.69 0)
+			(at 41.91 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11108,7 +11012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 58.42 0)
+			(at 41.91 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11118,7 +11022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 53.34 0)
+			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11129,7 +11033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 53.34 0)
+			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11140,7 +11044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 53.34 0)
+			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,6 +12528,84 @@
 			(project "digital-voltmeter-pcb"
 				(path "/447b8c02-8915-4fce-a8f6-6417f71bee5c"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d61a2dfd-6ea8-4e17-8583-cfbe6dfdde1e")
+		(property "Reference" "#FLG02"
+			(at 40.64 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0f3c1f3-cc5e-4d07-a53c-aa67c4a23f55")
+		)
+		(instances
+			(project "digital-voltmeter-pcb-A3-blocks-cn"
+				(path "/27805fe7-8533-4ead-b16f-9e0f115aecbe"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
