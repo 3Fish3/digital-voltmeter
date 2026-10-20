@@ -1,5 +1,15 @@
 # 双通道数字直流电压表 PCB
 
+## 当前版本入口
+
+**当前设计版本：V2.3受控原理图草案。** 文档同步和Git提交不升级设计版本；远端是否同步以实际提交与推送核验为准，仓库发布不表示硬件已验收。
+
+当前新版工作目录为 [pcb_pcb_pcb/](pcb_pcb_pcb/README.md)，最新资料见 [V2.3受控原理图审查](pcb_pcb_pcb/docs/V2.3-controlled-schematic-review.md)与[继续整改依据](pcb_pcb_pcb/docs/V2.3-followup-evidence.md)。当前仍为原理图草案，封装未定、无PCB、无新版采购BOM，P0未关闭，禁止投板。
+
+`digital-voltmeter-pcb/`、`new_pcb/` 与根目录 `docs/` 保留旧工程和历史资料；其中 `docs/bom.csv` 不是新版采购依据。下文仅为旧版说明，不用于定义新版电路或板框。
+
+## 旧版V1.1说明（历史资料）
+
 基于《现代电子综合训练——数字电压表项目全套填报材料（第6组方案 V1.1）》的 KiCad 硬件工程。
 
 - 量程：CH1 / CH2 各 0–5 V 单极性直流

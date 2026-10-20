@@ -1,0 +1,939 @@
+{
+  "status": "CONTROLLED DRAFT: no frozen footprints or purchase BOM",
+  "module_boundary": "M1 numbers are LOGICAL ONLY; Q1/Q2 GSD/BCE functional not package pins",
+  "components": [
+    {
+      "reference": "U1",
+      "lib_id": "V23Draft:ADC0832_Draft",
+      "value": "ADC0832",
+      "x": 400.05,
+      "y": 236.22,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_CS_N",
+        "2": "ADC_CH0",
+        "3": "ADC_CH1",
+        "4": "GND",
+        "5": "ADC_DI",
+        "6": "ADC_DO_5V",
+        "7": "ADC_CLK",
+        "8": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "U2",
+      "lib_id": "V23Draft:MCP6002_Draft",
+      "value": "MCP6002",
+      "x": 238.76,
+      "y": 236.22,
+      "rotation": 0,
+      "pins": {
+        "1": "BUF_CH0",
+        "2": "BUF_CH0",
+        "3": "SENSE_CH0",
+        "4": "GND",
+        "5": "SENSE_CH1",
+        "6": "BUF_CH1",
+        "7": "BUF_CH1",
+        "8": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "U3",
+      "lib_id": "V23Draft:AHCT125_Draft",
+      "value": "74AHCT125",
+      "x": 571.5,
+      "y": 203.2,
+      "rotation": 0,
+      "pins": {
+        "1": "BUF_OE_N",
+        "2": "MCU_CS",
+        "3": "CS_DRV",
+        "4": "BUF_OE_N",
+        "5": "MCU_CLK",
+        "6": "CLK_DRV",
+        "7": "GND",
+        "8": "DI_DRV",
+        "9": "MCU_DI",
+        "10": "BUF_OE_N",
+        "11": null,
+        "12": "GND",
+        "13": "VANA",
+        "14": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "U4",
+      "lib_id": "V23Draft:LVC1G125_Draft",
+      "value": "74LVC1G125",
+      "x": 571.5,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "GND",
+        "2": "ADC_DO_5V",
+        "3": "GND",
+        "4": "MCU_DO_PRE",
+        "5": "3V3"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "U5",
+      "lib_id": "V23Draft:TPS2115A_Draft",
+      "value": "TPS2115A",
+      "x": 238.76,
+      "y": 83.82,
+      "rotation": 0,
+      "pins": {
+        "1": null,
+        "2": null,
+        "3": "GND",
+        "4": "MUX_ILIM",
+        "5": "GND",
+        "6": "EXT_SAFE",
+        "7": "SYS_5V",
+        "8": "USB_SAFE"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "U6",
+      "lib_id": "V23Draft:TL431B_LP_Draft",
+      "value": "TL431BCLP",
+      "x": 400.05,
+      "y": 424.18,
+      "rotation": 0,
+      "pins": {
+        "1": "REF_2V495",
+        "2": "GND",
+        "3": "REF_2V495"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "M1",
+      "lib_id": "V23Draft:BluePill_Logical_Interface",
+      "value": "BLUE_PILL_LOGICAL",
+      "x": 728.98,
+      "y": 416.56,
+      "rotation": 0,
+      "pins": {
+        "1": "SYS_5V",
+        "2": "3V3",
+        "3": "GND",
+        "4": "MCU_CS",
+        "5": "MCU_CLK",
+        "6": "MCU_DI",
+        "7": "MCU_DO",
+        "8": "MCU_BUF_ENABLE_H",
+        "9": "MON_VANA",
+        "10": "MON_REF",
+        "11": "UART_TX",
+        "12": "UART_RX",
+        "13": "SWDIO",
+        "14": "SWCLK",
+        "15": "NRST",
+        "16": "I2C_SCL",
+        "17": "I2C_SDA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J1",
+      "lib_id": "Connector:USB_B",
+      "value": "USB-B ADAPTER POWER",
+      "x": 50.8,
+      "y": 63.5,
+      "rotation": 0,
+      "pins": {
+        "1": "USB_VBUS",
+        "2": null,
+        "3": null,
+        "4": "GND",
+        "SH": "SHIELD"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J2",
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "value": "EXT +5V/GND",
+      "x": 50.8,
+      "y": 127,
+      "rotation": 0,
+      "pins": {
+        "1": "EXT_VIN",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "F1",
+      "lib_id": "Device:Fuse",
+      "value": "FUSE MPN BLOCKED",
+      "x": 109.22,
+      "y": 60.96,
+      "rotation": 90,
+      "pins": {
+        "1": "USB_VBUS",
+        "2": "USB_SAFE"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "F2",
+      "lib_id": "Device:Fuse",
+      "value": "FUSE MPN BLOCKED",
+      "x": 109.22,
+      "y": 127,
+      "rotation": 90,
+      "pins": {
+        "1": "EXT_VIN",
+        "2": "EXT_FUSED"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "Q1",
+      "lib_id": "Device:Q_PMOS",
+      "value": "AO3401A candidate",
+      "x": 157.48,
+      "y": 127,
+      "rotation": 0,
+      "pins": {
+        "G": "REV_GATE",
+        "S": "EXT_SAFE",
+        "D": "EXT_FUSED"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R1",
+      "lib_id": "Device:R",
+      "value": "100k 1%",
+      "x": 157.48,
+      "y": 160.02,
+      "rotation": 0,
+      "pins": {
+        "1": "REV_GATE",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R2",
+      "lib_id": "Device:R",
+      "value": "680R 1%",
+      "x": 304.8,
+      "y": 132.08,
+      "rotation": 0,
+      "pins": {
+        "1": "MUX_ILIM",
+        "2": "ILIM_LINK"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R3",
+      "lib_id": "Device:R",
+      "value": "20R 1%",
+      "x": 340.36,
+      "y": 132.08,
+      "rotation": 0,
+      "pins": {
+        "1": "ILIM_LINK",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R4",
+      "lib_id": "Device:R",
+      "value": "1R 1%",
+      "x": 365.76,
+      "y": 78.74,
+      "rotation": 0,
+      "pins": {
+        "1": "SYS_5V",
+        "2": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R5",
+      "lib_id": "Device:R",
+      "value": "4k7 1% BLEED",
+      "x": 416.56,
+      "y": 114.3,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R6",
+      "lib_id": "Device:R",
+      "value": "0R SHIELD option",
+      "x": 50.8,
+      "y": 96.52,
+      "rotation": 0,
+      "pins": {
+        "1": "SHIELD",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C1",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "x": 185.42,
+      "y": 43.18,
+      "rotation": 0,
+      "pins": {
+        "1": "USB_SAFE",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C2",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "x": 185.42,
+      "y": 86.36,
+      "rotation": 0,
+      "pins": {
+        "1": "EXT_SAFE",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C3",
+      "lib_id": "Device:C",
+      "value": "10u candidate",
+      "x": 304.8,
+      "y": 78.74,
+      "rotation": 0,
+      "pins": {
+        "1": "SYS_5V",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C4",
+      "lib_id": "Device:C",
+      "value": "10u candidate",
+      "x": 464.82,
+      "y": 83.82,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C5",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "x": 464.82,
+      "y": 124.46,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J3",
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "value": "CH0 SIG/GND",
+      "x": 50.8,
+      "y": 223.52,
+      "rotation": 0,
+      "pins": {
+        "1": "INPUT_CH0",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R10",
+      "lib_id": "Device:R",
+      "value": "180k 1%",
+      "x": 99.06,
+      "y": 223.52,
+      "rotation": 0,
+      "pins": {
+        "1": "INPUT_CH0",
+        "2": "SENSE_CH0"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R11",
+      "lib_id": "Device:R",
+      "value": "1M2 1%",
+      "x": 144.78,
+      "y": 223.52,
+      "rotation": 0,
+      "pins": {
+        "1": "SENSE_CH0",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "D1",
+      "lib_id": "Device:D",
+      "value": "LOW-LEAKAGE BLOCKED",
+      "x": 99.06,
+      "y": 261.62,
+      "rotation": 90,
+      "pins": {
+        "1": "SENSE_CH0",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "D2",
+      "lib_id": "Device:D",
+      "value": "LOW-LEAKAGE BLOCKED",
+      "x": 157.48,
+      "y": 261.62,
+      "rotation": 90,
+      "pins": {
+        "1": "VANA",
+        "2": "SENSE_CH0"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R12",
+      "lib_id": "Device:R",
+      "value": "220R",
+      "x": 304.8,
+      "y": 223.52,
+      "rotation": 0,
+      "pins": {
+        "1": "BUF_CH0",
+        "2": "ADC_CH0"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C10",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "x": 350.52,
+      "y": 223.52,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_CH0",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J4",
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "value": "CH1 SIG/GND",
+      "x": 50.8,
+      "y": 314.96000000000004,
+      "rotation": 0,
+      "pins": {
+        "1": "INPUT_CH1",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R14",
+      "lib_id": "Device:R",
+      "value": "180k 1%",
+      "x": 99.06,
+      "y": 314.96000000000004,
+      "rotation": 0,
+      "pins": {
+        "1": "INPUT_CH1",
+        "2": "SENSE_CH1"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R15",
+      "lib_id": "Device:R",
+      "value": "1M2 1%",
+      "x": 144.78,
+      "y": 314.96000000000004,
+      "rotation": 0,
+      "pins": {
+        "1": "SENSE_CH1",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "D3",
+      "lib_id": "Device:D",
+      "value": "LOW-LEAKAGE BLOCKED",
+      "x": 99.06,
+      "y": 353.06000000000006,
+      "rotation": 90,
+      "pins": {
+        "1": "SENSE_CH1",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "D4",
+      "lib_id": "Device:D",
+      "value": "LOW-LEAKAGE BLOCKED",
+      "x": 157.48,
+      "y": 353.06000000000006,
+      "rotation": 90,
+      "pins": {
+        "1": "VANA",
+        "2": "SENSE_CH1"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R16",
+      "lib_id": "Device:R",
+      "value": "220R",
+      "x": 304.8,
+      "y": 314.96000000000004,
+      "rotation": 0,
+      "pins": {
+        "1": "BUF_CH1",
+        "2": "ADC_CH1"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C11",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "x": 350.52,
+      "y": 314.96000000000004,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_CH1",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C6",
+      "lib_id": "Device:C",
+      "value": "100n U2",
+      "x": 238.76,
+      "y": 302.26,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C7",
+      "lib_id": "Device:C",
+      "value": "100n U1",
+      "x": 400.05,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C8",
+      "lib_id": "Device:C",
+      "value": "100n U3",
+      "x": 571.5,
+      "y": 132.08,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "C9",
+      "lib_id": "Device:C",
+      "value": "100n U4",
+      "x": 629.92,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R20",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 497.84,
+      "y": 157.48,
+      "rotation": 0,
+      "pins": {
+        "1": "MCU_CS",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R21",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 497.84,
+      "y": 198.12,
+      "rotation": 0,
+      "pins": {
+        "1": "MCU_CLK",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R22",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 497.84,
+      "y": 238.76,
+      "rotation": 0,
+      "pins": {
+        "1": "MCU_DI",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R23",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "x": 645.16,
+      "y": 157.48,
+      "rotation": 0,
+      "pins": {
+        "1": "CS_DRV",
+        "2": "ADC_CS_N"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R24",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "x": 645.16,
+      "y": 198.12,
+      "rotation": 0,
+      "pins": {
+        "1": "CLK_DRV",
+        "2": "ADC_CLK"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R25",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "x": 645.16,
+      "y": 238.76,
+      "rotation": 0,
+      "pins": {
+        "1": "DI_DRV",
+        "2": "ADC_DI"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R26",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "x": 708.66,
+      "y": 157.48,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_CS_N",
+        "2": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R27",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 708.66,
+      "y": 198.12,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_CLK",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R28",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 708.66,
+      "y": 238.76,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_DI",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R29",
+      "lib_id": "Device:R",
+      "value": "47k",
+      "x": 523.24,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "ADC_DO_5V",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R30",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "x": 665.48,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "MCU_DO_PRE",
+        "2": "MCU_DO"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R31",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "x": 520.7,
+      "y": 411.48,
+      "rotation": 0,
+      "pins": {
+        "1": "MCU_BUF_ENABLE_H",
+        "2": "EN_BASE"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R32",
+      "lib_id": "Device:R",
+      "value": "100k",
+      "x": 520.7,
+      "y": 454.66,
+      "rotation": 0,
+      "pins": {
+        "1": "EN_BASE",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R33",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "x": 622.3,
+      "y": 411.48,
+      "rotation": 0,
+      "pins": {
+        "1": "BUF_OE_N",
+        "2": "VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R40",
+      "lib_id": "Device:R",
+      "value": "68R 1%",
+      "x": 340.36,
+      "y": 396.24,
+      "rotation": 0,
+      "pins": {
+        "1": "3V3",
+        "2": "REF_2V495"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R41",
+      "lib_id": "Device:R",
+      "value": "1k 1%",
+      "x": 454.66,
+      "y": 396.24,
+      "rotation": 0,
+      "pins": {
+        "1": "REF_2V495",
+        "2": "MON_REF"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R42",
+      "lib_id": "Device:R",
+      "value": "10k 1%",
+      "x": 340.36,
+      "y": 472.44,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA",
+        "2": "VANA_HALF"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R43",
+      "lib_id": "Device:R",
+      "value": "10k 1%",
+      "x": 400.05,
+      "y": 472.44,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA_HALF",
+        "2": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "R44",
+      "lib_id": "Device:R",
+      "value": "1k 1%",
+      "x": 454.66,
+      "y": 472.44,
+      "rotation": 0,
+      "pins": {
+        "1": "VANA_HALF",
+        "2": "MON_VANA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "Q2",
+      "lib_id": "Device:Q_NPN",
+      "value": "NPN_EN MPN BLOCKED",
+      "x": 571.5,
+      "y": 411.48,
+      "rotation": 0,
+      "pins": {
+        "B": "EN_BASE",
+        "C": "BUF_OE_N",
+        "E": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J5",
+      "lib_id": "Connector_Generic:Conn_01x05",
+      "value": "SWD NO POWER IN",
+      "x": 728.98,
+      "y": 81.28,
+      "rotation": 0,
+      "pins": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "SWDIO",
+        "4": "SWCLK",
+        "5": "NRST"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J6",
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "value": "TTL 3V3 NO POWER PIN",
+      "x": 728.98,
+      "y": 106.68,
+      "rotation": 0,
+      "pins": {
+        "1": "UART_TX",
+        "2": "UART_RX",
+        "3": "GND"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    },
+    {
+      "reference": "J7",
+      "lib_id": "Connector_Generic:Conn_01x04",
+      "value": "OLED OPTIONAL",
+      "x": 784.86,
+      "y": 304.8,
+      "rotation": 0,
+      "pins": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "status": "CANDIDATE / BLOCKED / NO FOOTPRINT"
+    }
+  ],
+  "power_declarations": [
+    {
+      "reference": "#FLG001",
+      "net": "USB_SAFE",
+      "x": 120.65,
+      "y": 43.18,
+      "source": "J1.1 -> F1 -> USB_SAFE; suitable 5V adapter in normal operation",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "pin": "1",
+      "status": "normal-operation source declaration only; P0 unresolved",
+      "label_x": 120.65,
+      "label_y": 45.72
+    },
+    {
+      "reference": "#FLG002",
+      "net": "EXT_SAFE",
+      "x": 120.65,
+      "y": 152.4,
+      "source": "J2.1 -> F2 -> Q1 D/S -> EXT_SAFE; correctly polarized external 5V in normal operation",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "pin": "1",
+      "status": "normal-operation source declaration only; P0 unresolved",
+      "label_x": 120.65,
+      "label_y": 154.94
+    },
+    {
+      "reference": "#FLG003",
+      "net": "VANA",
+      "x": 433.07,
+      "y": 78.74,
+      "source": "U5.7 -> SYS_5V -> R4 -> VANA; valid MUX output in normal operation",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "pin": "1",
+      "status": "normal-operation source declaration only; P0 unresolved",
+      "label_x": 433.07,
+      "label_y": 81.28
+    }
+  ]
+}
