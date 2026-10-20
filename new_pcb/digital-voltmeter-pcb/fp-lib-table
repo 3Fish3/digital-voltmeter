@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "DigitalVoltmeter")(type "KiCad")(uri "${KIPRJMOD}/DigitalVoltmeter.pretty")(options "")(descr "Project footprints for the dual-channel digital voltmeter"))
-)

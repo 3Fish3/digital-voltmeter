@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "DigitalVoltmeter")(type "KiCad")(uri "${KIPRJMOD}/DigitalVoltmeter.kicad_sym")(options "")(descr "Project symbols for the dual-channel digital voltmeter"))
-)
