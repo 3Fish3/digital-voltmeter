@@ -1,0 +1,16 @@
+# Temporary task artifacts (rebuildable)
+.tmp/
+
+# Python runtime and test caches
+__pycache__/
+.pytest_cache/
+
+# KiCad local session state and backups
+*.kicad_prl
+fp-info-cache
+~*
+*.lck
+*.bak
+
+# Editor history caches
+.history/
