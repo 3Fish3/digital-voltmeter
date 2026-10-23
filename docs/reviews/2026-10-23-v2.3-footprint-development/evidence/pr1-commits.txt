@@ -1,0 +1,3 @@
+93fa411 (origin/pr-1) docs: document measured vs nominal Blue Pill mechanical checks
+9d351d0 test: validate Blue Pill template dimensions and safety guards
+6d77058 feat: add inspection-only 1:1 Blue Pill pin-centre template

@@ -4,7 +4,7 @@
 
 ## 当前版本
 
-当前为**V2.3受控原理图草案**，工程位于`hardware/v2.3/`。封装、采购BOM和PCB尚未定稿；保护、精度及实物验证仍待完成，当前不投板。最新状态与检查证据统一记录在进度文档。
+当前为**V2.3受控原理图草案**，工程位于`hardware/v2.3/`。64个位号中已有56个分配封装，8个因器件供应或机械/拓扑证据不足保持阻塞；采购BOM和PCB尚未定稿，保护、精度及实物验证仍待完成，当前不投板。最新状态与检查证据统一记录在进度文档。
 
 ## 从这里开始
 
@@ -17,7 +17,7 @@
 ## 目录
 
 - `docs/`：三份主文档、[逐引脚CSV](docs/pin-connections.csv)、旧BOM与阶段交接。
-- `hardware/v2.3/`：KiCad草案、局部图符库、连接蓝图和[原理图PDF](hardware/v2.3/review/voltmeter-v2.3-draft.pdf)。
+- `hardware/v2.3/`：KiCad草案、局部图符/项目封装库、连接蓝图和[原理图PDF](hardware/v2.3/review/voltmeter-v2.3-draft.pdf)。
 - `references/datasheets/`：本地数据手册和应用说明。
 - `scripts/`、`tests/`：条件预算、网表核对工具及回归测试。
 - `pictures/`：旧版板卡渲染、理想前端仿真图和Gerber包；与V2.3工程区分使用。
@@ -31,4 +31,6 @@
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_reference_sampling_budget.py -v
 ```
 
-本次11项预算测试通过。另9项网表测试依赖`defusedxml`及`.tmp/v2.3-validation/`中的KiCad导出XML、独立元件清单与标签清单，当前缺少这三个文件。完整测试的前置条件、命令和证据范围见[进度验证记录](docs/progress.md#4-验证记录与复现)。
+本次开发分支在已备好`.tmp/v2.3-validation/`网表夹具的环境中通过21项测试，包括预算、网表和新增的封装/焊盘检查。完整测试依赖`defusedxml`及该目录中的KiCad导出XML、独立元件清单与标签清单；前置条件、命令和证据见[进度验证记录](docs/progress.md#4-验证记录与复现)。
+
+真实封装实施记录、PR #1检查及原始ERC/网表/焊盘/BOM证据见[封装开发记录](docs/reviews/2026-10-23-v2.3-footprint-development/README.md)。

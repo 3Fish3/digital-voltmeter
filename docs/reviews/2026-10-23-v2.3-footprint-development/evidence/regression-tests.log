@@ -1,0 +1,26 @@
+test_actual_connections (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_actual_connections) ... ok
+test_conditional_cathode_current (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_conditional_cathode_current) ... ok
+test_discarded_samples_still_draw_charge (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_discarded_samples_still_draw_charge) ... ok
+test_four_millivolt_sensitivity (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_four_millivolt_sensitivity) ... ok
+test_group_timing (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_group_timing) ... ok
+test_quarter_lsb_settle (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_quarter_lsb_settle) ... ok
+test_reject_extra_node_capacitor (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_reject_extra_node_capacitor) ... ok
+test_reject_reference_pin_miswire (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_reject_reference_pin_miswire) ... ok
+test_reject_wrong_feed_resistor (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_reject_wrong_feed_resistor) ... ok
+test_reject_wrong_monitor_endpoint (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_reject_wrong_monitor_endpoint) ... ok
+test_source_corner (test_reference_sampling_budget.ReferenceSamplingBudgetTests.test_source_corner) ... ok
+test_actual_assignments (test_v2_3_footprints.FootprintVerificationTests.test_actual_assignments) ... ok
+test_actual_export (test_v2_3_netlist.NetlistVerificationTests.test_actual_export) ... ok
+test_missing_component (test_v2_3_netlist.NetlistVerificationTests.test_missing_component) ... ok
+test_missing_power_declaration (test_v2_3_netlist.NetlistVerificationTests.test_missing_power_declaration) ... ok
+test_moved_power_declaration (test_v2_3_netlist.NetlistVerificationTests.test_moved_power_declaration) ... ok
+test_nc_connected (test_v2_3_netlist.NetlistVerificationTests.test_nc_connected) ... ok
+test_wrong_net (test_v2_3_netlist.NetlistVerificationTests.test_wrong_net) ... ok
+test_wrong_power_declaration_net (test_v2_3_netlist.NetlistVerificationTests.test_wrong_power_declaration_net) ... ok
+test_wrong_resistance (test_v2_3_netlist.NetlistVerificationTests.test_wrong_resistance) ... ok
+test_wrong_symbol (test_v2_3_netlist.NetlistVerificationTests.test_wrong_symbol) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.057s
+
+OK

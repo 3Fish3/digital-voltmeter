@@ -1,0 +1,2498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/voltmeter-v2.3-draft.kicad_sch</source>
+    <date>2026-10-23T15:31:41</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>voltmeter-v2.3-draft.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6f6936b-88ad-435a-aefa-c53ce141509a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>681f7e9c-f45f-46a1-a9fe-9c0be7240de4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10u candidate</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1H100</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="EEUFR1H100"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>690cb872-96e1-49f0-a8a2-db12496ef146</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u candidate</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1H100</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="EEUFR1H100"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7720d60-7124-45ca-a8ee-78c507f10d3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b91a7308-7778-49a9-94ae-9c03cc65050b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n U2</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aebe0c10-bd93-458e-bebe-8575ca3e8b33</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100n U1</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>145fdf50-37e4-4681-b0fe-0fee6e283093</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n U3</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b3dec11-8650-419b-b818-dec7c8dea5b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100n U4</value>
+      <footprint>V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">C320C104K5R5TA</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C320C104K5R5TA"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>312c0ede-3aa9-41f2-9114-ab0f06054a3a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="MPN">R82DC3100AA50J</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="R82DC3100AA50J"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ef02bb0-e602-4c03-b978-af0207321459</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="MPN">R82DC3100AA50J</field>
+        <field name="Manufacturer">KEMET/YAGEO</field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="R82DC3100AA50J"/>
+      <property name="Manufacturer" value="KEMET/YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6158c10b-ad4a-402b-a2d9-69188511cd14</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>LOW-LEAKAGE BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74854ca3-62e2-4818-a6d8-31e648e935cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>LOW-LEAKAGE BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ed9a316-3bc9-4aa0-b929-0bca7a07ca32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>LOW-LEAKAGE BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbc2ee56-c89b-4e5d-b5b8-4b280daaf71e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>LOW-LEAKAGE BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>766e3933-3754-4a59-bd61-2824df2c8302</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE MPN BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a77ad0bf-51c2-4f93-8fa4-839d23c0460b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>FUSE MPN BLOCKED</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef8cedd8-4e42-497e-99bb-f50730785de5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB-B ADAPTER POWER</value>
+      <footprint>Connector_USB:USB_B_TE_5787834_Vertical</footprint>
+      <fields>
+        <field name="MPN">5787834-1</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Footprint">Connector_USB:USB_B_TE_5787834_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <property name="MPN" value="5787834-1"/>
+      <property name="Manufacturer" value="TE Connectivity"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <property name="ki_fp_filters" value="USB*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd96d8ca-b543-4dd5-ba4f-213c255f4054</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>EXT +5V/GND</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1715721</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="1715721"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a2e500d-ebda-4ffa-93f2-f34ddc4c8b49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>CH0 SIG/GND</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1715721</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="1715721"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbd794ac-e873-4aeb-b7ac-b40283f9a5b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>CH1 SIG/GND</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1715721</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="1715721"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9db6cf8d-58cf-483b-9719-6bef533b0b0d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>SWD NO POWER IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-105-07-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="TSW-105-07-G-S"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20107a7b-7869-4360-bdcb-d60b67cddef6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>TTL 3V3 NO POWER PIN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-103-07-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="TSW-103-07-G-S"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb9db1bf-d9a5-46e4-943c-e76e8ca02557</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>OLED OPTIONAL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-104-07-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="TSW-104-07-G-S"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4366760a-a683-4348-8e6d-23e96118ab1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M1">
+      <value>BLUE_PILL_LOGICAL</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="BluePill_Logical_Interface" description=""/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd64d842-c131-438f-808d-55ef75f63890</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A candidate</value>
+      <footprint>V23Draft:AO3401A_SOT-23_GSD_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">AO3401A</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">V23Draft:AO3401A_SOT-23_GSD_HandSoldering</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS" description="P-MOSFET transistor"/>
+      <property name="MPN" value="AO3401A"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="PMOS P-MOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd11075-5be7-411b-891b-3b951405dc9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="D"/>
+            <pin num="S"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>NPN_EN MPN BLOCKED</value>
+      <footprint>V23Draft:2N3904BU_TO-92_Inline_EBC</footprint>
+      <fields>
+        <field name="MPN">2N3904BU</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">V23Draft:2N3904BU_TO-92_Inline_EBC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NPN" description="NPN bipolar junction transistor"/>
+      <property name="MPN" value="2N3904BU"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="BJT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>707415d1-91e7-495b-a155-3d626844b0b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="B"/>
+            <pin num="C"/>
+            <pin num="E"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e03720e-40db-44bc-a8ea-44c90ed32c92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>680R 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-680R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-680R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f64369-68fe-4d58-83bb-0e5dc1474cb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>20R 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-20R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-20R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5104bb8-5828-4838-aae7-79dd0fbfca6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1R 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-1R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-1R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>813753ce-aa52-4cbf-84c4-ffe80bcb7452</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4k7 1% BLEED</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FRF52-4K7</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FRF52-4K7"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>830aab9b-b07b-4d6c-b883-61204afc1e31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>0R SHIELD option</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">ZOR-25-R-52-0R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="ZOR-25-R-52-0R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1f3d0e-4d89-481f-9afe-34b0f644f44c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>180k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-180K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-180K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f50036-4ed1-40bf-9cd0-dde6885f316e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>1M2 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-1M2</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-1M2"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ba09c0f-d2f8-4080-9221-ba6d9e56ef1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-220R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-220R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c68b14b3-42a2-4df3-b720-abb32bb4878c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>180k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-180K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-180K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21fe8263-8f0a-4a0e-8262-40b5b6441dec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>1M2 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-1M2</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-1M2"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8023b14-523a-47f2-b68e-fcc7e458f8cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-220R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-220R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfc3f32e-9a5b-4c88-88b7-2e1a028ee5d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11ce14db-06ed-48ba-bafa-897b8c5d414c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>456e36db-6862-4409-ace7-8881b88a6611</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67298504-6da9-4d36-879a-0398923be916</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a89a91f-9422-4862-a840-08be963aa3aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c914657-5c57-4c5e-873a-d8dd68dbcfb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8710de74-1e29-4127-84ad-64243f63c390</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7af262a4-75c2-4afc-9bf1-2e50ac03624f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17be10ce-2072-425e-bf38-1dfa9e7a7b74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8d5232d-e650-4b80-983d-1734d10ee985</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-47K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-47K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca717bee-14e6-43a2-b330-211d5837e4bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ee5caee-0600-47b3-9671-4ca94802bc69</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5105636c-d332-4b69-85f2-4c7d653d56c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-100K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-100K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d212365f-49ec-4224-92f6-963ce2d6aa1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b14ad19-fa49-4fca-a605-68a164c520b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>68R 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-68R</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-68R"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce1a1bcc-b480-47dc-9f78-9a93908bcdeb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R41">
+      <value>1k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-1K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-1K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20c43804-0768-4baf-a988-ec89116b1b63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R42">
+      <value>10k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>205d4cfc-e12c-4c15-9635-fd0b35de9726</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R43">
+      <value>10k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83016aa3-2853-4314-a5b2-5937eb9afb73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R44">
+      <value>1k 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-1K</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-1K"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a34b7d3-4c60-42da-95e1-90232f3bc3a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ADC0832</value>
+      <fields>
+        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="ADC0832_Draft" description=""/>
+      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81ee130d-b7b6-4204-b973-2127661619cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>MCP6002</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="MPN">MCP6002-I/P</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="MCP6002_Draft" description=""/>
+      <property name="MPN" value="MCP6002-I/P"/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b21500de-982e-4794-a3c2-7d6084616b31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>74AHCT125</value>
+      <footprint>V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm</footprint>
+      <fields>
+        <field name="MPN">SN74AHCT125N</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="AHCT125_Draft" description=""/>
+      <property name="MPN" value="SN74AHCT125N"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab3320e9-ba61-4deb-8f9b-b3c45a9be2d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>74LVC1G125</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G125DBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5_HandSoldering</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="LVC1G125_Draft" description=""/>
+      <property name="MPN" value="SN74LVC1G125DBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f07c437e-8c20-4181-a05e-0d3a14f6533d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>TPS2115A</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">TPS2115APW</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TPS2115A_Draft" description=""/>
+      <property name="MPN" value="TPS2115APW"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87b7faec-6149-444e-9fb7-baa5aa70835c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>TL431BCLP</value>
+      <footprint>V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm</footprint>
+      <fields>
+        <field name="MPN">TL431BCLP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="Footprint">V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TL431B_LP_Draft" description=""/>
+      <property name="MPN" value="TL431BCLP"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="Sheetname" value="voltmeter-v2.3-draft"/>
+      <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8613bc0-75dc-4a9c-8717-fe85e5f694df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="ADC0832_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADC0832_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CS_N" type="input"/>
+        <pin num="2" name="CH0" type="input"/>
+        <pin num="3" name="CH1" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI" type="input"/>
+        <pin num="6" name="DO" type="tri_state"/>
+        <pin num="7" name="CLK" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="AHCT125_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AHCT125_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OE1_N" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="Y1" type="tri_state"/>
+        <pin num="4" name="OE2_N" type="input"/>
+        <pin num="5" name="A2" type="input"/>
+        <pin num="6" name="Y2" type="tri_state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Y3" type="tri_state"/>
+        <pin num="9" name="A3" type="input"/>
+        <pin num="10" name="OE3_N" type="input"/>
+        <pin num="11" name="Y4" type="tri_state"/>
+        <pin num="12" name="A4" type="input"/>
+        <pin num="13" name="OE4_N" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="BluePill_Logical_Interface">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">BluePill_Logical_Interface</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="power_in"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="PB0_CS" type="output"/>
+        <pin num="5" name="PB1_CLK" type="output"/>
+        <pin num="6" name="PB10_DI" type="output"/>
+        <pin num="7" name="PB11_DO" type="input"/>
+        <pin num="8" name="PB12_ENABLE_H" type="output"/>
+        <pin num="9" name="PA0_VANA" type="input"/>
+        <pin num="10" name="PA1_REF" type="input"/>
+        <pin num="11" name="PA9_TX" type="output"/>
+        <pin num="12" name="PA10_RX" type="input"/>
+        <pin num="13" name="PA13_SWDIO" type="bidirectional"/>
+        <pin num="14" name="PA14_SWCLK" type="input"/>
+        <pin num="15" name="NRST" type="input"/>
+        <pin num="16" name="PB6_SCL" type="bidirectional"/>
+        <pin num="17" name="PB7_SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LVC1G125_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LVC1G125_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OE_N" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="tri_state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MCP6002_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6002_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_A" type="output"/>
+        <pin num="2" name="IN_A-" type="input"/>
+        <pin num="3" name="IN_A+" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="IN_B+" type="input"/>
+        <pin num="6" name="IN_B-" type="input"/>
+        <pin num="7" name="OUT_B" type="output"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TL431B_LP_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431B_LP_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="REF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TPS2115A_Draft">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2115A_Draft</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="open_collector"/>
+        <pin num="2" name="D0" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="ILIM" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IN2" type="power_in"/>
+        <pin num="7" name="OUT" type="power_out"/>
+        <pin num="8" name="IN1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">USB Type B connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="SH" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN">
+      <description>NPN bipolar junction transistor</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">NPN bipolar junction transistor</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="input"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS">
+      <description>P-MOSFET transistor</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">P-MOSFET transistor</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="3V3_2" pintype="power_out"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADC_CH0" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CH0_2" pintype="input"/>
+    </net>
+    <net code="3" name="/ADC_CH1" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CH1_3" pintype="input"/>
+    </net>
+    <net code="4" name="/ADC_CLK" class="Default">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CLK_7" pintype="input"/>
+    </net>
+    <net code="5" name="/ADC_CS_N" class="Default">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CS_N_1" pintype="input"/>
+    </net>
+    <net code="6" name="/ADC_DI" class="Default">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DI_5" pintype="input"/>
+    </net>
+    <net code="7" name="/ADC_DO_5V" class="Default">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="DO_6" pintype="tri_state"/>
+      <node ref="U4" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="8" name="/BUF_CH0" class="Default">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT_A_1" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="IN_A-_2" pintype="input"/>
+    </net>
+    <net code="9" name="/BUF_CH1" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IN_B-_6" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="OUT_B_7" pintype="output"/>
+    </net>
+    <net code="10" name="/BUF_OE_N" class="Default">
+      <node ref="Q2" pin="C" pinfunction="C_C" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OE1_N_1" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="OE3_N_10" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="OE2_N_4" pintype="input"/>
+    </net>
+    <net code="11" name="/CLK_DRV" class="Default">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="Y2_6" pintype="tri_state"/>
+    </net>
+    <net code="12" name="/CS_DRV" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="Y1_3" pintype="tri_state"/>
+    </net>
+    <net code="13" name="/DI_DRV" class="Default">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="Y3_8" pintype="tri_state"/>
+    </net>
+    <net code="14" name="/EN_BASE" class="Default">
+      <node ref="Q2" pin="B" pinfunction="B_B" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/EXT_FUSED" class="Default">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="D" pinfunction="D_D" pintype="passive"/>
+    </net>
+    <net code="16" name="/EXT_SAFE" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="S" pinfunction="S_S" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="IN2_6" pintype="power_in"/>
+    </net>
+    <net code="17" name="/EXT_VIN" class="Default">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="GND_4" pintype="power_out"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="Q2" pin="E" pinfunction="E_E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VSS_4" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="A4_12" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="OE_N_1" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="D1_3" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/I2C_SCL" class="Default">
+      <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="M1" pin="16" pinfunction="PB6_SCL_16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/I2C_SDA" class="Default">
+      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="M1" pin="17" pinfunction="PB7_SDA_17" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/ILIM_LINK" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/INPUT_CH0" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/INPUT_CH1" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/MCU_BUF_ENABLE_H" class="Default">
+      <node ref="M1" pin="8" pinfunction="PB12_ENABLE_H_8" pintype="output"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/MCU_CLK" class="Default">
+      <node ref="M1" pin="5" pinfunction="PB1_CLK_5" pintype="output"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="A2_5" pintype="input"/>
+    </net>
+    <net code="26" name="/MCU_CS" class="Default">
+      <node ref="M1" pin="4" pinfunction="PB0_CS_4" pintype="output"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="A1_2" pintype="input"/>
+    </net>
+    <net code="27" name="/MCU_DI" class="Default">
+      <node ref="M1" pin="6" pinfunction="PB10_DI_6" pintype="output"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="A3_9" pintype="input"/>
+    </net>
+    <net code="28" name="/MCU_DO" class="Default">
+      <node ref="M1" pin="7" pinfunction="PB11_DO_7" pintype="input"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/MCU_DO_PRE" class="Default">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Y_4" pintype="tri_state"/>
+    </net>
+    <net code="30" name="/MON_REF" class="Default">
+      <node ref="M1" pin="10" pinfunction="PA1_REF_10" pintype="input"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/MON_VANA" class="Default">
+      <node ref="M1" pin="9" pinfunction="PA0_VANA_9" pintype="input"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/MUX_ILIM" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="ILIM_4" pintype="passive"/>
+    </net>
+    <net code="33" name="/NRST" class="Default">
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="M1" pin="15" pinfunction="NRST_15" pintype="input"/>
+    </net>
+    <net code="34" name="/REF_2V495" class="Default">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="REF_3" pintype="input"/>
+    </net>
+    <net code="35" name="/REV_GATE" class="Default">
+      <node ref="Q1" pin="G" pinfunction="G_G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/SENSE_CH0" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN_A+_3" pintype="input"/>
+    </net>
+    <net code="37" name="/SENSE_CH1" class="Default">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IN_B+_5" pintype="input"/>
+    </net>
+    <net code="38" name="/SHIELD" class="Default">
+      <node ref="J1" pin="SH" pinfunction="Shield_SH" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/SWCLK" class="Default">
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="M1" pin="14" pinfunction="PA14_SWCLK_14" pintype="input"/>
+    </net>
+    <net code="40" name="/SWDIO" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="M1" pin="13" pinfunction="PA13_SWDIO_13" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/SYS_5V" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="5V_1" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="OUT_7" pintype="power_out"/>
+    </net>
+    <net code="42" name="/UART_RX" class="Default">
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="M1" pin="12" pinfunction="PA10_RX_12" pintype="input"/>
+    </net>
+    <net code="43" name="/UART_TX" class="Default">
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="M1" pin="11" pinfunction="PA9_TX_11" pintype="output"/>
+    </net>
+    <net code="44" name="/USB_SAFE" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="IN1_8" pintype="power_in"/>
+    </net>
+    <net code="45" name="/USB_VBUS" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS_1" pintype="power_out"/>
+    </net>
+    <net code="46" name="/VANA" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="OE4_N_13" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+    </net>
+    <net code="47" name="/VANA_HALF" class="Default">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J1-D+-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="D+_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J1-D--Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="D-_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U3-Y4-Pad11)" class="Default">
+      <node ref="U3" pin="11" pinfunction="Y4_11" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U5-D0-Pad2)" class="Default">
+      <node ref="U5" pin="2" pinfunction="D0_2" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U5-STAT-Pad1)" class="Default">
+      <node ref="U5" pin="1" pinfunction="STAT_1" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

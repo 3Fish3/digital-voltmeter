@@ -1,0 +1,2976 @@
+{
+  "status": "assigned footprints resolve and pad numbers match netlist pins; not PCB DRC or dimensional approval",
+  "assigned_count": 56,
+  "unassigned_count": 8,
+  "unassigned_references": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "F1",
+    "F2",
+    "M1",
+    "U1"
+  ],
+  "components": [
+    {
+      "reference": "C1",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C2",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C3",
+      "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "file": "/usr/share/kicad/footprints/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod",
+      "sha256": "fd0a251de515130de6e789ffb786d43c746b83178e437feb9fc4f39b6ea9ef39",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C4",
+      "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "file": "/usr/share/kicad/footprints/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod",
+      "sha256": "fd0a251de515130de6e789ffb786d43c746b83178e437feb9fc4f39b6ea9ef39",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C5",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C6",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C7",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C8",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C9",
+      "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+      "sha256": "587c526f8c1918465a7d7b8a22773153232d456ac0de312c73c84380e739c517",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.8
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C10",
+      "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm",
+      "file": "/usr/share/kicad/footprints/Capacitor_THT.pretty/C_Rect_L7.2mm_W2.5mm_P5.00mm.kicad_mod",
+      "sha256": "5e693eb89d6687c48e07ce66b81496a6674b1330e7ffb4e3df694d586b9e76f0",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            5.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C11",
+      "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm",
+      "file": "/usr/share/kicad/footprints/Capacitor_THT.pretty/C_Rect_L7.2mm_W2.5mm_P5.00mm.kicad_mod",
+      "sha256": "5e693eb89d6687c48e07ce66b81496a6674b1330e7ffb4e3df694d586b9e76f0",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            5.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J1",
+      "footprint": "Connector_USB:USB_B_TE_5787834_Vertical",
+      "file": "/usr/share/kicad/footprints/Connector_USB.pretty/USB_B_TE_5787834_Vertical.kicad_mod",
+      "sha256": "820ecd534a5049794f4a2a475d3e58121682f9064db069da5938dd5c340a0a69",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "SH"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.4,
+            1.4
+          ],
+          "drill_mm": [
+            0.92
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            -2.5,
+            0.0
+          ],
+          "size_mm": [
+            1.4,
+            1.4
+          ],
+          "drill_mm": [
+            0.92
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            -2.5,
+            3.2
+          ],
+          "size_mm": [
+            1.4,
+            1.4
+          ],
+          "drill_mm": [
+            0.92
+          ]
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            3.2
+          ],
+          "size_mm": [
+            1.4,
+            1.4
+          ],
+          "drill_mm": [
+            0.92
+          ]
+        },
+        {
+          "number": "SH",
+          "type": "thru_hole",
+          "at_mm": [
+            -7.27,
+            2.71
+          ],
+          "size_mm": [
+            3.0,
+            3.0
+          ],
+          "drill_mm": [
+            2.3
+          ]
+        },
+        {
+          "number": "SH",
+          "type": "thru_hole",
+          "at_mm": [
+            4.77,
+            2.71
+          ],
+          "size_mm": [
+            3.0,
+            3.0
+          ],
+          "drill_mm": [
+            2.3
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/TerminalBlock_Phoenix.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "sha256": "dfc55b9c4471fef83651217c98993a8cbdec2b699085c2c7be6795b48c441258",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            5.08,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J3",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/TerminalBlock_Phoenix.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "sha256": "dfc55b9c4471fef83651217c98993a8cbdec2b699085c2c7be6795b48c441258",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            5.08,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J4",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/TerminalBlock_Phoenix.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "sha256": "dfc55b9c4471fef83651217c98993a8cbdec2b699085c2c7be6795b48c441258",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            5.08,
+            0.0
+          ],
+          "size_mm": [
+            2.6,
+            2.6
+          ],
+          "drill_mm": [
+            1.3
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J5",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "file": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+      "sha256": "4b62e226ec163657a79acde1229c1fca2b2453ff75fddcbc038fc7484bbc2711",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            2.54
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            5.08
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            7.62
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            10.16
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J6",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "file": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "sha256": "e5f24b6fea852f86171042806da48490229c9c8025b6d266b8cad6485b26e79f",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            2.54
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            5.08
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "J7",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "file": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+      "sha256": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            2.54
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            5.08
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            7.62
+          ],
+          "size_mm": [
+            1.7,
+            1.7
+          ],
+          "drill_mm": [
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "Q1",
+      "footprint": "V23Draft:AO3401A_SOT-23_GSD_HandSoldering",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/AO3401A_SOT-23_GSD_HandSoldering.kicad_mod",
+      "sha256": "b209c2681df39d88d86b8264a3d4270a1207fef8d23fe252947d485552b4250e",
+      "symbol_pins": [
+        "D",
+        "G",
+        "S"
+      ],
+      "pads": [
+        {
+          "number": "G",
+          "type": "smd",
+          "at_mm": [
+            -1.5,
+            -0.95
+          ],
+          "size_mm": [
+            1.9,
+            0.8
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "S",
+          "type": "smd",
+          "at_mm": [
+            -1.5,
+            0.95
+          ],
+          "size_mm": [
+            1.9,
+            0.8
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "D",
+          "type": "smd",
+          "at_mm": [
+            1.5,
+            0.0
+          ],
+          "size_mm": [
+            1.9,
+            0.8
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "Q2",
+      "footprint": "V23Draft:2N3904BU_TO-92_Inline_EBC",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/2N3904BU_TO-92_Inline_EBC.kicad_mod",
+      "sha256": "8cb237235b07b57070b3d3d31c1b587208fc58023fcc29d6b49ebf3c1f38e4cb",
+      "symbol_pins": [
+        "B",
+        "C",
+        "E"
+      ],
+      "pads": [
+        {
+          "number": "E",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.05,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        },
+        {
+          "number": "B",
+          "type": "thru_hole",
+          "at_mm": [
+            1.27,
+            0.0
+          ],
+          "size_mm": [
+            1.05,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        },
+        {
+          "number": "C",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.05,
+            1.5
+          ],
+          "drill_mm": [
+            0.75
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R1",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R2",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R3",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R4",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R5",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R6",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R10",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R11",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R12",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R14",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R15",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R16",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R20",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R21",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R22",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R23",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R24",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R25",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R26",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R27",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R28",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R29",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R30",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R31",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R32",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R33",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R40",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R41",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R42",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R43",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "R44",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "file": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+      "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "U2",
+      "footprint": "Package_DIP:DIP-8_W7.62mm",
+      "file": "/usr/share/kicad/footprints/Package_DIP.pretty/DIP-8_W7.62mm.kicad_mod",
+      "sha256": "222fb44370968119abbd978176814cc43a71bc32ac2de275d8a3c418c0830fc6",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            2.54
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            5.08
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            7.62
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            7.62
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            5.08
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "7",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            2.54
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "8",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "U3",
+      "footprint": "V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod",
+      "sha256": "26a8b14206bfd2fed2045f1443a76d04e3e5628125c446e3f31985a07e331635",
+      "symbol_pins": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            2.54
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            5.08
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            7.62
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            10.16
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            12.7
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "7",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            15.24
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "8",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            15.24
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "9",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            12.7
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "10",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            10.16
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "11",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            7.62
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "12",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            5.08
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "13",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            2.54
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        },
+        {
+          "number": "14",
+          "type": "thru_hole",
+          "at_mm": [
+            7.62,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill_mm": [
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "U4",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5_HandSoldering",
+      "file": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-5_HandSoldering.kicad_mod",
+      "sha256": "a700dadded49eb2dde931637784b0bf5111125b840a746e0a8b8083bdcef3083",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -1.35,
+            -0.95
+          ],
+          "size_mm": [
+            1.56,
+            0.65
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            -1.35,
+            0.0
+          ],
+          "size_mm": [
+            1.56,
+            0.65
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "3",
+          "type": "smd",
+          "at_mm": [
+            -1.35,
+            0.95
+          ],
+          "size_mm": [
+            1.56,
+            0.65
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "4",
+          "type": "smd",
+          "at_mm": [
+            1.35,
+            0.95
+          ],
+          "size_mm": [
+            1.56,
+            0.65
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "5",
+          "type": "smd",
+          "at_mm": [
+            1.35,
+            -0.95
+          ],
+          "size_mm": [
+            1.56,
+            0.65
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "U5",
+      "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "file": "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-8_4.4x3mm_P0.65mm.kicad_mod",
+      "sha256": "b3b1082ff89af06488785595322b89f9c3b28cf847da06658f13abd5d7888f4b",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -2.8625,
+            -0.975
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            -2.8625,
+            -0.325
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "3",
+          "type": "smd",
+          "at_mm": [
+            -2.8625,
+            0.325
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "4",
+          "type": "smd",
+          "at_mm": [
+            -2.8625,
+            0.975
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "5",
+          "type": "smd",
+          "at_mm": [
+            2.8625,
+            0.975
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "6",
+          "type": "smd",
+          "at_mm": [
+            2.8625,
+            0.325
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "7",
+          "type": "smd",
+          "at_mm": [
+            2.8625,
+            -0.325
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "8",
+          "type": "smd",
+          "at_mm": [
+            2.8625,
+            -0.975
+          ],
+          "size_mm": [
+            1.475,
+            0.4
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "U6",
+      "footprint": "V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm",
+      "file": "/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/V23Draft.pretty/TL431BCLP_TI_LP0003A_Inline_P1.27mm.kicad_mod",
+      "sha256": "e5107f7262731557ad06e8b4f2f04222b804c6ff34b5df2d2043aad8f0092897",
+      "symbol_pins": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.85
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "at_mm": [
+            1.27,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.85
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "at_mm": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": [
+            0.85
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_tracked_files": 6,
+  "current_hardware_files": 13,
+  "unchanged_baseline_files": [
+    "hardware/v2.3/V23Draft.kicad_sym",
+    "hardware/v2.3/connections-draft.json",
+    "hardware/v2.3/review/voltmeter-v2.3-draft.pdf",
+    "hardware/v2.3/sym-lib-table",
+    "hardware/v2.3/voltmeter-v2.3-draft.kicad_pro"
+  ],
+  "changed_baseline_files": [
+    "hardware/v2.3/voltmeter-v2.3-draft.kicad_sch"
+  ],
+  "new_hardware_files": [
+    "hardware/v2.3/V23Draft.pretty/2N3904BU_TO-92_Inline_EBC.kicad_mod",
+    "hardware/v2.3/V23Draft.pretty/AO3401A_SOT-23_GSD_HandSoldering.kicad_mod",
+    "hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
+    "hardware/v2.3/V23Draft.pretty/README.md",
+    "hardware/v2.3/V23Draft.pretty/TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod",
+    "hardware/v2.3/V23Draft.pretty/TL431BCLP_TI_LP0003A_Inline_P1.27mm.kicad_mod",
+    "hardware/v2.3/fp-lib-table"
+  ]
+}

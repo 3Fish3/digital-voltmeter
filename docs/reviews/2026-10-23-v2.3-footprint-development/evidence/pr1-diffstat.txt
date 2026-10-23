@@ -1,0 +1,4 @@
+ docs/bluepill-fit-check.md          | 26 ++++++++++++++++++
+ scripts/bluepill_fit_template.py    | 54 +++++++++++++++++++++++++++++++++++++
+ tests/test_bluepill_fit_template.py | 29 ++++++++++++++++++++
+ 3 files changed, 109 insertions(+)

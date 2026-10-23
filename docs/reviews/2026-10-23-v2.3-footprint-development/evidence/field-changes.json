@@ -1,0 +1,1052 @@
+[
+  {
+    "reference": "C1",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C1",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C1",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C10",
+    "property": "Footprint",
+    "old": "",
+    "new": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
+  },
+  {
+    "reference": "C10",
+    "property": "MPN",
+    "old": null,
+    "new": "R82DC3100AA50J"
+  },
+  {
+    "reference": "C10",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C11",
+    "property": "Footprint",
+    "old": "",
+    "new": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
+  },
+  {
+    "reference": "C11",
+    "property": "MPN",
+    "old": null,
+    "new": "R82DC3100AA50J"
+  },
+  {
+    "reference": "C11",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C2",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C2",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C2",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C3",
+    "property": "Footprint",
+    "old": "",
+    "new": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+  },
+  {
+    "reference": "C3",
+    "property": "MPN",
+    "old": null,
+    "new": "EEUFR1H100"
+  },
+  {
+    "reference": "C3",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Panasonic"
+  },
+  {
+    "reference": "C4",
+    "property": "Footprint",
+    "old": "",
+    "new": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+  },
+  {
+    "reference": "C4",
+    "property": "MPN",
+    "old": null,
+    "new": "EEUFR1H100"
+  },
+  {
+    "reference": "C4",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Panasonic"
+  },
+  {
+    "reference": "C5",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C5",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C5",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C6",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C6",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C6",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C7",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C7",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C7",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C8",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C8",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C8",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "C9",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C9",
+    "property": "MPN",
+    "old": null,
+    "new": "C320C104K5R5TA"
+  },
+  {
+    "reference": "C9",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "KEMET/YAGEO"
+  },
+  {
+    "reference": "J1",
+    "property": "Footprint",
+    "old": "",
+    "new": "Connector_USB:USB_B_TE_5787834_Vertical"
+  },
+  {
+    "reference": "J1",
+    "property": "MPN",
+    "old": null,
+    "new": "5787834-1"
+  },
+  {
+    "reference": "J1",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "TE Connectivity"
+  },
+  {
+    "reference": "J2",
+    "property": "Footprint",
+    "old": "",
+    "new": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "J2",
+    "property": "MPN",
+    "old": null,
+    "new": "1715721"
+  },
+  {
+    "reference": "J2",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Phoenix Contact"
+  },
+  {
+    "reference": "J3",
+    "property": "Footprint",
+    "old": "",
+    "new": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "J3",
+    "property": "MPN",
+    "old": null,
+    "new": "1715721"
+  },
+  {
+    "reference": "J3",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Phoenix Contact"
+  },
+  {
+    "reference": "J4",
+    "property": "Footprint",
+    "old": "",
+    "new": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "J4",
+    "property": "MPN",
+    "old": null,
+    "new": "1715721"
+  },
+  {
+    "reference": "J4",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Phoenix Contact"
+  },
+  {
+    "reference": "J5",
+    "property": "Footprint",
+    "old": "",
+    "new": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+  },
+  {
+    "reference": "J5",
+    "property": "MPN",
+    "old": null,
+    "new": "TSW-105-07-G-S"
+  },
+  {
+    "reference": "J5",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Samtec"
+  },
+  {
+    "reference": "J6",
+    "property": "Footprint",
+    "old": "",
+    "new": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+  },
+  {
+    "reference": "J6",
+    "property": "MPN",
+    "old": null,
+    "new": "TSW-103-07-G-S"
+  },
+  {
+    "reference": "J6",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Samtec"
+  },
+  {
+    "reference": "J7",
+    "property": "Footprint",
+    "old": "",
+    "new": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+  },
+  {
+    "reference": "J7",
+    "property": "MPN",
+    "old": null,
+    "new": "TSW-104-07-G-S"
+  },
+  {
+    "reference": "J7",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Samtec"
+  },
+  {
+    "reference": "Q1",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "Q1",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:AO3401A_SOT-23_GSD_HandSoldering"
+  },
+  {
+    "reference": "Q1",
+    "property": "MPN",
+    "old": null,
+    "new": "AO3401A"
+  },
+  {
+    "reference": "Q1",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Alpha & Omega Semiconductor"
+  },
+  {
+    "reference": "Q2",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "Q2",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:2N3904BU_TO-92_Inline_EBC"
+  },
+  {
+    "reference": "Q2",
+    "property": "MPN",
+    "old": null,
+    "new": "2N3904BU"
+  },
+  {
+    "reference": "Q2",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "onsemi"
+  },
+  {
+    "reference": "R1",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R1",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100K"
+  },
+  {
+    "reference": "R1",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R10",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R10",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-180K"
+  },
+  {
+    "reference": "R10",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R11",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R11",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-1M2"
+  },
+  {
+    "reference": "R11",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R12",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R12",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-220R"
+  },
+  {
+    "reference": "R12",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R14",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R14",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-180K"
+  },
+  {
+    "reference": "R14",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R15",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R15",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-1M2"
+  },
+  {
+    "reference": "R15",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R16",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R16",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-220R"
+  },
+  {
+    "reference": "R16",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R2",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R2",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-680R"
+  },
+  {
+    "reference": "R2",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R20",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R20",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R20",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R21",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R21",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R21",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R22",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R22",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R22",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R23",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R23",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100R"
+  },
+  {
+    "reference": "R23",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R24",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R24",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100R"
+  },
+  {
+    "reference": "R24",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R25",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R25",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100R"
+  },
+  {
+    "reference": "R25",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R26",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R26",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-10K"
+  },
+  {
+    "reference": "R26",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R27",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R27",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R27",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R28",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R28",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R28",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R29",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R29",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-47K"
+  },
+  {
+    "reference": "R29",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R3",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R3",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-20R"
+  },
+  {
+    "reference": "R3",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R30",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R30",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100R"
+  },
+  {
+    "reference": "R30",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R31",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R31",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-10K"
+  },
+  {
+    "reference": "R31",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R32",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R32",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-100K"
+  },
+  {
+    "reference": "R32",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R33",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R33",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-10K"
+  },
+  {
+    "reference": "R33",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R4",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R4",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-1R"
+  },
+  {
+    "reference": "R4",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R40",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R40",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-68R"
+  },
+  {
+    "reference": "R40",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R41",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R41",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-1K"
+  },
+  {
+    "reference": "R41",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R42",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R42",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-10K"
+  },
+  {
+    "reference": "R42",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R43",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R43",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-10K"
+  },
+  {
+    "reference": "R43",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R44",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R44",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FBF52-1K"
+  },
+  {
+    "reference": "R44",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R5",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R5",
+    "property": "MPN",
+    "old": null,
+    "new": "MFR-25FRF52-4K7"
+  },
+  {
+    "reference": "R5",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "R6",
+    "property": "Footprint",
+    "old": "",
+    "new": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R6",
+    "property": "MPN",
+    "old": null,
+    "new": "ZOR-25-R-52-0R"
+  },
+  {
+    "reference": "R6",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "YAGEO"
+  },
+  {
+    "reference": "U2",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "U2",
+    "property": "Footprint",
+    "old": "",
+    "new": "Package_DIP:DIP-8_W7.62mm"
+  },
+  {
+    "reference": "U2",
+    "property": "MPN",
+    "old": null,
+    "new": "MCP6002-I/P"
+  },
+  {
+    "reference": "U2",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Microchip"
+  },
+  {
+    "reference": "U3",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "U3",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm"
+  },
+  {
+    "reference": "U3",
+    "property": "MPN",
+    "old": null,
+    "new": "SN74AHCT125N"
+  },
+  {
+    "reference": "U3",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Texas Instruments"
+  },
+  {
+    "reference": "U4",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "U4",
+    "property": "Footprint",
+    "old": "",
+    "new": "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+  },
+  {
+    "reference": "U4",
+    "property": "MPN",
+    "old": null,
+    "new": "SN74LVC1G125DBVR"
+  },
+  {
+    "reference": "U4",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Texas Instruments"
+  },
+  {
+    "reference": "U5",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "U5",
+    "property": "Footprint",
+    "old": "",
+    "new": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+  },
+  {
+    "reference": "U5",
+    "property": "MPN",
+    "old": null,
+    "new": "TPS2115APW"
+  },
+  {
+    "reference": "U5",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Texas Instruments"
+  },
+  {
+    "reference": "U6",
+    "property": "DesignStatus",
+    "old": "BLOCKED - candidate; not qualified for PCB",
+    "new": "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+  },
+  {
+    "reference": "U6",
+    "property": "Footprint",
+    "old": "",
+    "new": "V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm"
+  },
+  {
+    "reference": "U6",
+    "property": "MPN",
+    "old": null,
+    "new": "TL431BCLP"
+  },
+  {
+    "reference": "U6",
+    "property": "Manufacturer",
+    "old": null,
+    "new": "Texas Instruments"
+  }
+]

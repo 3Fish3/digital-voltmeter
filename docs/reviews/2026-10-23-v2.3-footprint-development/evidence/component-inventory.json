@@ -1,0 +1,605 @@
+[
+  {
+    "reference": "U1",
+    "value": "ADC0832",
+    "lib_id": "V23Draft:ADC0832_Draft",
+    "x": 400.05,
+    "y": 236.22,
+    "rotation": 0.0,
+    "footprint": ""
+  },
+  {
+    "reference": "U2",
+    "value": "MCP6002",
+    "lib_id": "V23Draft:MCP6002_Draft",
+    "x": 238.76,
+    "y": 236.22,
+    "rotation": 0.0,
+    "footprint": "Package_DIP:DIP-8_W7.62mm"
+  },
+  {
+    "reference": "U3",
+    "value": "74AHCT125",
+    "lib_id": "V23Draft:AHCT125_Draft",
+    "x": 571.5,
+    "y": 203.2,
+    "rotation": 0.0,
+    "footprint": "V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm"
+  },
+  {
+    "reference": "U4",
+    "value": "74LVC1G125",
+    "lib_id": "V23Draft:LVC1G125_Draft",
+    "x": 571.5,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+  },
+  {
+    "reference": "U5",
+    "value": "TPS2115A",
+    "lib_id": "V23Draft:TPS2115A_Draft",
+    "x": 238.76,
+    "y": 83.82,
+    "rotation": 0.0,
+    "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+  },
+  {
+    "reference": "U6",
+    "value": "TL431BCLP",
+    "lib_id": "V23Draft:TL431B_LP_Draft",
+    "x": 400.05,
+    "y": 424.18,
+    "rotation": 0.0,
+    "footprint": "V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm"
+  },
+  {
+    "reference": "M1",
+    "value": "BLUE_PILL_LOGICAL",
+    "lib_id": "V23Draft:BluePill_Logical_Interface",
+    "x": 728.98,
+    "y": 416.56,
+    "rotation": 0.0,
+    "footprint": ""
+  },
+  {
+    "reference": "J1",
+    "value": "USB-B ADAPTER POWER",
+    "lib_id": "Connector:USB_B",
+    "x": 50.8,
+    "y": 63.5,
+    "rotation": 0.0,
+    "footprint": "Connector_USB:USB_B_TE_5787834_Vertical"
+  },
+  {
+    "reference": "J2",
+    "value": "EXT +5V/GND",
+    "lib_id": "Connector_Generic:Conn_01x02",
+    "x": 50.8,
+    "y": 127.0,
+    "rotation": 0.0,
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "F1",
+    "value": "FUSE MPN BLOCKED",
+    "lib_id": "Device:Fuse",
+    "x": 109.22,
+    "y": 60.96,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "F2",
+    "value": "FUSE MPN BLOCKED",
+    "lib_id": "Device:Fuse",
+    "x": 109.22,
+    "y": 127.0,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "Q1",
+    "value": "AO3401A candidate",
+    "lib_id": "Device:Q_PMOS",
+    "x": 157.48,
+    "y": 127.0,
+    "rotation": 0.0,
+    "footprint": "V23Draft:AO3401A_SOT-23_GSD_HandSoldering"
+  },
+  {
+    "reference": "R1",
+    "value": "100k 1%",
+    "lib_id": "Device:R",
+    "x": 157.48,
+    "y": 160.02,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R2",
+    "value": "680R 1%",
+    "lib_id": "Device:R",
+    "x": 304.8,
+    "y": 132.08,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R3",
+    "value": "20R 1%",
+    "lib_id": "Device:R",
+    "x": 340.36,
+    "y": 132.08,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R4",
+    "value": "1R 1%",
+    "lib_id": "Device:R",
+    "x": 365.76,
+    "y": 78.74,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R5",
+    "value": "4k7 1% BLEED",
+    "lib_id": "Device:R",
+    "x": 416.56,
+    "y": 114.3,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R6",
+    "value": "0R SHIELD option",
+    "lib_id": "Device:R",
+    "x": 50.8,
+    "y": 96.52,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "C1",
+    "value": "100n",
+    "lib_id": "Device:C",
+    "x": 185.42,
+    "y": 43.18,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C2",
+    "value": "100n",
+    "lib_id": "Device:C",
+    "x": 185.42,
+    "y": 86.36,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C3",
+    "value": "10u candidate",
+    "lib_id": "Device:C",
+    "x": 304.8,
+    "y": 78.74,
+    "rotation": 0.0,
+    "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+  },
+  {
+    "reference": "C4",
+    "value": "10u candidate",
+    "lib_id": "Device:C",
+    "x": 464.82,
+    "y": 83.82,
+    "rotation": 0.0,
+    "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+  },
+  {
+    "reference": "C5",
+    "value": "100n",
+    "lib_id": "Device:C",
+    "x": 464.82,
+    "y": 124.46,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "J3",
+    "value": "CH0 SIG/GND",
+    "lib_id": "Connector_Generic:Conn_01x02",
+    "x": 50.8,
+    "y": 223.52,
+    "rotation": 0.0,
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "R10",
+    "value": "180k 1%",
+    "lib_id": "Device:R",
+    "x": 99.06,
+    "y": 223.52,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R11",
+    "value": "1M2 1%",
+    "lib_id": "Device:R",
+    "x": 144.78,
+    "y": 223.52,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "D1",
+    "value": "LOW-LEAKAGE BLOCKED",
+    "lib_id": "Device:D",
+    "x": 99.06,
+    "y": 261.62,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "D2",
+    "value": "LOW-LEAKAGE BLOCKED",
+    "lib_id": "Device:D",
+    "x": 157.48,
+    "y": 261.62,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "R12",
+    "value": "220R",
+    "lib_id": "Device:R",
+    "x": 304.8,
+    "y": 223.52,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "C10",
+    "value": "100n",
+    "lib_id": "Device:C",
+    "x": 350.52,
+    "y": 223.52,
+    "rotation": 0.0,
+    "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
+  },
+  {
+    "reference": "J4",
+    "value": "CH1 SIG/GND",
+    "lib_id": "Connector_Generic:Conn_01x02",
+    "x": 50.8,
+    "y": 314.96,
+    "rotation": 0.0,
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "R14",
+    "value": "180k 1%",
+    "lib_id": "Device:R",
+    "x": 99.06,
+    "y": 314.96,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R15",
+    "value": "1M2 1%",
+    "lib_id": "Device:R",
+    "x": 144.78,
+    "y": 314.96,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "D3",
+    "value": "LOW-LEAKAGE BLOCKED",
+    "lib_id": "Device:D",
+    "x": 99.06,
+    "y": 353.06,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "D4",
+    "value": "LOW-LEAKAGE BLOCKED",
+    "lib_id": "Device:D",
+    "x": 157.48,
+    "y": 353.06,
+    "rotation": 90.0,
+    "footprint": ""
+  },
+  {
+    "reference": "R16",
+    "value": "220R",
+    "lib_id": "Device:R",
+    "x": 304.8,
+    "y": 314.96,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "C11",
+    "value": "100n",
+    "lib_id": "Device:C",
+    "x": 350.52,
+    "y": 314.96,
+    "rotation": 0.0,
+    "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
+  },
+  {
+    "reference": "C6",
+    "value": "100n U2",
+    "lib_id": "Device:C",
+    "x": 238.76,
+    "y": 302.26,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C7",
+    "value": "100n U1",
+    "lib_id": "Device:C",
+    "x": 400.05,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C8",
+    "value": "100n U3",
+    "lib_id": "Device:C",
+    "x": 571.5,
+    "y": 132.08,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "C9",
+    "value": "100n U4",
+    "lib_id": "Device:C",
+    "x": 629.92,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
+  },
+  {
+    "reference": "R20",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 497.84,
+    "y": 157.48,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R21",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 497.84,
+    "y": 198.12,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R22",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 497.84,
+    "y": 238.76,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R23",
+    "value": "100R",
+    "lib_id": "Device:R",
+    "x": 645.16,
+    "y": 157.48,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R24",
+    "value": "100R",
+    "lib_id": "Device:R",
+    "x": 645.16,
+    "y": 198.12,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R25",
+    "value": "100R",
+    "lib_id": "Device:R",
+    "x": 645.16,
+    "y": 238.76,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R26",
+    "value": "10k",
+    "lib_id": "Device:R",
+    "x": 708.66,
+    "y": 157.48,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R27",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 708.66,
+    "y": 198.12,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R28",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 708.66,
+    "y": 238.76,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R29",
+    "value": "47k",
+    "lib_id": "Device:R",
+    "x": 523.24,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R30",
+    "value": "100R",
+    "lib_id": "Device:R",
+    "x": 665.48,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R31",
+    "value": "10k",
+    "lib_id": "Device:R",
+    "x": 520.7,
+    "y": 411.48,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R32",
+    "value": "100k",
+    "lib_id": "Device:R",
+    "x": 520.7,
+    "y": 454.66,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R33",
+    "value": "10k",
+    "lib_id": "Device:R",
+    "x": 622.3,
+    "y": 411.48,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R40",
+    "value": "68R 1%",
+    "lib_id": "Device:R",
+    "x": 340.36,
+    "y": 396.24,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R41",
+    "value": "1k 1%",
+    "lib_id": "Device:R",
+    "x": 454.66,
+    "y": 396.24,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R42",
+    "value": "10k 1%",
+    "lib_id": "Device:R",
+    "x": 340.36,
+    "y": 472.44,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R43",
+    "value": "10k 1%",
+    "lib_id": "Device:R",
+    "x": 400.05,
+    "y": 472.44,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R44",
+    "value": "1k 1%",
+    "lib_id": "Device:R",
+    "x": 454.66,
+    "y": 472.44,
+    "rotation": 0.0,
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "Q2",
+    "value": "NPN_EN MPN BLOCKED",
+    "lib_id": "Device:Q_NPN",
+    "x": 571.5,
+    "y": 411.48,
+    "rotation": 0.0,
+    "footprint": "V23Draft:2N3904BU_TO-92_Inline_EBC"
+  },
+  {
+    "reference": "J5",
+    "value": "SWD NO POWER IN",
+    "lib_id": "Connector_Generic:Conn_01x05",
+    "x": 728.98,
+    "y": 81.28,
+    "rotation": 0.0,
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+  },
+  {
+    "reference": "J6",
+    "value": "TTL 3V3 NO POWER PIN",
+    "lib_id": "Connector_Generic:Conn_01x03",
+    "x": 728.98,
+    "y": 106.68,
+    "rotation": 0.0,
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+  },
+  {
+    "reference": "J7",
+    "value": "OLED OPTIONAL",
+    "lib_id": "Connector_Generic:Conn_01x04",
+    "x": 784.86,
+    "y": 304.8,
+    "rotation": 0.0,
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+  },
+  {
+    "reference": "#FLG001",
+    "value": "PWR_FLAG",
+    "lib_id": "power:PWR_FLAG",
+    "x": 120.65,
+    "y": 43.18,
+    "rotation": 0.0,
+    "footprint": ""
+  },
+  {
+    "reference": "#FLG002",
+    "value": "PWR_FLAG",
+    "lib_id": "power:PWR_FLAG",
+    "x": 120.65,
+    "y": 152.4,
+    "rotation": 0.0,
+    "footprint": ""
+  },
+  {
+    "reference": "#FLG003",
+    "value": "PWR_FLAG",
+    "lib_id": "power:PWR_FLAG",
+    "x": 433.07,
+    "y": 78.74,
+    "rotation": 0.0,
+    "footprint": ""
+  }
+]

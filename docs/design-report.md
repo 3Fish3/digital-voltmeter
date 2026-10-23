@@ -10,7 +10,7 @@
 
 系统由STM32控制ADC0832，顺序采集两路共地0～5V直流输入。前端分别分压、钳位、缓冲和滤波；独立USB与外部5V经选源电路供电；STM32辅助ADC测量基准和VANA，用于参考补偿。UART连接上位机，J7预留OLED接口。
 
-当前为连接草案：64个电路图符、3个手动供电声明、47个命名网络、183个已接电路引脚、5个NC。64项Footprint均为空，M1为逻辑接口；PCB及采购BOM尚未定稿。进入制造前的关闭条件见[进度问题表](progress.md#3-问题与关闭条件)。
+当前为连接草案：64个电路图符、3个手动供电声明、47个命名网络、183个已接电路引脚、5个NC。**56项已分配封装，8项仍阻塞；M1仍为逻辑接口**。PCB及采购BOM尚未定稿。进入制造前的关闭条件见[进度问题表](progress.md#3-问题与关闭条件)。
 
 | 材料 | 位置与用途 |
 | --- | --- |
@@ -19,6 +19,7 @@
 | 审阅PDF | [voltmeter-v2.3-draft.pdf](../hardware/v2.3/review/voltmeter-v2.3-draft.pdf)，A1单页，放大阅读 |
 | 连接蓝图 | [connections-draft.json](../hardware/v2.3/connections-draft.json)，包括电路元件及供电声明 |
 | 局部图符库 | [V23Draft.kicad_sym](../hardware/v2.3/V23Draft.kicad_sym)及[sym-lib-table](../hardware/v2.3/sym-lib-table) |
+| 项目封装库 | [V23Draft.pretty](../hardware/v2.3/V23Draft.pretty/)及[fp-lib-table](../hardware/v2.3/fp-lib-table) |
 | 引脚数据 | [pin-connections.csv](pin-connections.csv)，188条电路引脚记录，包括183个接线及5个NC |
 
 同名标签在单页内电气相连，完整网络端点见附录。M1编号1～17是逻辑端点，实体Blue Pill排针映射须依据实板建立；Q1/Q2使用G/S/D和B/C/E功能引脚。D1～D4为独立二极管占位，双管封装需要重新映射。
@@ -48,14 +49,14 @@ UART：J6；SWD：J5；OLED预留：J7；所有电路共地
 | 位号 | 现行器件/功能 | 供电及候选实体 |
 | --- | --- | --- |
 | U1 | ADC0832双通道8位ADC | VANA；DIP-8方向，准确厂家/等级待锁定 |
-| U2 | MCP6002双路跟随器 | VANA；候选MCP6002-I/P、DIP-8 |
-| U3 | 74AHCT125三路正向数字缓冲 | VANA；候选SN74AHCT125N、DIP-14 |
-| U4 | 74LVC1G125反向电平转换 | 3V3；候选SN74LVC1G125DBV、SOT-23-5 |
-| U5 | TPS2115A双源MUX | IN1/IN2输入；候选TPS2115APW/PWR、TSSOP-8 |
-| U6 | TL431BCLP辅助基准 | 3V3经68Ω供电；TI LP/TO-92、0～70°C候选等级 |
+| U2 | MCP6002双路跟随器 | VANA；MCP6002-I/P、DIP-8封装已分配 |
+| U3 | 74AHCT125三路正向数字缓冲 | VANA；SN74AHCT125N、TI N14专用DIP-14封装已分配 |
+| U4 | 74LVC1G125反向电平转换 | 3V3；SN74LVC1G125DBVR、SOT-23-5手焊封装已分配 |
+| U5 | TPS2115A双源MUX | IN1/IN2输入；TPS2115APW、TSSOP-8封装已分配 |
+| U6 | TL431BCLP辅助基准 | 3V3经68Ω供电；TI LP/TO-92专用P1.27mm/φ0.85mm封装已分配 |
 | M1 | 核心板逻辑边界，目标STM32F103C8T6 Blue Pill | SYS_5V输入、板载LDO/3V3及VDDA路径待实板核验；PA13/PA14只在板载SWD排针上，安装参数见第6.4节 |
-| Q1 | 外部电源反接PMOS | AO3401A候选、SOT-23；使用功能G/S/D |
-| Q2 | OE控制NPN | 具体订货型号待定，使用功能B/C/E |
+| Q1 | 外部电源反接PMOS | AO3401A、SOT-23；项目封装焊盘G/S/D对应原厂1/2/3 |
+| Q2 | OE控制NPN | 2N3904BU、TO-92直插；项目封装焊盘E/B/C对应原厂1/2/3 |
 | D1～D4 | 高阻模拟节点上下钳位 | 低漏电硅二极管；Diodes BAV199为候选，当前未分配实体封装 |
 | F1/F2 | USB/外部源保险丝 | 准确料号、热态电阻、浪涌与额定待定 |
 
@@ -244,6 +245,14 @@ U4.1低有效OE直接接GND，2脚输入ADC_DO_5V，3脚GND，4脚经R30=100Ω�
 最终封装还须核对模块外形、USB伸出、按键/跳帽及底部元件限高、公针有效插入长度、排母塑胶包络和装配余量。尺寸确认后先用1:1孔位图与实物试插，再批准工程封装。芯片型号本身不能确定核心板的这些机械尺寸。
 
 资料来源：[Harwin M20-7822046原厂产品页](https://www.harwin.com/products/M20-7822046)、[M20-782原厂工程图（Rev 11，2026-08-03）](https://content.harwin.com/asset/53851ba8-b32e-4ac5-a0c5-09d9271c0c0a/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf)、[STM32F103C8官方页面](https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html)、[Blue Pill原始参考图](https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F103C8T6-Blue_Pill.pdf)。F103 ADC条件以ST DS5319 Rev20表47/49为准；56MHz PCLK2、14MHz ADC是原厂精度试验条件，实际固件时钟仍需核对。
+
+### 6.5 封装与MPN实施状态
+
+本阶段在独立开发分支为56个位号写入可解析的KiCad封装、MPN和厂家属性，并建立5个项目专用封装。完整清单、原厂尺寸依据、采购链接和验证原始记录见[V2.3真实元器件与封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)。
+
+封装分配不改变任何网络：原网表仍为64元件、47命名网、183接线、5NC和3供电声明。ERC和焊盘编号检查已通过，但这只表示结构一致，不能作为PCB或整机验收。
+
+仍有8个位号阻塞：U1（ADC0832在产版本与14脚图符）、M1（本块Blue Pill中心距/针宽/USB包络及独立SWD）、F1/F2（熔断额定与专用封装）、D1～D4（三脚双管BAV199与当前两脚单管图符的拓扑重构）。因此当前不具备PCB设计准入。
 
 ## 7. 基准、VANA监测与解算
 

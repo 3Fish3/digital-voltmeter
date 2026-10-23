@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "V23Draft")(type "KiCad")(uri "${KIPRJMOD}/V23Draft.pretty")(options "")(descr "Project-specific footprints checked against manufacturer data"))
+)

@@ -4049,8 +4049,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 		(at 238.76 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MCP6002-I/P"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Microchip"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4067,7 +4085,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 238.76 236.22 0)
 	(effects
@@ -4136,8 +4154,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm"
 		(at 571.5 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "SN74AHCT125N"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4154,7 +4190,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 571.5 203.2 0)
 	(effects
@@ -4241,8 +4277,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 		(at 571.5 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "SN74LVC1G125DBVR"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,7 +4313,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 571.5 304.8 0)
 	(effects
@@ -4319,8 +4373,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 		(at 238.76 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "TPS2115APW"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4337,7 +4409,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 238.76 83.82 0)
 	(effects
@@ -4406,8 +4478,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm"
 		(at 400.05 424.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "TL431BCLP"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4424,7 +4514,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 400.05 424.18 0)
 	(effects
@@ -4592,8 +4682,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Connector_USB:USB_B_TE_5787834_Vertical"
 		(at 50.8 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "5787834-1"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "TE Connectivity"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,8 +4768,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(at 50.8 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "1715721"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Phoenix Contact"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4857,8 +4983,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:AO3401A_SOT-23_GSD_HandSoldering"
 		(at 157.48 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "AO3401A"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Alpha & Omega Semiconductor"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4875,7 +5019,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 157.48 127 0)
 	(effects
@@ -4929,8 +5073,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 157.48 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4988,8 +5150,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 304.8 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-680R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5047,8 +5227,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 340.36 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-20R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5106,8 +5304,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 365.76 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-1R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5165,8 +5381,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 416.56 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FRF52-4K7"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,8 +5458,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 50.8 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "ZOR-25-R-52-0R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5283,8 +5535,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 185.42 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5342,8 +5612,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 185.42 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5401,8 +5689,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 		(at 304.8 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "EEUFR1H100"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,8 +5766,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 		(at 464.82 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "EEUFR1H100"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,8 +5843,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 464.82 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5578,8 +5920,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(at 50.8 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "1715721"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Phoenix Contact"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5637,8 +5997,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 99.06 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-180K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5696,8 +6074,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 144.78 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-1M2"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5893,8 +6289,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 304.8 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-220R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5952,8 +6366,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(at 350.52 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "R82DC3100AA50J"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6011,8 +6443,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(at 50.8 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "1715721"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Phoenix Contact"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6070,8 +6520,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 99.06 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-180K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6129,8 +6597,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 144.78 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-1M2"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,8 +6812,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 304.8 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-220R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6385,8 +6889,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(at 350.52 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "R82DC3100AA50J"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6444,8 +6966,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 238.76 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6503,8 +7043,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 400.05 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6562,8 +7120,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 571.5 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6621,8 +7197,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm"
 		(at 629.92 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "C320C104K5R5TA"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "KEMET/YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6680,8 +7274,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 497.84 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,8 +7351,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 497.84 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6798,8 +7428,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 497.84 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6857,8 +7505,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 645.16 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6916,8 +7582,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 645.16 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6975,8 +7659,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 645.16 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,8 +7736,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 708.66 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-10K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7093,8 +7813,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 708.66 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7152,8 +7890,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 708.66 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7211,8 +7967,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 523.24 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-47K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7270,8 +8044,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 665.48 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7329,8 +8121,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 520.7 411.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-10K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,8 +8198,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 520.7 454.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-100K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7447,8 +8275,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 622.3 411.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-10K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7506,8 +8352,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 340.36 396.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-68R"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7565,8 +8429,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 454.66 396.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-1K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7624,8 +8506,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 340.36 472.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-10K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7683,8 +8583,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 400.05 472.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-10K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,8 +8660,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(at 454.66 472.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "MFR-25FBF52-1K"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,8 +8737,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:2N3904BU_TO-92_Inline_EBC"
 		(at 571.5 411.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "2N3904BU"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "onsemi"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7819,7 +8773,7 @@
 			(hide yes)
 		)
 	)
-	(property "DesignStatus" "BLOCKED - candidate; not qualified for PCB"
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
 	(id 0)
 	(at 571.5 411.48 0)
 	(effects
@@ -7873,8 +8827,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(at 728.98 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "TSW-105-07-G-S"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Samtec"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7941,8 +8913,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(at 728.98 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "TSW-103-07-G-S"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Samtec"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8003,8 +8993,26 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(at 784.86 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "MPN" "TSW-104-07-G-S"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Samtec"
+		(at 0 0 0)
 		(effects
 			(font
 				(size 1.27 1.27)

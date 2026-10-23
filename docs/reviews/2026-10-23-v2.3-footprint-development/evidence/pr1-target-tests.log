@@ -1,0 +1,13 @@
+test_cli_requires_measurement (test_bluepill_fit_template.PinCentreTests.test_cli_requires_measurement) ... usage: python3 -m unittest [-h] [--nominal-preview] [--center-mm CENTER_MM]
+                           [--pitch-mm PITCH_MM] [--pins-per-row PINS_PER_ROW]
+                           --output OUTPUT
+python3 -m unittest: error: measured mode requires all three dimensions
+ok
+test_provisional_marking (test_bluepill_fit_template.PinCentreTests.test_provisional_marking) ... ok
+test_reject_invalid (test_bluepill_fit_template.PinCentreTests.test_reject_invalid) ... ok
+test_standard_geometry (test_bluepill_fit_template.PinCentreTests.test_standard_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

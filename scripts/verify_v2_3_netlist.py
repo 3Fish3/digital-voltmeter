@@ -73,9 +73,12 @@ def verify(blueprint_path, netlist_path, inventory_path=None):
             raise ValueError(f"Symbol library mismatch: {component['reference']}")
         if inventory[component["reference"]]["lib_id"] != component["lib_id"]:
             raise ValueError(f"MCP symbol identity mismatch: {component['reference']}")
-    footprints = {c.attrib["ref"]: c.findtext("footprint") for c in actual_components if c.findtext("footprint")}
-    if footprints:
-        raise ValueError(f"Unexpected assigned footprints: {footprints}")
+    footprints = {c.attrib["ref"]: (c.findtext("footprint") or "") for c in actual_components}
+    expected_footprints = {ref: inventory[ref].get("footprint", "") for ref in expected_refs}
+    footprint_mismatches = {ref: (expected_footprints[ref], footprints[ref])
+                            for ref in expected_refs if expected_footprints[ref] != footprints[ref]}
+    if footprint_mismatches:
+        raise ValueError(f"Footprint mismatch: {footprint_mismatches}")
     expected = {(c["reference"], str(pin)): net for c in components for pin, net in c["pins"].items() if net is not None}
     disconnected = {(c["reference"], str(pin)) for c in components for pin, net in c["pins"].items() if net is None}
     actual = {}
@@ -104,7 +107,9 @@ def verify(blueprint_path, netlist_path, inventory_path=None):
     return {"status": "connection blueprint matches export; not safety/accuracy/ERC pass",
             "component_count": len(components), "named_net_count": len(set(expected.values())),
             "wired_pin_count": len(expected), "intentional_nc_count": len(disconnected),
-            "assigned_footprints": 0, "power_declaration_count": len(declarations)}
+            "assigned_footprints": sum(bool(value) for value in footprints.values()),
+            "unassigned_footprints": sum(not value for value in footprints.values()),
+            "power_declaration_count": len(declarations)}
 
 
 def main():

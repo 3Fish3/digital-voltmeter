@@ -1,0 +1,6 @@
+650d058970eb17d5aa58dd9f21fab6bba5e97f4ca3f2413c417d28e842ad7cc0  hardware/v2.3/V23Draft.kicad_sym
+80454743a8c585456ada05c2fc3603ceadc66158cc414990bbde7f8a1448f25c  hardware/v2.3/connections-draft.json
+77104ca699381a54aa0d297079c055848dc343d916f89c1684a1e3c16733bf50  hardware/v2.3/review/voltmeter-v2.3-draft.pdf
+fea0727fa482e4b852fd4af355746d1875e95ac6e7c82899e7034696ace07496  hardware/v2.3/sym-lib-table
+3a17ef7bf6d8e59f03d056eb85fda05faf3d1f82574a4ea2c2b10dd9abdd587c  hardware/v2.3/voltmeter-v2.3-draft.kicad_pro
+4ea3ae4a51a7c45e7a7dbc0b412d300dcc1df25e9cb51ea770fde4fd134ed4fa  hardware/v2.3/voltmeter-v2.3-draft.kicad_sch
