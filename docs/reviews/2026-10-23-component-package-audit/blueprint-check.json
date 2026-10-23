@@ -1,0 +1,9 @@
+{
+  "status": "connection blueprint matches export; not safety/accuracy/ERC pass",
+  "component_count": 64,
+  "named_net_count": 47,
+  "wired_pin_count": 183,
+  "intentional_nc_count": 5,
+  "assigned_footprints": 0,
+  "power_declaration_count": 3
+}

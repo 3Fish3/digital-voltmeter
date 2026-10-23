@@ -1,0 +1,19 @@
+{
+  "command": [
+    "kicad-cli",
+    "sch",
+    "erc",
+    "--format",
+    "json",
+    "--units",
+    "mm",
+    "--severity-all",
+    "--exit-code-violations",
+    "--output",
+    "/home/kekeyuyu/projects/digital-voltmeter/.tmp/schematic-readonly-review-20261023-105426/native/erc.json",
+    "/home/kekeyuyu/projects/digital-voltmeter/.tmp/schematic-readonly-review-20261023-105426/input/voltmeter-v2.3-draft.kicad_sch"
+  ],
+  "returncode": 0,
+  "stdout": "Found 0 violations\nSaved ERC Report to /home/kekeyuyu/projects/digital-voltmeter/.tmp/schematic-readonly-review-20261023-105426/native/erc.json\n",
+  "stderr": ""
+}

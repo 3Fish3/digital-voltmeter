@@ -1,0 +1,21 @@
+{
+  "rows": 64,
+  "unique_references": 64,
+  "symbols": 67,
+  "assigned_footprints": 0,
+  "unchanged_hardware_files": 7,
+  "hardware_sha256_unchanged": true,
+  "native_wired_pin_blueprint_matches": 183,
+  "native_export_rerun_this_turn": false,
+  "erc_rerun_this_turn": false,
+  "coreboard_logic_mappings": 17,
+  "older_hardware_snapshot_matches": true,
+  "footprint_files_read": 19,
+  "all_footprint_files_exist": true,
+  "status": {
+    "通过": 0,
+    "失败": 7,
+    "待确认": 57
+  },
+  "note": "逐引脚和数量检查为数据完整性核验，不是电气或机械验收；工程与本轮硬件快照相同。"
+}

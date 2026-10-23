@@ -1,0 +1,2477 @@
+[
+  {
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Connector_PinSocket_2.54mm.pretty/PinSocket_1x20_P2.54mm_Vertical.kicad_mod",
+    "sha256": "1ab7fddd90c390249404b190fb65df781c9d7870023ea69d99a9bcc14f03e83c",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          7.62
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "5",
+        "at": [
+          0.0,
+          10.16
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "6",
+        "at": [
+          0.0,
+          12.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "7",
+        "at": [
+          0.0,
+          15.24
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "8",
+        "at": [
+          0.0,
+          17.78
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "9",
+        "at": [
+          0.0,
+          20.32
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "10",
+        "at": [
+          0.0,
+          22.86
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "11",
+        "at": [
+          0.0,
+          25.4
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "12",
+        "at": [
+          0.0,
+          27.94
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "13",
+        "at": [
+          0.0,
+          30.48
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "14",
+        "at": [
+          0.0,
+          33.02
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "15",
+        "at": [
+          0.0,
+          35.56
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "16",
+        "at": [
+          0.0,
+          38.1
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "17",
+        "at": [
+          0.0,
+          40.64
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "18",
+        "at": [
+          0.0,
+          43.18
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "19",
+        "at": [
+          0.0,
+          45.72
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "20",
+        "at": [
+          0.0,
+          48.26
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -1.77,
+          -1.77
+        ],
+        "end": [
+          1.77,
+          -1.77
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -1.77,
+          50.03
+        ],
+        "end": [
+          -1.77,
+          -1.77
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          1.77,
+          -1.77
+        ],
+        "end": [
+          1.77,
+          50.03
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          1.77,
+          50.03
+        ],
+        "end": [
+          -1.77,
+          50.03
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_DIP:DIP-8_W7.62mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_DIP.pretty/DIP-8_W7.62mm.kicad_mod",
+    "sha256": "222fb44370968119abbd978176814cc43a71bc32ac2de275d8a3c418c0830fc6",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          7.62
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "5",
+        "at": [
+          7.62,
+          7.62
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "6",
+        "at": [
+          7.62,
+          5.08
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "7",
+        "at": [
+          7.62,
+          2.54
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "8",
+        "at": [
+          7.62,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.06,
+          -1.52
+        ],
+        "end": [
+          8.67,
+          9.14
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_DIP:DIP-14_W7.62mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_DIP.pretty/DIP-14_W7.62mm.kicad_mod",
+    "sha256": "45cf0d69e6038dc3015e395a519a24069fcfff2d70340934683d4241b2098762",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          7.62
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "5",
+        "at": [
+          0.0,
+          10.16
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "6",
+        "at": [
+          0.0,
+          12.7
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "7",
+        "at": [
+          0.0,
+          15.24
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "8",
+        "at": [
+          7.62,
+          15.24
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "9",
+        "at": [
+          7.62,
+          12.7
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "10",
+        "at": [
+          7.62,
+          10.16
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "11",
+        "at": [
+          7.62,
+          7.62
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "12",
+        "at": [
+          7.62,
+          5.08
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "13",
+        "at": [
+          7.62,
+          2.54
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "14",
+        "at": [
+          7.62,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.06,
+          -1.53
+        ],
+        "end": [
+          8.67,
+          16.77
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-8_4.4x3mm_P0.65mm.kicad_mod",
+    "sha256": "b3b1082ff89af06488785595322b89f9c3b28cf847da06658f13abd5d7888f4b",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -2.8625,
+          -0.975
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          -2.8625,
+          -0.325
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "3",
+        "at": [
+          -2.8625,
+          0.325
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "4",
+        "at": [
+          -2.8625,
+          0.975
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "5",
+        "at": [
+          2.8625,
+          0.975
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "6",
+        "at": [
+          2.8625,
+          0.325
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "7",
+        "at": [
+          2.8625,
+          -0.325
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      },
+      {
+        "number": "8",
+        "at": [
+          2.8625,
+          -0.975
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -3.85,
+          -1.43
+        ],
+        "end": [
+          -2.45,
+          -1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -3.85,
+          1.43
+        ],
+        "end": [
+          -3.85,
+          -1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.45,
+          -1.75
+        ],
+        "end": [
+          2.45,
+          -1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.45,
+          -1.43
+        ],
+        "end": [
+          -2.45,
+          -1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.45,
+          1.43
+        ],
+        "end": [
+          -3.85,
+          1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.45,
+          1.75
+        ],
+        "end": [
+          -2.45,
+          1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.45,
+          -1.75
+        ],
+        "end": [
+          2.45,
+          -1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.45,
+          -1.43
+        ],
+        "end": [
+          3.85,
+          -1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.45,
+          1.43
+        ],
+        "end": [
+          2.45,
+          1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.45,
+          1.75
+        ],
+        "end": [
+          -2.45,
+          1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          3.85,
+          -1.43
+        ],
+        "end": [
+          3.85,
+          1.43
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          3.85,
+          1.43
+        ],
+        "end": [
+          2.45,
+          1.43
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_SO:SOIC-14W_7.5x9mm_P1.27mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_SO.pretty/SOIC-14W_7.5x9mm_P1.27mm.kicad_mod",
+    "sha256": "f605e3458521bef77edaf3ce72f77a20ff68b91b3464699abaf3482e256f364c",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -4.65,
+          -3.81
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          -4.65,
+          -2.54
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "3",
+        "at": [
+          -4.65,
+          -1.27
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "4",
+        "at": [
+          -4.65,
+          0.0
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "5",
+        "at": [
+          -4.65,
+          1.27
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "6",
+        "at": [
+          -4.65,
+          2.54
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "7",
+        "at": [
+          -4.65,
+          3.81
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "8",
+        "at": [
+          4.65,
+          3.81
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "9",
+        "at": [
+          4.65,
+          2.54
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "10",
+        "at": [
+          4.65,
+          1.27
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "11",
+        "at": [
+          4.65,
+          0.0
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "12",
+        "at": [
+          4.65,
+          -1.27
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "13",
+        "at": [
+          4.65,
+          -2.54
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "14",
+        "at": [
+          4.65,
+          -3.81
+        ],
+        "size": [
+          2.05,
+          0.6
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -5.93,
+          -4.36
+        ],
+        "end": [
+          -4.0,
+          -4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -5.93,
+          4.36
+        ],
+        "end": [
+          -5.93,
+          -4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -4.0,
+          -4.75
+        ],
+        "end": [
+          4.0,
+          -4.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -4.0,
+          -4.36
+        ],
+        "end": [
+          -4.0,
+          -4.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -4.0,
+          4.36
+        ],
+        "end": [
+          -5.93,
+          4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -4.0,
+          4.75
+        ],
+        "end": [
+          -4.0,
+          4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          -4.75
+        ],
+        "end": [
+          4.0,
+          -4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          -4.36
+        ],
+        "end": [
+          5.93,
+          -4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          4.36
+        ],
+        "end": [
+          4.0,
+          4.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          4.75
+        ],
+        "end": [
+          -4.0,
+          4.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          5.93,
+          -4.36
+        ],
+        "end": [
+          5.93,
+          4.36
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          5.93,
+          4.36
+        ],
+        "end": [
+          4.0,
+          4.36
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_TO_SOT_THT.pretty/TO-92_Inline.kicad_mod",
+    "sha256": "19731cf8b8c297aa1405bb1441d8b9e1828eddbe919b0084f9dbfac29c9a36fc",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.05,
+          1.5
+        ],
+        "drill": [
+          0.75
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          1.27,
+          0.0
+        ],
+        "size": [
+          1.05,
+          1.5
+        ],
+        "drill": [
+          0.75
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          2.54,
+          0.0
+        ],
+        "size": [
+          1.05,
+          1.5
+        ],
+        "drill": [
+          0.75
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -1.46,
+          -2.73
+        ],
+        "end": [
+          -1.46,
+          2.01
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -1.46,
+          -2.73
+        ],
+        "end": [
+          4.0,
+          -2.73
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          2.01
+        ],
+        "end": [
+          -1.46,
+          2.01
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          4.0,
+          2.01
+        ],
+        "end": [
+          4.0,
+          -2.73
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -0.9375,
+          -0.95
+        ],
+        "size": [
+          1.475,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          -0.9375,
+          0.95
+        ],
+        "size": [
+          1.475,
+          0.6
+        ],
+        "drill": null
+      },
+      {
+        "number": "3",
+        "at": [
+          0.9375,
+          0.0
+        ],
+        "size": [
+          1.475,
+          0.6
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -1.93,
+          -1.5
+        ],
+        "end": [
+          -0.9,
+          -1.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -1.93,
+          -0.39
+        ],
+        "end": [
+          -1.93,
+          -1.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -1.93,
+          0.39
+        ],
+        "end": [
+          -0.9,
+          0.39
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -1.93,
+          1.5
+        ],
+        "end": [
+          -1.93,
+          0.39
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          -1.7
+        ],
+        "end": [
+          0.9,
+          -1.7
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          -1.5
+        ],
+        "end": [
+          -0.9,
+          -1.7
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          -0.39
+        ],
+        "end": [
+          -1.93,
+          -0.39
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          0.39
+        ],
+        "end": [
+          -0.9,
+          -0.39
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          1.5
+        ],
+        "end": [
+          -1.93,
+          1.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -0.9,
+          1.7
+        ],
+        "end": [
+          -0.9,
+          1.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          0.9,
+          -1.7
+        ],
+        "end": [
+          0.9,
+          -0.55
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          0.9,
+          -0.55
+        ],
+        "end": [
+          1.93,
+          -0.55
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          0.9,
+          0.55
+        ],
+        "end": [
+          0.9,
+          1.7
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          0.9,
+          1.7
+        ],
+        "end": [
+          -0.9,
+          1.7
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          1.93,
+          -0.55
+        ],
+        "end": [
+          1.93,
+          0.55
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          1.93,
+          0.55
+        ],
+        "end": [
+          0.9,
+          0.55
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_TO_SOT_SMD:SOT-23_Handsoldering",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23_Handsoldering.kicad_mod",
+    "sha256": "02dc6b66bab8c37552276d2827997da17a6e5e84ec6b55ce77316e92982e939b",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -1.5,
+          -0.95
+        ],
+        "size": [
+          1.9,
+          0.8
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          -1.5,
+          0.95
+        ],
+        "size": [
+          1.9,
+          0.8
+        ],
+        "drill": null
+      },
+      {
+        "number": "3",
+        "at": [
+          1.5,
+          0.0
+        ],
+        "size": [
+          1.9,
+          0.8
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -2.7,
+          -1.75
+        ],
+        "end": [
+          2.7,
+          -1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.7,
+          1.75
+        ],
+        "end": [
+          -2.7,
+          -1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.7,
+          -1.75
+        ],
+        "end": [
+          2.7,
+          1.75
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.7,
+          1.75
+        ],
+        "end": [
+          -2.7,
+          1.75
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5_HandSoldering",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-5_HandSoldering.kicad_mod",
+    "sha256": "a700dadded49eb2dde931637784b0bf5111125b840a746e0a8b8083bdcef3083",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -1.35,
+          -0.95
+        ],
+        "size": [
+          1.56,
+          0.65
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          -1.35,
+          0.0
+        ],
+        "size": [
+          1.56,
+          0.65
+        ],
+        "drill": null
+      },
+      {
+        "number": "3",
+        "at": [
+          -1.35,
+          0.95
+        ],
+        "size": [
+          1.56,
+          0.65
+        ],
+        "drill": null
+      },
+      {
+        "number": "4",
+        "at": [
+          1.35,
+          0.95
+        ],
+        "size": [
+          1.56,
+          0.65
+        ],
+        "drill": null
+      },
+      {
+        "number": "5",
+        "at": [
+          1.35,
+          -0.95
+        ],
+        "size": [
+          1.56,
+          0.65
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -2.38,
+          -1.8
+        ],
+        "end": [
+          -2.38,
+          1.8
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.38,
+          -1.8
+        ],
+        "end": [
+          2.38,
+          -1.8
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.38,
+          1.8
+        ],
+        "end": [
+          -2.38,
+          1.8
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.38,
+          1.8
+        ],
+        "end": [
+          2.38,
+          -1.8
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Resistor_THT.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod",
+    "sha256": "ce68b937930b334d59ab9c25e2831b8f6aa77aa676e52f6961cf7a2947820ad6",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          10.16,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.05,
+          -1.5
+        ],
+        "end": [
+          11.21,
+          1.5
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Capacitor_THT.pretty/C_Rect_L7.2mm_W2.5mm_P5.00mm.kicad_mod",
+    "sha256": "5e693eb89d6687c48e07ce66b81496a6674b1330e7ffb4e3df694d586b9e76f0",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.5,
+          1.5
+        ],
+        "drill": [
+          0.75
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          5.0,
+          0.0
+        ],
+        "size": [
+          1.5,
+          1.5
+        ],
+        "drill": [
+          0.75
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.35,
+          -1.5
+        ],
+        "end": [
+          6.35,
+          1.5
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod",
+    "sha256": "fd0a251de515130de6e789ffb786d43c746b83178e437feb9fc4f39b6ea9ef39",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          2.0,
+          0.0
+        ],
+        "size": [
+          1.6,
+          1.6
+        ],
+        "drill": [
+          0.8
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_circle",
+        "end": [
+          3.75,
+          0.0
+        ],
+        "center": [
+          1.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/TerminalBlock_Phoenix.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod",
+    "sha256": "dfc55b9c4471fef83651217c98993a8cbdec2b699085c2c7be6795b48c441258",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          2.6,
+          2.6
+        ],
+        "drill": [
+          1.3
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          5.08,
+          0.0
+        ],
+        "size": [
+          2.6,
+          2.6
+        ],
+        "drill": [
+          1.3
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -3.04,
+          -5.71
+        ],
+        "end": [
+          8.13,
+          5.1
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Connector_USB:USB_B_TE_5787834_Vertical",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Connector_USB.pretty/USB_B_TE_5787834_Vertical.kicad_mod",
+    "sha256": "820ecd534a5049794f4a2a475d3e58121682f9064db069da5938dd5c340a0a69",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.4,
+          1.4
+        ],
+        "drill": [
+          0.92
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          -2.5,
+          0.0
+        ],
+        "size": [
+          1.4,
+          1.4
+        ],
+        "drill": [
+          0.92
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          -2.5,
+          3.2
+        ],
+        "size": [
+          1.4,
+          1.4
+        ],
+        "drill": [
+          0.92
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          3.2
+        ],
+        "size": [
+          1.4,
+          1.4
+        ],
+        "drill": [
+          0.92
+        ]
+      },
+      {
+        "number": "SH",
+        "at": [
+          -7.27,
+          2.71
+        ],
+        "size": [
+          3.0,
+          3.0
+        ],
+        "drill": [
+          2.3
+        ]
+      },
+      {
+        "number": "SH",
+        "at": [
+          4.77,
+          2.71
+        ],
+        "size": [
+          3.0,
+          3.0
+        ],
+        "drill": [
+          2.3
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -9.0,
+          -4.0
+        ],
+        "end": [
+          -9.0,
+          9.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -9.0,
+          -4.0
+        ],
+        "end": [
+          6.5,
+          -4.0
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          6.5,
+          9.5
+        ],
+        "end": [
+          -9.0,
+          9.5
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          6.5,
+          9.5
+        ],
+        "end": [
+          6.5,
+          -4.0
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "sha256": "e5f24b6fea852f86171042806da48490229c9c8025b6d266b8cad6485b26e79f",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.77,
+          -1.77
+        ],
+        "end": [
+          1.77,
+          6.85
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "sha256": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          7.62
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.77,
+          -1.77
+        ],
+        "end": [
+          1.77,
+          9.39
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "sha256": "4b62e226ec163657a79acde1229c1fca2b2453ff75fddcbc038fc7484bbc2711",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "2",
+        "at": [
+          0.0,
+          2.54
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "3",
+        "at": [
+          0.0,
+          5.08
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "4",
+        "at": [
+          0.0,
+          7.62
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      },
+      {
+        "number": "5",
+        "at": [
+          0.0,
+          10.16
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "drill": [
+          1.0
+        ]
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_rect",
+        "start": [
+          -1.77,
+          -1.77
+        ],
+        "end": [
+          1.77,
+          11.93
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Diode_SMD:D_SOD-123F",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+    "sha256": "8be1e25f240367187beafa1e339963dfdf4aa4f3e671731970e7f2e8491b6246",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -1.4,
+          0.0
+        ],
+        "size": [
+          1.1,
+          1.1
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          1.4,
+          0.0
+        ],
+        "size": [
+          1.1,
+          1.1
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -2.2,
+          -1.15
+        ],
+        "end": [
+          -2.2,
+          1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.2,
+          -1.15
+        ],
+        "end": [
+          2.2,
+          -1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.2,
+          -1.15
+        ],
+        "end": [
+          2.2,
+          1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.2,
+          1.15
+        ],
+        "end": [
+          -2.2,
+          1.15
+        ]
+      }
+    ]
+  },
+  {
+    "footprint": "Diode_SMD:D_SOD-123",
+    "exists": true,
+    "source": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123.kicad_mod",
+    "sha256": "fd16785935b01254e1076f490e12f0f096da73cf087adefce51225585c62557a",
+    "pads": [
+      {
+        "number": "1",
+        "at": [
+          -1.65,
+          0.0
+        ],
+        "size": [
+          0.9,
+          1.2
+        ],
+        "drill": null
+      },
+      {
+        "number": "2",
+        "at": [
+          1.65,
+          0.0
+        ],
+        "size": [
+          0.9,
+          1.2
+        ],
+        "drill": null
+      }
+    ],
+    "courtyard": [
+      {
+        "type": "fp_line",
+        "start": [
+          -2.35,
+          -1.15
+        ],
+        "end": [
+          -2.35,
+          1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          -2.35,
+          -1.15
+        ],
+        "end": [
+          2.35,
+          -1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.35,
+          -1.15
+        ],
+        "end": [
+          2.35,
+          1.15
+        ]
+      },
+      {
+        "type": "fp_line",
+        "start": [
+          2.35,
+          1.15
+        ],
+        "end": [
+          -2.35,
+          1.15
+        ]
+      }
+    ]
+  }
+]

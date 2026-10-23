@@ -1,0 +1,16 @@
+{
+  "command": [
+    "kicad-cli",
+    "sch",
+    "export",
+    "netlist",
+    "--format",
+    "kicadxml",
+    "--output",
+    "/home/kekeyuyu/projects/digital-voltmeter/.tmp/schematic-readonly-review-20261023-105426/native/voltmeter-v2.3-draft.xml",
+    "/home/kekeyuyu/projects/digital-voltmeter/.tmp/schematic-readonly-review-20261023-105426/input/voltmeter-v2.3-draft.kicad_sch"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}
