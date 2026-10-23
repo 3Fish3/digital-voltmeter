@@ -17,5 +17,6 @@
     "失败": 7,
     "待确认": 57
   },
-  "note": "逐引脚和数量检查为数据完整性核验，不是电气或机械验收；工程与本轮硬件快照相同。"
+  "note": "F103 target corrected after user clarification. Pin/data checks verify document consistency and unchanged hardware snapshots; they are not electrical or mechanical acceptance.",
+  "target_board": "STM32F103C8T6 Blue Pill (generic standard layout; exact clone pending)"
 }

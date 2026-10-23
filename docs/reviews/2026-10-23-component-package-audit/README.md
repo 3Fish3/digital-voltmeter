@@ -1,6 +1,8 @@
 # V2.3 元器件与真实封装续审（只读）
 
-审查日期：2026-10-23，America/New_York。范围：64个现有电路位号，以及核心板排母和已确认的15.8mm外跨。原理图、工程、蓝图、库和PCB均未修改；报告和原始检查证据归档于本目录，不构成采购BOM。
+审查日期：2026-10-23，America/New_York。范围：64个现有电路位号，以及核心板排母和已确认的15.8mm外跨。
+
+**型号更正：** 用户随后确认实际主控为 **STM32F103C8T6 Blue Pill**。先前误记为 F102；本报告的 M1、管脚表和来源已改为 F103，F102 专属数据不再用于本项目。原理图、工程、蓝图、库和PCB均未修改；报告和原始检查证据归档于本目录，不构成采购BOM。
 
 ## 状态和证据边界
 
@@ -10,13 +12,13 @@
 
 ## 优先阻塞项
 
-1. M1：用户已确认金属外表面跨距15.8mm。D=15.8−(w左+w右)/2 mm；实际针宽、针数、板号、左右方向、USB伸出和底部高度待核，不默认任何标准排距。
+1. M1：用户已确认金属外表面跨距15.8mm。标准Blue Pill名义为2×20、P2.54、0.6in中心距；本块实板的针宽、中心距、克隆板版本、左右方向、USB伸出和底部高度待核。PA13/PA14只在独立SWD排针，不能用两条长排母替代，详见[板级复核](../2026-10-23-stm32f103-blue-pill-investigation.md)。
 2. U1：TI DIP-8版本为Obsolete；在产SOIC-14版本保留ADC0832功能，机械图已补齐，供货与图符重映射仍待批准。
 3. Q1/Q2：原生XML引脚为G/S/D、B/C/E，候选Footprint为数字1/2/3；当前直接赋封装会失配，列失败。
 4. D1–D4：当前每位号为两脚独立二极管；BAV199为三脚串联双管，直接逐位号赋封装失败。新查BAS116H单管方向仅列待审，不修改现图。
 5. U6：TI LP0003A直引脚示例孔φ0.85，通用库孔φ0.75；针距相同不足以批准，需成品孔公差核查和专用方案。
 6. U3、F1/F2、USB、径向去耦电容等仍缺完整机械/装配或供货闭环；64项工程Footprint字段均空。
-7. STM32F102：原厂商城标Active，保留用户指定型号。已取得DS5933 Rev7，表45规定ADC时钟最大12MHz；旧F103的PCLK2=56MHz、ADC=14MHz条件不可沿用。此处仅报告，不改预算脚本或原理图。
+7. STM32F103C8T6：保留用户确认的 Blue Pill 主控。ST DS5319 Rev20 表47规定 ADC 时钟最大14MHz，表49的精度条件为 PCLK2=56MHz、ADC=14MHz；现有条件预算的时钟前提成立，但实际固件时钟树仍待核对。Blue Pill 的 PA13/PA14 只在独立 SWD 排针，5V 与 USB VBUS 直连，详见[板级复核](../2026-10-23-stm32f103-blue-pill-investigation.md)。
 
 ## 已确认机械基准与新增核对
 
@@ -32,29 +34,31 @@
 
 注意：Harwin推荐的0.64mm方针是候选排母适配条件，不是当前核心板公针实测值。Samtec目录-LL锁紧脚推荐孔不适用于直接判定当前无-LL料号。
 
-## F102裸片管脚对应（不是模块排母孔号）
+## F103/Blue Pill 管脚对应（不是排母销售孔号）
 
-来源：ST DS5933 Rev7表4（pp21–23）。下表只完成逻辑功能到MCU裸片管脚一段；真实核心板走线及左/右排母孔号均未假定。MCU封装为LQFP48，P0.5mm，不能拿它的尺寸代替核心板插座尺寸。
+来源：ST DS5319 Rev20 表5（pp28–33）与 Blue Pill 参考图。A/B 编号以 USB 端在上、从顶面看为准；P3/P4 为两条 20 针长排，SWD 为独立 4 针。下表把逻辑网络、MCU LQFP48 引脚和标准 Blue Pill 实体位置放在同一条证据链中。
 
-| M1逻辑编号 | 功能 | 网络 | F102C8T6_LQFP48管脚 | 证据范围 | 模块排母孔号 |
+| M1逻辑编号 | 功能 | 网络 | F103C8T6_LQFP48管脚 | Blue_Pill实体位置 | 证据范围 |
 |---|---|---|---|---|---|
-| 1 | 模块5V输入 | SYS_5V | 板载LDO输入；不是MCU裸片管脚 | 模块走线待核 | 待实物逐孔确认 |
-| 2 | 模块3V3 | 3V3 | VDD:24/36/48；VDDA:9 | 模块VDDA连接/滤波待核 | 待实物逐孔确认 |
-| 3 | 模块GND | GND | VSS:23/35/47；VSSA:8 | 模块实际地孔待核 | 待实物逐孔确认 |
-| 4 | PB0 | MCU_CS | 18 | 裸片对应已核 | 待实物逐孔确认 |
-| 5 | PB1 | MCU_CLK | 19 | 裸片对应已核 | 待实物逐孔确认 |
-| 6 | PB10 | MCU_DI | 21 | 裸片对应已核 | 待实物逐孔确认 |
-| 7 | PB11 | MCU_DO | 22 | 裸片对应已核 | 待实物逐孔确认 |
-| 8 | PB12 | MCU_BUF_ENABLE_H | 25 | 裸片对应已核 | 待实物逐孔确认 |
-| 9 | PA0/ADC_IN0 | MON_VANA | 10 | 裸片对应已核 | 待实物逐孔确认 |
-| 10 | PA1/ADC_IN1 | MON_REF | 11 | 裸片对应已核 | 待实物逐孔确认 |
-| 11 | PA9/USART1_TX | UART_TX | 30 | 裸片默认复用对应已核 | 待实物逐孔确认 |
-| 12 | PA10/USART1_RX | UART_RX | 31 | 裸片默认复用对应已核 | 待实物逐孔确认 |
-| 13 | PA13/SWDIO | SWDIO | 34 | 裸片对应已核 | 待实物逐孔确认 |
-| 14 | PA14/SWCLK | SWCLK | 37 | 裸片对应已核 | 待实物逐孔确认 |
-| 15 | NRST | NRST | 7 | 裸片对应已核 | 待实物逐孔确认 |
-| 16 | PB6/I2C1_SCL | I2C_SCL | 42 | 裸片默认复用对应已核 | 待实物逐孔确认 |
-| 17 | PB7/I2C1_SDA | I2C_SDA | 43 | 裸片默认复用对应已核 | 待实物逐孔确认 |
+| 1 | 模块5V输入 | SYS_5V | 板载LDO输入；不是MCU裸片管脚 | 右侧B3；与USB VBUS同一5V网络 | 参考图直连，实板连续性待核 |
+| 2 | 模块3V3 | 3V3 | VDD:24/36/48；VDDA:9 | 左侧A18或右侧B1 | 板载LDO输出，实板轨与LDO型号待核 |
+| 3 | 模块GND | GND | VSS:23/35/47；VSSA:8 | 左侧A19/A20或右侧B2 | 标准孔位；实板连续性与去耦待核 |
+| 4 | PB0 | MCU_CS | 18 | 左侧A13 | ST表5与参考板图对应 |
+| 5 | PB1 | MCU_CLK | 19 | 左侧A14 | ST表5与参考板图对应 |
+| 6 | PB10 | MCU_DI | 21 | 左侧A15 | ST表5与参考板图对应 |
+| 7 | PB11 | MCU_DO | 22 | 左侧A16 | ST表5与参考板图对应 |
+| 8 | PB12 | MCU_BUF_ENABLE_H | 25 | 右侧B20 | ST表5与参考板图对应 |
+| 9 | PA0/ADC12_IN0 | MON_VANA | 10 | 左侧A5 | PA0不是FT 5V容忍脚；仅限0～VDDA |
+| 10 | PA1/ADC12_IN1 | MON_REF | 11 | 左侧A6 | PA1不是FT 5V容忍脚；仅限0～VDDA |
+| 11 | PA9/USART1_TX | UART_TX | 30 | 右侧B15 | ST表5与参考板图对应 |
+| 12 | PA10/USART1_RX | UART_RX | 31 | 右侧B14 | ST表5与参考板图对应 |
+| 13 | PA13/SWDIO | SWDIO | 34 | 独立4针SWD排针第2脚 | 不在两条20针长排；必须单独对接 |
+| 14 | PA14/SWCLK | SWCLK | 37 | 独立4针SWD排针第3脚 | 不在两条20针长排；必须单独对接 |
+| 15 | NRST | NRST | 7 | 左侧A17 | 板载复位网络；J5可引出 |
+| 16 | PB6/I2C1_SCL | I2C_SCL | 42 | 右侧B7 | ST表5与参考板图对应 |
+| 17 | PB7/I2C1_SDA | I2C_SDA | 43 | 右侧B6 | ST表5与参考板图对应 |
+
+注意：标准板孔位已核，但本块克隆板的丝印方向、LDO、USB 接口及导通仍需实物确认。PA13/PA14 不在 A/B 长排，若仅焊两条排母，底板 J5 的 SWDIO/SWCLK 没有通路。
 
 ## 全部64个位号审查表
 
@@ -66,7 +70,7 @@
 | U4 | 74LVC1G125 | SN74LVC1G125DBVR（候选） | Texas Instruments | SOT-23-5，DBV，0.95mm脚距 | 本体标称2.9×1.6；含脚标称2.9×2.8；高≤1.45；脚距0.95 | LVC-DS | LVC-SALE | Package_TO_SOT_SMD:SOT-23-5_HandSoldering | 1OE/2A/3GND/4Y/5VCC，与现图一致 | 本机相邻脚距0.95，手焊焊盘1.56×0.65；DBV图可对应 | 待确认 | 保留必要易手焊贴片；部分上电/OE时序不能由封装匹配认定通过。 | 通过 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
 | U5 | TPS2115A | TPS2115APW（候选，管装；PWR为卷带变体） | Texas Instruments | TSSOP-8，PW0008A | 本体4.3～4.5×2.9～3.1；含脚6.2～6.6；高≤1.2；脚距0.65 | TPS-DS | TPS-SALE | Package_SO:TSSOP-8_4.4x3mm_P0.65mm | 1STAT/2D0/3D1/4ILIM/5GND/6IN2/7OUT/8IN1，与现图一致 | 本机8焊盘、脚距0.65；焊盘1.475×0.4，左右中心距5.725 | 待确认 | 当前候选未发现直插版；保留TSSOP-8并检查手焊能力。反向电流/切换动态另需验证。 | 通过 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
 | U6 | TL431BCLP | TL431BCLP（候选） | Texas Instruments | TO-92/LP，商业温度等级 | LP0003A，4215214/C 04/2025，PDF物理p72–73：本体宽4.44～5.21、厚3.17～4.19、高4.32～5.34；直引脚P1.27±0.13，长≥12.7 | TL-DS | TL-SALE | Package_TO_SOT_THT:TO-92_Inline（LP图已核，孔径/成品孔公差待确认） | TI LP为1K/2A/3REF；现图1与3同网、2接地，一致 | TI直引脚示例孔φ0.85/pad1.07×1.50；通用TO-92_Inline孔φ0.75/pad1.05×1.50，P1.27相同但孔径不同；不能批准为原厂等同封装 | 待确认 | LP订货表为BULK，仍应核到货为直引脚；原厂引脚最大截面0.55×0.43，对角约0.698mm，φ0.75仅余约0.052mm直径间隙（未计孔公差）。优先按TIφ0.85示例提出专用封装方案，用户批准后再建。 | 待确认 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
-| M1 | BLUE_PILL_LOGICAL | STM32F102C8T6核心板（用户指定芯片；板级品牌/SKU未知） | 板级厂家待定；MCU为ST | 核心板公排针＋底板两条直插排母 | 用户确认排针金属外表面跨距15.8；D=15.8−(w左+w右)/2，实际针宽待测；模块针数、同排针距、PCB外形、USB伸出和限高未核 | ST-F102；ST-F102-DS；ST-F102-SALE；具体核心板机械图仍缺 | ST-F102-SALE仅覆盖裸芯片；板级品牌/SKU及货源仍缺 | 模块专用封装待确认；排母候选见附表 | 已按ST表4补齐M1逻辑端点→F102 LQFP48管脚；见coreboard-pin-mapping.csv。左右排母实际孔号仍未知 | MCU LQFP48：本体6.8～7.2×6.8～7.2，含脚8.8～9.2×8.8～9.2，P0.5，H≤1.6；这些不是核心板排母尺寸 | 待确认 | 保持用户指定F102；取得板号/正反面/针数/针宽和USB方向。DS5933表45 ADC最大12MHz，旧56MHz PCLK2/14MHz ADC基线超限；不改工程，待批准后修订条件。 | 待确认 | 裸芯片有ST原厂销售证据；实际核心板型号/货源未确认 |
+| M1 | BLUE_PILL_LOGICAL | STM32F103C8T6 Blue Pill（标准模块结构；具体克隆板厂家/版本未知） | 板级厂家待定；MCU为ST | Blue Pill 2×20长排针＋独立4针SWD＋底板两条1×20直插排母 | 标准板名义约53×23；2×20、P2.54、名义0.6in排中心距15.24。用户确认金属外表面跨距15.8；按0.64针宽换算中心距15.16，实板中心距仍待核 | ST-F103；ST-F103-DS；BLUE-PILL-SCH；BLUE-PILL-BOARD；具体板号/克隆板机械图仍缺 | ST-F103-SALE仅覆盖裸芯片；Blue Pill为通用无品牌模块，准确板卡SKU及货源待确认 | 模块专用封装待确认；标准名义2×20、P2.54、0.6in仅作候选；排母候选见第6.4节 | M1的17个逻辑端点已对应到F103 LQFP48和标准Blue Pill孔位；PA13/PA14只在独立4针SWD排针，不在长排。见coreboard-pin-mapping.csv | MCU LQFP48：7.0 BSC×7.0 BSC本体，9.0 BSC含脚，P0.5，H≤1.6。Blue Pill长排名义15.24中心距；用户外跨15.8不能直接当孔距 | 待确认 | 保持STM32F103C8T6。用实物核对每排20针、针宽/中心距、LDO、USB类型和VDDA连续性；PA13/14需独立SWD对接。5V与USB VBUS直连，底板供电时禁止插板载USB。详细见[板级复核](../2026-10-23-stm32f103-blue-pill-investigation.md)。 | 待确认 | 裸芯片有ST原厂销售证据；实际核心板型号/货源未确认 |
 | J1 | USB-B ADAPTER POWER | 5787834-1（TE候选；需批准竖插方向） | TE Connectivity | USB 2.0 Type-B母座、竖插直插 | 原厂修订C工程图需完整核对板边/固定脚/高度；本机读到信号焊孔2.5mm横距 | TE-DS；LUM-DS作为淘汰对照 | TE标Active但公开页not currently available；即时供货待核 | Connector_USB:USB_B_TE_5787834_Vertical | 1VBUS/2D-/3D+/4GND/SH外壳与现图定义可对应；本机两个SH焊盘 | 本机信号孔0.92、外壳孔2.3；完整原厂孔位和板边伸出未闭合 | 待确认 | 本机另有Lumberg 2411 02封装，但原厂明确Obsolete，不作为常见新选型。TE候选需检查竖插空间与真实货源。 | 待确认 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
 | J2 | EXT +5V/GND | 1715721 / MKDS 1,5/2-5,08（候选） | Phoenix Contact | 两位5.08mm直插螺钉端子 | W10.16×L9.8；离板高13.8；焊脚长3.5；脚0.9×0.9；推荐孔1.3 | PHX-DS | 原厂商业订货页存在；分销现货未直验 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal | 1=EXT+5V，2=GND；两个非极性触点的网络编号可对应 | 本机P5.08、孔1.3、焊盘2.6×2.6，与原厂推荐匹配 | 待确认 | 只通过该候选静态物理接口核查；J3/J4面板BNC及线缆另须选型，不在现64个PCB元件中。 | 通过 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
 | F1 | FUSE MPN BLOCKED | 0251001.MXL（候选，额定尚未批准） | Littelfuse | PICO II 251，轴向直插、1A | 原厂系列标称D2.8×L7.11；孔距/弯脚及公差待补核 | 原厂251资料入口：https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/axial-radial-thru-hole-fuses/pico-fuses-axial-radial-thru-hole-fuses/251/0251001 | FUSE-SALE；准确料号公开销售页存在，实时交货未确认 | 待定：需专用PICO II封装，未创建 | 非极性两端可对应 | 不套普通电阻封装；本机未找到已核原厂图的同型专用封装 | 待确认 | 需联合验证额定、熔断I²t、启动浪涌、热态阻值及0.25Ω路径预算；0.128Ω仅系列名义冷阻值，不能当最坏值。 | 待确认 | 准确料号公开目录/既有检索证据；本轮未闭合实时交货、批次及渠道可追溯性 |
@@ -145,7 +149,13 @@ TPS2115A切换/反向供电、ADC0832掉电数字路径、MCP6002零点/满量�
 
 主表资料键对应如下。前轮资料沿用时已注明检索/本地文件范围；新增资料没有证据支持的参数均留待确认。
 
-- **ST-F102**：ST STM32F102C8 product and datasheet entry — https://www.st.com/en/microcontrollers-microprocessors/stm32f102c8.html
+- **ST-F103**：ST STM32F103C8官方产品页 — https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html
+- **ST-F103-DS**：ST DS5319 Rev20，2025-07；表2、表5、表47～50、表62 — https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+- **ST-F103-SALE**：ST商城准确料号STM32F103C8T6；裸芯片证据，不是板卡货源 — https://estore.st.com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f1-series/stm32f103/stm32f103c8.html
+- **BLUE-PILL-SCH**：Blue Pill原始参考图，2016-01-26 — https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F103C8T6-Blue_Pill.pdf
+- **BLUE-PILL-BOARD**：STM32-base通用Blue Pill资料页 — https://stm32-base.org/boards/STM32F103C8T6-Blue_Pill.html
+- **BLUE-PILL-SPACE**：2×20、0.6in插座装配说明；仅作名义布局 — https://github.com/LieBtrau/electronics-design-data/wiki/STM32-Blue-Pill
+
 - **ADC-DIP**：TI ADC0832CCN/NOPB: OBSOLETE; public page out of stock — https://www.ti.com/product/ADC0832-N/part-details/ADC0832CCN/NOPB
 - **ADC-SO**：TI ADC0832CCWM/NOPB: ACTIVE, NPA 14; public page out of stock — https://www.ti.com/product/ADC0832-N/part-details/ADC0832CCWM/NOPB
 - **ADC-DS**：TI SNAS531B, pin diagrams Figure 2 and Figure 5 — https://www.ti.com/lit/ds/symlink/adc0832-n.pdf
@@ -196,8 +206,6 @@ TPS2115A切换/反向供电、ADC0832掉电数字路径、MCP6002零点/满量�
 - **R-10K**：Exact YAGEO MFR-25FBF52-10K sale listing; indexed observation — https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219
 - **R-68R**：Exact YAGEO MFR-25FBF52-68R sale listing; indexed observation — https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-68R/9138203
 - **R-1K**：Exact YAGEO MFR-25FBF52-1K sale listing; indexed observation — https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-1K/13011
-- **ST-F102-DS**：ST DS5933 Rev7，2019-08，表4 pp21–23、表45–48 pp65–66、表50 p70；本轮从ST中国官方PDF提取 — https://www.st.com.cn/resource/en/datasheet/stm32f102c8.pdf
-- **ST-F102-SALE**：ST商城准确料号STM32F102C8T6，检索显示Active及销售入口；裸芯片证据，不是核心板货源 — https://estore.st.com/en/stm32f102c8t6-cpn.html
 - **SAM-CAT**：Samtec TSW/HTSW原厂目录F-226，-07直针尺寸A10.92/B2.54/C5.84mm；只核标称值 — https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 - **R-4K7-ALT**：DigiKey准确包装候选MFR-25FRF52-4K7，1/4W、4.7kΩ、1%，有切带/卷带目录，实时供货待核 — https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-4K7/9139057
 - **FUSE-SALE**：TME准确料号0251001.MXL公开销售页；无本轮实时库存承诺 — https://www.tme.com/us/en-us/details/0251001.mxl/axial-fuses-super-fast/littelfuse/
@@ -210,7 +218,7 @@ TPS2115A切换/反向供电、ADC0832掉电数字路径、MCP6002零点/满量�
 ## 本轮产物与核验
 
 - [CSV完整主表](component-package-audit-continued.csv)和[JSON结构化主表及资料索引](component-package-audit-continued.json)：64项。
-- [核心板管脚对应CSV](coreboard-pin-mapping.csv)：17项逻辑→MCU对应，模块孔号未填。
+- [核心板管脚对应CSV](coreboard-pin-mapping.csv)：17项逻辑→F103管脚与标准Blue Pill实体位置；PA13/PA14标注为独立SWD。
 - [实际库几何及源文件哈希](continuation-footprint-geometry.json)：19个库封装。
 - [续审核验结果](continuation-verification.json)：工程不变、64位号完整性及数量核验；[硬件哈希基线](continuation-hardware-before.json)覆盖7个原工程文件。
 

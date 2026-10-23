@@ -10,7 +10,8 @@
 
 ## 辅助材料
 
-- [V2.3元器件与真实封装审查](reviews/2026-10-23-component-package-audit/README.md)：64个位号完整表、F102管脚对应、测量基准、采购资料及原生检查证据；候选尚未批准写回工程。
+- [V2.3元器件与真实封装审查](reviews/2026-10-23-component-package-audit/README.md)：64个位号完整表、F103/Blue Pill 管脚对应、测量基准、采购资料及原生检查证据；候选尚未批准写回工程。
+- [STM32F103C8T6 Blue Pill板级复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)：芯片规格、标准板布局、M1实体孔位、SWD与5V/USB装配限制。
 - [逐引脚连接CSV](pin-connections.csv)：当前电路的188条引脚记录；完整逐节点表已并入设计报告附录。
 - [旧V1.1 BOM](archive/legacy-v1.1-bom.csv)：历史物料记录，使用前先确认版本；V2.3采购BOM尚未冻结。
 - [阶段交接记录](handoffs/)：任务恢复、验证和风险摘要。

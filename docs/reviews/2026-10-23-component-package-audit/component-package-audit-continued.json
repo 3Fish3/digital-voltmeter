@@ -106,17 +106,17 @@
     {
       "位号": "M1",
       "现图标注": "BLUE_PILL_LOGICAL",
-      "准确型号或候选": "STM32F102C8T6核心板（用户指定芯片；板级品牌/SKU未知）",
+      "准确型号或候选": "STM32F103C8T6 Blue Pill（标准模块结构；具体克隆板厂家/版本未知）",
       "厂家": "板级厂家待定；MCU为ST",
-      "封装": "核心板公排针＋底板两条直插排母",
-      "原厂尺寸或关键距离_mm": "用户确认排针金属外表面跨距15.8；D=15.8−(w左+w右)/2，实际针宽待测；模块针数、同排针距、PCB外形、USB伸出和限高未核",
-      "厂家资料": "ST-F102；ST-F102-DS；ST-F102-SALE；具体核心板机械图仍缺",
-      "采购证据": "ST-F102-SALE仅覆盖裸芯片；板级品牌/SKU及货源仍缺",
-      "建议KiCad_Footprint": "模块专用封装待确认；排母候选见附表",
-      "引脚核查": "已按ST表4补齐M1逻辑端点→F102 LQFP48管脚；见coreboard-pin-mapping.csv。左右排母实际孔号仍未知",
-      "尺寸核查": "MCU LQFP48：本体6.8～7.2×6.8～7.2，含脚8.8～9.2×8.8～9.2，P0.5，H≤1.6；这些不是核心板排母尺寸",
+      "封装": "Blue Pill 2×20长排针＋独立4针SWD＋底板两条1×20直插排母",
+      "原厂尺寸或关键距离_mm": "标准板名义约53×23；2×20、P2.54、名义0.6in排中心距15.24。用户确认金属外表面跨距15.8；按0.64针宽换算中心距15.16，实板中心距仍待核",
+      "厂家资料": "ST-F103；ST-F103-DS；BLUE-PILL-SCH；BLUE-PILL-BOARD；具体板号/克隆板机械图仍缺",
+      "采购证据": "ST-F103-SALE仅覆盖裸芯片；Blue Pill为通用无品牌模块，准确板卡SKU及货源待确认",
+      "建议KiCad_Footprint": "模块专用封装待确认；标准名义2×20、P2.54、0.6in仅作候选；排母候选见第6.4节",
+      "引脚核查": "M1的17个逻辑端点已对应到F103 LQFP48和标准Blue Pill孔位；PA13/PA14只在独立4针SWD排针，不在长排。见coreboard-pin-mapping.csv",
+      "尺寸核查": "MCU LQFP48：7.0 BSC×7.0 BSC本体，9.0 BSC含脚，P0.5，H≤1.6。Blue Pill长排名义15.24中心距；用户外跨15.8不能直接当孔距",
       "状态": "待确认",
-      "缺口与建议": "保持用户指定F102；取得板号/正反面/针数/针宽和USB方向。DS5933表45 ADC最大12MHz，旧56MHz PCLK2/14MHz ADC基线超限；不改工程，待批准后修订条件。",
+      "缺口与建议": "保持STM32F103C8T6。用实物核对每排20针、针宽/中心距、LDO、USB类型和VDDA连续性；PA13/14需独立SWD对接。5V与USB VBUS直连，底板供电时禁止插板载USB。详细见板级复核报告。",
       "静态子项状态": "待确认",
       "采购核查范围": "裸芯片有ST原厂销售证据；实际核心板型号/货源未确认"
     },
@@ -1091,10 +1091,6 @@
     }
   ],
   "sources": {
-    "ST-F102": [
-      "ST STM32F102C8 product and datasheet entry",
-      "https://www.st.com/en/microcontrollers-microprocessors/stm32f102c8.html"
-    ],
     "ADC-DIP": [
       "TI ADC0832CCN/NOPB: OBSOLETE; public page out of stock",
       "https://www.ti.com/product/ADC0832-N/part-details/ADC0832CCN/NOPB"
@@ -1295,14 +1291,6 @@
       "Exact YAGEO MFR-25FBF52-1K sale listing; indexed observation",
       "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-1K/13011"
     ],
-    "ST-F102-DS": [
-      "ST DS5933 Rev7，2019-08，表4 pp21–23、表45–48 pp65–66、表50 p70；本轮从ST中国官方PDF提取",
-      "https://www.st.com.cn/resource/en/datasheet/stm32f102c8.pdf"
-    ],
-    "ST-F102-SALE": [
-      "ST商城准确料号STM32F102C8T6，检索显示Active及销售入口；裸芯片证据，不是核心板货源",
-      "https://estore.st.com/en/stm32f102c8t6-cpn.html"
-    ],
     "SAM-CAT": [
       "Samtec TSW/HTSW原厂目录F-226，-07直针尺寸A10.92/B2.54/C5.84mm；只核标称值",
       "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf"
@@ -1334,6 +1322,30 @@
     "ZOR-DS": [
       "YAGEO Leaded Resistors原厂目录，DigiKey托管，PDF物理p38：ZOR-25专属尺寸表；历史版次与当前批次适配待核",
       "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/Leaded%20Resistors.pdf"
+    ],
+    "ST-F103": [
+      "ST STM32F103C8 official product entry",
+      "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html"
+    ],
+    "ST-F103-DS": [
+      "ST DS5319 Rev20, July 2025; Table 2 pp10, Table 5 pp28-33, Tables 47-50 pp74-76, Table 62 p99",
+      "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+    ],
+    "ST-F103-SALE": [
+      "ST online store exact STM32F103C8T6 listing; bare MCU only, not board stock evidence",
+      "https://estore.st.com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f1-series/stm32f103/stm32f103c8.html"
+    ],
+    "BLUE-PILL-SCH": [
+      "VCC-GND Blue Pill reference schematic dated 2016-01-26; P3/P4 2x20 headers, 5V/USB VBUS, 3.3V rail and SWD",
+      "https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F103C8T6-Blue_Pill.pdf"
+    ],
+    "BLUE-PILL-BOARD": [
+      "STM32-base generic Blue Pill board page: Part/Brand unknown; 23x53 mm; header names; 5V/USB and regulator warnings",
+      "https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html"
+    ],
+    "BLUE-PILL-SPACE": [
+      "Community assembly note: standard 2x20, 0.6-inch row-spacing sockets; mechanical tolerance still requires sample check",
+      "https://github.com/LieBtrau/electronics-design-data/wiki/STM32-Blue-Pill"
     ]
   },
   "mapping": [
@@ -1341,137 +1353,137 @@
       "M1逻辑编号": 1,
       "功能": "模块5V输入",
       "网络": "SYS_5V",
-      "F102C8T6_LQFP48管脚": "板载LDO输入；不是MCU裸片管脚",
-      "证据范围": "模块走线待核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "板载LDO输入；不是MCU裸片管脚",
+      "Blue_Pill实体位置": "右侧B3；与USB VBUS同一5V网络",
+      "证据范围": "参考图直连，实板连续性待核"
     },
     {
       "M1逻辑编号": 2,
       "功能": "模块3V3",
       "网络": "3V3",
-      "F102C8T6_LQFP48管脚": "VDD:24/36/48；VDDA:9",
-      "证据范围": "模块VDDA连接/滤波待核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "VDD:24/36/48；VDDA:9",
+      "Blue_Pill实体位置": "左侧A18或右侧B1",
+      "证据范围": "板载LDO输出，实板轨与LDO型号待核"
     },
     {
       "M1逻辑编号": 3,
       "功能": "模块GND",
       "网络": "GND",
-      "F102C8T6_LQFP48管脚": "VSS:23/35/47；VSSA:8",
-      "证据范围": "模块实际地孔待核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "VSS:23/35/47；VSSA:8",
+      "Blue_Pill实体位置": "左侧A19/A20或右侧B2",
+      "证据范围": "标准孔位；实板连续性与去耦待核"
     },
     {
       "M1逻辑编号": 4,
       "功能": "PB0",
       "网络": "MCU_CS",
-      "F102C8T6_LQFP48管脚": "18",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "18",
+      "Blue_Pill实体位置": "左侧A13",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 5,
       "功能": "PB1",
       "网络": "MCU_CLK",
-      "F102C8T6_LQFP48管脚": "19",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "19",
+      "Blue_Pill实体位置": "左侧A14",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 6,
       "功能": "PB10",
       "网络": "MCU_DI",
-      "F102C8T6_LQFP48管脚": "21",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "21",
+      "Blue_Pill实体位置": "左侧A15",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 7,
       "功能": "PB11",
       "网络": "MCU_DO",
-      "F102C8T6_LQFP48管脚": "22",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "22",
+      "Blue_Pill实体位置": "左侧A16",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 8,
       "功能": "PB12",
       "网络": "MCU_BUF_ENABLE_H",
-      "F102C8T6_LQFP48管脚": "25",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "25",
+      "Blue_Pill实体位置": "右侧B20",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 9,
-      "功能": "PA0/ADC_IN0",
+      "功能": "PA0/ADC12_IN0",
       "网络": "MON_VANA",
-      "F102C8T6_LQFP48管脚": "10",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "10",
+      "Blue_Pill实体位置": "左侧A5",
+      "证据范围": "PA0不是FT 5V容忍脚；仅限0～VDDA"
     },
     {
       "M1逻辑编号": 10,
-      "功能": "PA1/ADC_IN1",
+      "功能": "PA1/ADC12_IN1",
       "网络": "MON_REF",
-      "F102C8T6_LQFP48管脚": "11",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "11",
+      "Blue_Pill实体位置": "左侧A6",
+      "证据范围": "PA1不是FT 5V容忍脚；仅限0～VDDA"
     },
     {
       "M1逻辑编号": 11,
       "功能": "PA9/USART1_TX",
       "网络": "UART_TX",
-      "F102C8T6_LQFP48管脚": "30",
-      "证据范围": "裸片默认复用对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "30",
+      "Blue_Pill实体位置": "右侧B15",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 12,
       "功能": "PA10/USART1_RX",
       "网络": "UART_RX",
-      "F102C8T6_LQFP48管脚": "31",
-      "证据范围": "裸片默认复用对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "31",
+      "Blue_Pill实体位置": "右侧B14",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 13,
       "功能": "PA13/SWDIO",
       "网络": "SWDIO",
-      "F102C8T6_LQFP48管脚": "34",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "34",
+      "Blue_Pill实体位置": "独立4针SWD排针第2脚",
+      "证据范围": "不在两条20针长排；必须单独对接"
     },
     {
       "M1逻辑编号": 14,
       "功能": "PA14/SWCLK",
       "网络": "SWCLK",
-      "F102C8T6_LQFP48管脚": "37",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "37",
+      "Blue_Pill实体位置": "独立4针SWD排针第3脚",
+      "证据范围": "不在两条20针长排；必须单独对接"
     },
     {
       "M1逻辑编号": 15,
       "功能": "NRST",
       "网络": "NRST",
-      "F102C8T6_LQFP48管脚": "7",
-      "证据范围": "裸片对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "7",
+      "Blue_Pill实体位置": "左侧A17",
+      "证据范围": "板载复位网络；J5可引出"
     },
     {
       "M1逻辑编号": 16,
       "功能": "PB6/I2C1_SCL",
       "网络": "I2C_SCL",
-      "F102C8T6_LQFP48管脚": "42",
-      "证据范围": "裸片默认复用对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "42",
+      "Blue_Pill实体位置": "右侧B7",
+      "证据范围": "ST表5与参考板图对应"
     },
     {
       "M1逻辑编号": 17,
       "功能": "PB7/I2C1_SDA",
       "网络": "I2C_SDA",
-      "F102C8T6_LQFP48管脚": "43",
-      "证据范围": "裸片默认复用对应已核",
-      "模块排母孔号": "待实物逐孔确认"
+      "F103C8T6_LQFP48管脚": "43",
+      "Blue_Pill实体位置": "右侧B6",
+      "证据范围": "ST表5与参考板图对应"
     }
   ]
 }
