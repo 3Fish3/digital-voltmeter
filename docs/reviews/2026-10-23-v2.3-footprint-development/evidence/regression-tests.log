@@ -21,6 +21,6 @@ test_wrong_resistance (test_v2_3_netlist.NetlistVerificationTests.test_wrong_res
 test_wrong_symbol (test_v2_3_netlist.NetlistVerificationTests.test_wrong_symbol) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.076s
+Ran 21 tests in 0.075s
 
 OK
