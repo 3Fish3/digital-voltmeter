@@ -6,10 +6,10 @@
 
 | 项目 | 结果 | 证据范围 |
 | --- | --- | --- |
-| 64个现有电路位号 | 60个已分配可解析封装，4个保留阻塞 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
+| 64个现有电路位号 | 61个已分配可解析封装，3个保留阻塞 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
 | 封装种类 | 16种；其中5种为本项目专用封装 | 见[项目封装库说明](../../../hardware/v2.3/V23Draft.pretty/README.md) |
-| 直插/贴片 | 53个直插；D1～D4、Q1、U4、U5为便于手焊的贴片 | 仍须实物试装，不以封装编号替代可焊性验证 |
-| MPN/厂家属性 | 60个已分配位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
+| 直插/贴片 | 54个直插；D1～D4、Q1、U4、U5为便于手焊的贴片 | 仍须实物试装，不以封装编号替代可焊性验证 |
+| MPN/厂家属性 | 61个已分配位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
 | 连接 | 64元件、47命名网、183接线、5 NC、3供电声明未改变 | [网表核验](evidence/netlist-verification.json) |
 | ERC | KiCad 10.0.6报告0项违规（沿用4项既有忽略规则） | [ERC原始JSON](evidence/erc.json)；不能证明电气性能 |
 | 自动化 | 21项测试通过 | [原始日志](evidence/regression-tests.log) |
@@ -20,6 +20,7 @@
 | 位号 | MPN | KiCad封装 | 关键依据 |
 | --- | --- | --- | --- |
 | U2 | MCP6002-I/P | `Package_DIP:DIP-8_W7.62mm` | Microchip DS20001733L，8脚PDIP、P2.54、7.62mm排距 |
+| U1 | ADC0832CCN/NOPB | `Package_DIP:DIP-8_W7.62mm` | TI P(R-PDIP-T8) 4040082/E：本体9.02–10.16×6.10–6.60mm、排距7.52–8.26mm、P2.54、脚宽0.38–0.53mm；库孔0.8mm可覆盖。用户确认可采购；TI官方生命周期为Obsolete，须核批次真伪 |
 | U3 | SN74AHCT125N | `V23Draft:TI_N14_PDIP-14_W7.62mm_P2.54mm` | TI N封装图MPDI002 Rev C，最大本体19.94×7.19mm；通用库庭院18.30mm不足，故建立专用封装 |
 | U4 | SN74LVC1G125DBVR | `Package_TO_SOT_SMD:SOT-23-5_HandSoldering` | TI DBV 5脚、P0.95mm；采用加长手焊焊盘 |
 | U5 | TPS2115APW | `Package_SO:TSSOP-8_4.4x3mm_P0.65mm` | TI PW0008A，本体4.3～4.5×2.9～3.1mm、P0.65mm |
@@ -52,11 +53,10 @@
 
 C3/C4已按有极性铝电解的物理封装分配焊盘，但现有原理图仍使用`Device:C`无极性图符。网表脚1在`SYS_5V`/`VANA`、脚2在`GND`，与封装正负极方向相符；PCB前仍应将原理图图符或极性标识改为明确的有极性表示，并人工复核。
 
-## 保留的4个阻塞位号
+## 保留的3个阻塞位号
 
 | 位号 | 原因 | 不会怎么做 |
 | --- | --- | --- |
-| U1 | TI ADC0832CCN/NOPB为停产PDIP-8；SOIC-14候选需要重建14脚图符且公开页缺货 | 不把14脚SOIC直接套到8脚图符，不替换ADC功能 |
 | M1 | 具体Blue Pill克隆板、实际针宽/两排中心距、USB包络未实测；PA13/PA14只在独立SWD排针 | 不猜15.24mm或15.8mm为焊孔中心距，不省略SWD连接 |
 | F1/F2 | 0251001.MXL为候选；熔断额定、I²t、启动浪涌及PICO II轴向焊脚成形未闭合 | 不用普通电阻封装代替保险丝 |
 
@@ -77,8 +77,8 @@ PR #1 的隔离提交为`93fa411`，相对`origin/main`的`138980f`只增加检�
 | --- | --- | --- |
 | KiCad ERC | 0 violations，4项既有忽略规则 | [erc.json](evidence/erc.json)；不等于电气可用 |
 | 原生网表 | 64元件、47网、183接线、5 NC、3供电声明；蓝图一致 | [netlist-verification.json](evidence/netlist-verification.json) |
-| 封装/焊盘 | 60个已分配封装均可解析，焊盘编号与符号引脚一致；4个未分配 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
-| BOM交叉核对 | 64行；60个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
+| 封装/焊盘 | 61个已分配封装均可解析，焊盘编号与符号引脚一致；3个未分配 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
+| BOM交叉核对 | 64行；61个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
 | 原理图字段差异 | 56个位号、175个字段变化；未发现Footprint/MPN/Manufacturer/DesignStatus以外的字段变化 | [field-diff-summary.json](evidence/field-diff-summary.json)、[逐项差异](evidence/field-changes.json) |
 | 硬件文件差异 | 基线6个跟踪文件：5个未变、原理图1个变更；新增1个库表和6个封装/说明文件 | [hardware-change-summary.json](evidence/hardware-change-summary.json) |
 | 回归测试 | 21项通过 | [regression-tests.log](evidence/regression-tests.log) |
@@ -117,6 +117,6 @@ PR #1的隔离检查命令为`PYTHONDONTWRITEBYTECODE=1 python3 -m unittest disc
 2. M1未取得本块Blue Pill的针宽/中心距、USB位置和底面高度；两条20针排母没有覆盖PA13/PA14。
 3. D1～D4的双管封装拓扑需要用户审定，不能用当前四只单管图符蒙混。
 4. F1/F2额定与专用轴向封装未闭合，不能在保险丝选型前定板。
-5. 60个封装只完成了符号引脚/焊盘编号和资料层面对照；没有PCB DRC、板厂DRC、装配干涉或手工焊接验证。
+5. 61个封装只完成了符号引脚/焊盘编号和资料层面对照；没有PCB DRC、板厂DRC、装配干涉或手工焊接验证。
 
 下一步应先用实物确认M1，再决定U1/D1～D4/F1/F2方案；所有方案经用户审定后，才能进入PCB创建与布局。

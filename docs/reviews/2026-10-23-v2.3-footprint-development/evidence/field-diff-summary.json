@@ -1,11 +1,11 @@
 {
-  "changed_components": 4,
-  "changed_fields": 16,
+  "changed_components": 1,
+  "changed_fields": 4,
   "unexpected_changes": 0,
   "by_property": {
-    "Footprint": 4,
-    "MPN": 4,
-    "Manufacturer": 4,
-    "Value": 4
+    "Footprint": 1,
+    "MPN": 1,
+    "Manufacturer": 1,
+    "Value": 1
   }
 }

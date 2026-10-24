@@ -13,10 +13,10 @@ SPEC.loader.exec_module(VERIFIER)
 class FootprintVerificationTests(unittest.TestCase):
     def test_actual_assignments(self):
         result = VERIFIER.verify(BASE / '.tmp/v2.3-validation/voltmeter-v2.3-draft.xml')
-        self.assertEqual(result['assigned_count'], 60)
-        self.assertEqual(result['unassigned_count'], 4)
+        self.assertEqual(result['assigned_count'], 61)
+        self.assertEqual(result['unassigned_count'], 3)
         self.assertEqual(result['unassigned_references'], [
-            'F1', 'F2', 'M1', 'U1'])
+            'F1', 'F2', 'M1'])
         by_ref = {item['reference']: item for item in result['components']}
         self.assertEqual(by_ref['Q1']['symbol_pins'], ['D', 'G', 'S'])
         self.assertEqual([pad['number'] for pad in by_ref['Q1']['pads']], ['G', 'S', 'D'])

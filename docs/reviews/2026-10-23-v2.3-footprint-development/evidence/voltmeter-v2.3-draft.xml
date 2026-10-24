@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/voltmeter-v2.3-draft.kicad_sch</source>
-    <date>2026-10-23T21:59:29</date>
+    <date>2026-10-23T22:16:09</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1682,15 +1682,22 @@
       </units>
     </comp>
     <comp ref="U1">
-      <value>ADC0832</value>
+      <value>ADC0832CCN</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">ADC0832CCN/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - user-confirmed sourcing; lifecycle Obsolete, verify lot authenticity</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="" part="ADC0832_Draft" description=""/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="ADC0832CCN/NOPB"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - user-confirmed sourcing; lifecycle Obsolete, verify lot authenticity"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

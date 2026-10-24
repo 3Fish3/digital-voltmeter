@@ -1,29 +1,25 @@
  README.md                                          |   2 +-
  docs/README.md                                     |   2 +-
- docs/design-report.md                              |  10 +-
+ docs/design-report.md                              |   8 +-
  .../2026-10-23_v2.3-footprint-development.md       |   8 +-
- docs/progress.md                                   |  15 +-
- .../README.md                                      |  16 +-
- .../component-footprint-bom.csv                    |   8 +-
- .../evidence/BAS116H-SOD123F-outline.png           | Bin 0 -> 221886 bytes
- .../evidence/README.md                             |   6 +-
- .../evidence/bom-crosscheck.json                   |  16 +-
- .../evidence/component-inventory.json              |   8 +-
- .../evidence/datasheet-text/BAS116H.txt            | 517 +++++++++++++++++++++
- .../evidence/datasheet-text/Littelfuse-251.txt     | 275 +++++++++++
- .../evidence/datasheet-text/XD0832CC.txt           | 301 ++++++++++++
+ docs/progress.md                                   |  17 +--
+ .../README.md                                      |  16 +--
+ .../component-footprint-bom.csv                    |   2 +-
+ .../evidence/README.md                             |   3 +-
+ .../evidence/bom-crosscheck.json                   |  11 +-
+ .../evidence/component-inventory.json              |   2 +-
  .../evidence/erc.json                              |   2 +-
- .../evidence/field-changes.json                    |  90 +++-
- .../evidence/field-diff-summary.json               |  11 +-
- .../evidence/footprint-verification.json           | 160 ++++++-
- .../evidence/footprint-verification.stdout.log     | 160 ++++++-
- .../evidence/hardware-change-summary.json          |   4 +-
- .../evidence/hardware-sha256-after.txt             |  10 +-
+ .../evidence/field-changes.json                    |  90 ++-----------
+ .../evidence/field-diff-summary.json               |  12 +-
+ .../evidence/footprint-verification.json           | 145 ++++++++++++++++++++-
+ .../evidence/footprint-verification.stdout.log     | 145 ++++++++++++++++++++-
+ .../evidence/native-bom.csv                        |   4 +-
  .../evidence/netlist-verification.json             |   4 +-
- .../evidence/open-item-assessments.md              |  64 +++
- .../evidence/voltmeter-v2.3-draft.xml              |  62 ++-
- hardware/v2.3/connections-draft.json               |   8 +-
- hardware/v2.3/voltmeter-v2.3-draft.kicad_sch       | 129 ++++-
+ .../evidence/open-item-assessments.md              |  24 ++--
+ .../evidence/regression-tests.log                  |   2 +-
+ .../evidence/voltmeter-v2.3-draft.xml              |  17 ++-
+ hardware/v2.3/connections-draft.json               |   2 +-
+ hardware/v2.3/voltmeter-v2.3-draft.kicad_sch       |  32 ++++-
  tests/test_v2_3_footprints.py                      |   6 +-
  tests/test_v2_3_netlist.py                         |   4 +-
- 28 files changed, 1788 insertions(+), 110 deletions(-)
+ 24 files changed, 399 insertions(+), 161 deletions(-)
