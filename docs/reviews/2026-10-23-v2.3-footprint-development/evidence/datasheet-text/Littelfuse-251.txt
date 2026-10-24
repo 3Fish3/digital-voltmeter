@@ -1,0 +1,275 @@
+                                                                                                                                                                  Fuse Datasheet
+
+
+    251 Series
+    PICO® II Very Fast-Acting Fuse
+
+                                                                                                                                                                              PS
+                                                                                                                                                                              E
+
+
+
+
+                                                                                                          Description
+                                                                                                          The PICO® II Very Fast-Acting Fuse is designed to meet an
+                                                                                                          extensive array of performance characteristics in a space-saving
+                                                                                                          subminiature package.
+
+
+
+                                                                                                          Features and Benefits
+                                                                                                          ■ Very fast-acting                 ■ Halogen-free available
+                                                                                                          ■ Small size                       ■ Wide operating temperature
+                                                                                                          ■ Wide current rating range          range
+                                                                                                            (0.062A- 15A)                    ■ Low temperature re-rating
+
+
+
+
+                                                                                                          Applications
+Web Resources                                                                                             Secondary protection for space constrained applications
+                                                                                                          ■ Flat–panel display TV           ■ Power supply
+                   Download ECAD models, order samples, and find                                          ■ LCD monitor                        ■ Audio/Video system
+                   technical recources at www.littelfuse.com/251                                          ■ LCD backlight inverter             ■ Lighting system
+                                                                                                          ■ Office machines                    ■ Medical equipment
+
+                                       Agency Approvals
+                         Agency File/Certificate Number
+  Agency                                                                            Ampere Range
+                                         251 Series                                                                      Electrical Characteristics for Series
+                                              N/A                                   0.062A - 15A
+                                                                                                           % of Ampere Rating        Ampere Rating                  Opening Time
+                                              N/A                                   0.062A - 15A
+                                           E10480                                   0.062A - 15A                  100%               0.062A - 15A                   4 Hours, Min.
+                                            29862                                   0.062A - 15A                                      0.062A - 5A                 1 Second, Max.
+       PS
+       E                    PSE_NBK200416-JP1021                                       1A - 5A                   200%                   7A - 10A                 60 Seconds, Max.
+
+                                        J50158379                                    0.500A - 10A                                      12A - 15A                 10 Seconds, Max.
+                                                                                   0.500A, 1A, 2A,                                 0.500A, 1A, 2A,
+                                 2020970207000061                                                                275%                                            300 msecs., Max.
+                                                                                   2.5A, 3A, 4A, 5A                               2.5A, 3A, 4A, 5A
+Note: See Electrical Specifications by Item table for specific approved ratings.                                                 0.5A, 1A, 2A, 2.5A,
+                                                                                                                 400%                                             30 msecs., Max.
+                                                                                                                                      3A, 4A, 5A
+                                                                                                                                   0.500A, 1A, 2A,
+                                                                                                                 1000%                                             4 msecs., Max.
+                                                                                                                                  2.5A, 3A, 4A, 5A
+
+
+
+
+                                                                                                                                                                           © 2026 Littelfuse, Inc.
+                                                                                                      1                                     Specifications are subject to change without notice.
+                                                                                                                                                                            Revised: GK 08/18/26
+                                                                                                                                                                                                            Fuse Datasheet
+
+
+    251 Series
+    PICO® II Very Fast-Acting Fuse
+
+
+
+                                                                                       Electrical Specifications by Item
+                                                                                                                                                                                              Agency Approvals
+                                                              Max                                               Nominal                                             Nom
+ Ampere                                                                                                                                          Nominal
+                  Amp Ordering Number                        Voltage                 Interrupting                 Cold                                             Voltage
+ Rating                                                                                                                                           Melting
+                  Code      (Std.)                           Rating                     Rating                 Resistance                                           Drop                                             PS
+  (A)                                                                                                                                           I t (A2 sec)
+                                                                                                                                                 2                                                                   E
+
+                                                               (V)                                              (Ohms)                                               (V)
+
+    .062          .062             251.062                     125                                               7.000                          0.000113    1.4                  x       x        x        x         -       -          -
+    .125          .125             251.125                     125                                               1.700                           0.00174 0.285                   x       x        x        x         -       -          -
+    .200          .200             251.200                     125                                               0.895                           0.0048  0.345                   x       x        x        x         -       -          -
+    .250          .250             251.250                     125                                               0.665                           0.0116   0.24                   x       x        x        x         -       -          -
+    .375          .375             251.375                     125                                               0.395                           0.0296   0.215                  x       x        x        x         -       -          -
+    .500          .500             251.500                     125                                               0.302                           0.0598 0.2165                   x       x        x        x         -       x          x
+    .630          .630             251.630                     125                                               0.205                            0.08    0.188                  x       x        x        x         -       -          -
+    .750          .750             251.750                     125                                               0.175                            0.153   0.176                  x       x        x        x         -       x          -
+    1.00          001.             251001.                     125              300 A @ 125VDC                   0.128                            0.256   0.194                  x       x        x        x         x       x          x
+    1.25          1.25             2511.25                     125                                               0.100                            0.390    0.2                   x       x        x        x         x       -          -
+                                                                                        50A@
+    1.50          01.5             25101.5                     125                     125VAC                   0.0823                            0.587   0.21                   x       x        x        x         x       x          -
+    2.00          002.             251002.                     125                                              0.0473                            0.405   0.141                  x       x        x        x         x       x          x
+    2.50          02.5             25102.5                     125                                             0.0360                             0.721   0.132                  x       x        x        x         x       x          x
+    3.00          003.             251003.                     125                                             0.0295                              1.19   0.131                  x       x        x        x         x       x          x
+    3.50          03.5             25103.5                     125                                             0.0240                              1.58  0.1205                  x       x        x        x         x       x          -
+    4.00          004.             251004.                     125                                             0.0204                             2.45    0.114                  x       x        x        x         x       x          x
+    5.00          005.             251005.                     125                                              0.0158                             4.14    0.11                  x       x        x        x         x       x          x
+    7.00          007.             251007.                     125                                              0.0107                            10.4    0.102                  x       x        x        x         -       x          -
+    10.0          010.             251010.                     125                                             0.0072                             25.5     0.1                   x       x        x        x         -       x          -
+    12.0          012.             251012.                      32                300A@32VDC                    0.0059                            45.2   0.0878                  x       x        x        x         -       -          -
+    15.0          015.             251015.                      32                & 50A@32VAC                  0.00446                            68.8   0.071                   x       x        x        x         -       -          -
+
+Note: Higher ampere ratings are available. Please contact Littelfuse Technical Support or your Littelfuse products representative for assistance.
+
+
+                            Temperature Re-rating Curve                                                                                                           Average Time Current Curves
+                                                                                                                                                                        .250A
+
+                                                                                                                                                        .062A   .125A
+                                                                                                                                                                        .375A
+                                                                                                                                                                        .500A
+                                                                                                                                                                        .630A
+                                                                                                                                                                        .750A
+                                                                                                                                                                        1A
+                                                                                                                                                                        1.25A
+                                                                                                                                                                        1.5A
+                                                                                                                                                                        2A
+                                                                                                                                                                        2.5A
+                                                                                                                                                                        3A
+                                                                                                                                                                        3.5A
+                                                                                                                                                                        4A
+                                                                                                                                                                        5A
+                                                                                                                                                                        7A
+                                                                                                                                                                        10A
+                                                                                                                                                                        12A
+                                                                                                                                                                        15A
+                                                                                                                                                  100
+
+
+
+
+                                                                                                                                                   10
+
+
+
+
+                                                                                                                              TIME IN SECONDS
+                                                                                                                                                    1
+
+
+
+
+                                                                                                                                                  0.1
+
+Note:
+1. Re-rating depicted in this curve is in addition to the standard derating of 25% for continuous operation.
+
+
+                                                                                                                                                 0.01
+
+
+
+
+                                                                                                                                                0.001
+                                                                                                                                                    0.05 0.1                 1               10                100               1000
+
+                                                                                                                                                                                 CURRENT IN AMPERES
+
+
+                                                                                                                                                                                                                     © 2026 Littelfuse, Inc.
+                                                                                                                   2                                                                  Specifications are subject to change without notice.
+                                                                                                                                                                                                                      Revised: GK 08/18/26
+                                                                                                                                                                                                       Fuse Datasheet
+
+
+    251 Series
+    PICO® II Very Fast-Acting Fuse
+
+
+
+                                                                                                  Product Characteristics
+                                    Encapsulated, Epoxy-coated Body                                                                                   MIL-STD-202, Method 201 (10–55
+ Materials
+                                    251 Series: Pure tin-coated copper wire leads                                        Vibration                    Hz); Method 204, Test Condition C
+ Solderability                      MIL-STD-202, Method 208                                                                                           (55–2000 Hz at 10 G’s Peak)
+                                    MIL-STD-202, Method 211, Test Condition A (will                                                                   MIL-STD-202, Method 213, Test
+ Lead Pull Force                                                                                                         Shock
+                                    withstand a 7lbs. axial pull test)                                                                                Condition I (100 G’s peak for 6 msecs.)
+ Operating                                                                                                                                            MIL-STD-202, Method 302,
+                                    –55ºC to +125ºC (Consider re-rating)                                                 Insulation Resistance
+ Temperature
+                                                                                                                         (After Opening):
+                                                                                                                                                      Test Condition A (10,000 ohms
+                                                                                                                                                      minimum at 100 volts)
+                                                                                                                         Moisture Resistance          MIL-STD-202, Method 106
+                                                                                                                                                      Withstands 60 seconds above 200OC
+                                                                                                                         Resistance to Soldering Heat
+                                                                                                                                                      and up to 260ºC, maximum
+                                                                                                                         Flammability Rating          UL 94V–0
+                                      Soldering Parameters
+Recommended Process Parameters:                                                                                                                                       Packaging
+                                                                        Lead-Free Recommendation
+               Wave Parameter                                                                                                                                            Packaging                           Quantity &
+                                                                            for 251 Series only                               Packaging Option
+                                                                                                                                                                        Specification                      Packaging Code
+ Preheat:
+ (Depends on Flux Activation Temperature)                               (Typical Industry Recommendation)
+                                                                                                                                                                                                      Please refer to
+ Temperature Minimum:                                                                 100°C                                                                                                           available quantities
+                                                                                                                          *T1: 52.4mm (2.062")
+ Temperature Maximum:                                                                 150°C                                                                               EIA v296                    above in "Part
+                                                                                                                          Tape and Reel
+                                                                                                                                                                                                      Numbering
+ Preheat Time:                                                                60-180 seconds                                                                                                          System”
+ Solder Pot Temperature:                                                     260°C Maximum
+                                                                                                                        The default lead length for both ammo pack and loose pack is T1 for 251 and is T3 for 253.
+ Solder Dwell Time:                                                             2-5 seconds
+                                                                                                                        Notes:
+Recommended Hand Soldering Parameters:                                                                                  * T1 dimension is defined as the length of the component between the two tapes. The full component length
+                                                                                                                          is 62.7mm (2.468"). T1 length is for 251 series only.
+Solder Iron Temperature: 350°C +/- 5°C
+Heating Time: 5 seconds max.
+Note: These devices are not recommended for IR or Convection Reflow process
+
+
+
+                                                 Dimensions                                                                                             Part Numbering System
+                                             251 Series Markings
+                                                     (T1 lead length)                                                                                           0251 xxxx N R T1 L
+                                                       62.7 (2.468")
+                                                      52.4 (2.062")*                                                                         Series
+                                 27.78                                           27.78                                                           251 = Standard type
+                                (1.094")               7.11 (.280")             (1.094")
+
+
+                                                     1A         LF                                                                           Current Rating
+                                                                                  2.80                                                          Refer to Amp Code column of
+            6.35 (.25")        5.0 (.197")                                       (.11")    6.35 (.25")                                          Electrical Specifications Table
+               tape                                                              MAX          tape
+                                                                                                                                             Quantity
+                                                     1A         LF                                                                              N = 5000
+                            Wire Diameter:                                                                                                      P = 2000
+                            0.64 (.025") for 0.062-10 amp,
+                            0.81 (.032") for 12-15 amp                                                                                          M = 1000
+                                                                                                                                                H = 100
+                                                                                                                                             Type of Packaging                251 Series (Halogen-free Version) Markings
+                                      251 Series Markings (5A~15A)                                                                                                                                    (T1 lead length)
+                                                     (T1 lead length)                                                                           R = Reel                                                62.7 (2.468")
+                                                       62.7 (2.468")
+                                                                                                                                                A = Ammo Pack                                          52.4 (2.062")*
+                                                                                                                                                X = Loose Pack                        27.78                                       27.78
+                                                      52.4 (2.062")*                                                                                                                 (1.094")            7.11 (.280")            (1.094")
+                                27.78                                           27.78
+                               (1.094")                7.11 (.280")            (1.094")                                                      Lead Length
+                                                                                                                                                The default lead length for Ammo pack and                LF     1A
+                                                       LF     5A                                                                                Loose pack is now T1 for 251 series
+                                                                                                                                                              6.35 (.25")  5.0 (.197")
+                                                                                                                                                                                                                                   2.80
+                                                                                                                                                                                                                                  (.11")    6.35 (.25")
+                                                                                  3.18                                                                                                                                            MAX
+                                                                                 (.125")                                                                         tape 251 series only*
+                                                                                                                                                T1 = 52.4mm (2.062”),                                                                          tape
+         6.35 (.25")          5.0 (.197")                                                     6.35 (.25")
+            tape                                                                 MAX             tape                                           Blank = 52.4mm (2.062”) for 251 series*                 1A        LF
+                                                       LF     5A                                                                                                                  Wire Diameter:
+                                                                                                                                             Option Codes                         0.64 (.025") for 0.62-10.0 amp,
+                          Wire Diameter:                                                                                                                                          0.81 (.032") for 12-15 amp
+                          0.64 (.025") for 0.062-10 amp,                                                                                        L = RoHS + HF
+                          0.81 (.032") for 15 amp
+                                                                                                                                                (Only applies to 251 Series)
+
+
+
+
+Disclaimer Notice - Information furnished is believed to be accurate and reliable. However, users should independently evaluate the suitability of and test each product selected for their own applications. Littelfuse products are
+not designed for, and may not be used in, all applications. Read complete Disclaimer Notice at: www.littelfuse.com/disclaimer-electronics.
+                                                                                                                                                                                                             © 2026 Littelfuse, Inc.
+                                                                                                                   3                                                          Specifications are subject to change without notice.
+                                                                                                                                                                                                              Revised: GK 08/18/26
+

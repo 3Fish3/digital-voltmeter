@@ -1,7 +1,3 @@
-80454743a8c585456ada05c2fc3603ceadc66158cc414990bbde7f8a1448f25c  hardware/v2.3/connections-draft.json
-2d2c94a1ceab895453a1316e3ba1c0a32a3bef08d9e60233552b4e5d7520481c  hardware/v2.3/fp-lib-table
-77104ca699381a54aa0d297079c055848dc343d916f89c1684a1e3c16733bf50  hardware/v2.3/review/voltmeter-v2.3-draft.pdf
-fea0727fa482e4b852fd4af355746d1875e95ac6e7c82899e7034696ace07496  hardware/v2.3/sym-lib-table
 650d058970eb17d5aa58dd9f21fab6bba5e97f4ca3f2413c417d28e842ad7cc0  hardware/v2.3/V23Draft.kicad_sym
 8cb237235b07b57070b3d3d31c1b587208fc58023fcc29d6b49ebf3c1f38e4cb  hardware/v2.3/V23Draft.pretty/2N3904BU_TO-92_Inline_EBC.kicad_mod
 b209c2681df39d88d86b8264a3d4270a1207fef8d23fe252947d485552b4250e  hardware/v2.3/V23Draft.pretty/AO3401A_SOT-23_GSD_HandSoldering.kicad_mod
@@ -9,5 +5,9 @@ b209c2681df39d88d86b8264a3d4270a1207fef8d23fe252947d485552b4250e  hardware/v2.3/
 d7eef564b1443a46f2629dda92c2b70c5364fc51b2dc1d892f436511e760fb0f  hardware/v2.3/V23Draft.pretty/README.md
 26a8b14206bfd2fed2045f1443a76d04e3e5628125c446e3f31985a07e331635  hardware/v2.3/V23Draft.pretty/TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod
 e5107f7262731557ad06e8b4f2f04222b804c6ff34b5df2d2043aad8f0092897  hardware/v2.3/V23Draft.pretty/TL431BCLP_TI_LP0003A_Inline_P1.27mm.kicad_mod
+e74f0d6e7fe7d3db1732f4f659072bea9f77aaac4a0f32bb7d63e92ce2d0b4ce  hardware/v2.3/connections-draft.json
+2d2c94a1ceab895453a1316e3ba1c0a32a3bef08d9e60233552b4e5d7520481c  hardware/v2.3/fp-lib-table
+77104ca699381a54aa0d297079c055848dc343d916f89c1684a1e3c16733bf50  hardware/v2.3/review/voltmeter-v2.3-draft.pdf
+fea0727fa482e4b852fd4af355746d1875e95ac6e7c82899e7034696ace07496  hardware/v2.3/sym-lib-table
 3a17ef7bf6d8e59f03d056eb85fda05faf3d1f82574a4ea2c2b10dd9abdd587c  hardware/v2.3/voltmeter-v2.3-draft.kicad_pro
-2dd50fe53bc9b6fc3e0fe019ab13513a6726d18ecd12d76519925474b4b060d4  hardware/v2.3/voltmeter-v2.3-draft.kicad_sch
+6ffc664b03a8bc4c799b7b4b994d0abc9953f1067e3d241f7cfb47fe9dddb0b8  hardware/v2.3/voltmeter-v2.3-draft.kicad_sch

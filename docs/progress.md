@@ -4,7 +4,7 @@
 
 ## 1. 当前阶段
 
-当前设计为 **V2.3受控原理图草案**。连接蓝图和原理图已建立；56/64个位号已分配封装，8个封装/拓扑阻塞，采购BOM、PCB、固件、上位机及样机验证尚未完成。P0-R、P0-I、P0-P、P0-M均待关闭，当前不投板。
+当前设计为 **V2.3受控原理图草案**。连接蓝图和原理图已建立；60/64个位号已分配封装，8个封装/拓扑阻塞，采购BOM、PCB、固件、上位机及样机验证尚未完成。P0-R、P0-I、P0-P、P0-M均待关闭，当前不投板。
 
 | 工作项 | 当前情况 | 证据范围 |
 | --- | --- | --- |
@@ -16,7 +16,7 @@
 | 预算与工具 | 本次11项参考/采样测试通过；27项V2.2及8项增量预算断言通过 | 条件计算与工具回归 |
 | 网表工具 | 本轮原生XML与原理图独立解析清单比对通过；网表/封装回归共10项通过 | 原始证据已归档；自动化入口现覆盖封装字段与焊盘编号，标准验证目录仍需恢复，见VAL-01及第4节 |
 | KiCad MCP接入 | 独立任务报告已完成注册、握手和临时副本测试 | 见[接入检查点](handoffs/2026-10-23_kicad-mcp-integration.md)；新会话加载与正式工程验证待核对 |
-| 封装/制造 | 56个位号已分配封装（53个直插、3个手焊贴片）；8个仍阻塞；M1仍为逻辑接口；没有V2.3 PCB | [封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)、原生ERC/网表/焊盘/BOM证据 |
+| 封装/制造 | 60个位号已分配封装（53个直插、7个手焊贴片）；4个仍阻塞；M1仍为逻辑接口；没有V2.3 PCB | [封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)、原生ERC/网表/焊盘/BOM证据 |
 | 固件/显示/上位机 | 仓库尚无实现源码 | ≥20Hz、五组平均、OLED、绘图存储尚无运行结果 |
 | SPICE与实物 | 尚未完成 | 没有样机、保护波形、精度或串扰验收数据 |
 
@@ -42,7 +42,7 @@
 | P0-R | 阻塞 | TL431动态、STM32资料版本、监测时差及完整误差未闭合 | 核对准确器件与手册条件，验证启动/无振荡、采样建立、参考同步，补齐动态/低端/源加载误差 |
 | P0-I | 阻塞 | 钳位型号未定；只有两输入注入的条件DC上界与漏电敏感度 | 锁定二极管/温度与引脚，验证外部/内部保护协调、低端、全路径电流及断电双路5V实测 |
 | P0-P | 阻塞 | MUX回流、反接、核心板供电及板内异常掉电未验证 | 核对核心板LDO/VDDA/USB路径；记录热插拔、近等压、反接、PA0注入、PA1轨顺序及AHCT/LVC部分上电波形和限值 |
-| P0-M | 阻塞 | 56个位号已分封装；U1、M1、F1/F2、D1～D4仍未闭合。F103/Blue Pill逻辑管脚已有对应，但本块克隆板、中心距D、独立SWD和LDO/VDDA路径未定 | 用本块实板核每排20针、针宽/中心距、SWD排针对接和USB空间；审批U1/双管二极管/保险丝方案后，再完成其余封装和热预算 |
+| P0-M | 阻塞 | 60个位号已分封装；U1、M1、F1/F2仍未闭合。F103/Blue Pill逻辑管脚已有对应，但本块克隆板、中心距D、独立SWD和LDO/VDDA路径未定 | 用本块实板核每排20针、针宽/中心距、SWD排针对接和USB空间；审批U1/双管二极管/保险丝方案后，再完成其余封装和热预算 |
 | SW-01 | 未开始 | ADC驱动、校准、平均、帧协议、OLED和上位机无源码 | 实现后测量≥20Hz完整双通道帧、五组平均、同帧绘图存储、丢帧和通道时差 |
 | VAL-01 | 阻塞 | 标准验证目录和MCP清单流程未恢复；本轮调查的原生XML、原理图独立解析清单和ERC原始报告已归档于审查目录 | 恢复标准导出与MCP清单流程并运行9项网表回归；核对归档工具版本/忽略规则与正式复现条件，不以已有0违规关闭P0 |
 | ERC-SOURCE | 历史已处理，待复核 | 手动声明USB_SAFE、EXT_SAFE、VANA后，既有报告ERC为0 | 声明保存在蓝图；原生检查依VAL-01恢复，P0状态保持独立 |
@@ -53,7 +53,7 @@
 - **P0-R**：主控已更正为STM32F103C8T6。ST DS5319 Rev20表47规定ADC最大14MHz，表49的精度条件为56MHz PCLK2、14MHz ADC、R_AIN<10kΩ、VDDA=3～3.6V、25°C及校准后，现有条件预算所用时钟条件因此成立；这不证明固件实际配置。旧Rev17第三方镜像仍保留为历史副本。尚未核对本块Blue Pill固件时钟树、VDDA路径、TL431动态和监测点寄生，详见[板级复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)。
 - **P0-I**：Diodes BAV199的25°C/150°C漏电测试点折算到输入约1.8mV/28.8mV，不能插值当成整板0～70°C上界；运放偏置和PCB污染另计。0V低端摆幅、不同源阻抗和钳位先后尚待验证。
 - **P0-P**：PA0在VANA=5.25V、理想钳到0V模型下，最大约442.65µA；这条路径未包含在两路输入≤56.2µA的泄放估算内。NPN只控制OE，AHCT的A端注入另查；LVC的VCC=0数据也不能覆盖整个掉电过程。
-- **P0-M**：M1的1～17是逻辑编号；已建立到F103 LQFP48和标准Blue Pill孔位的对应。[Blue Pill复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)确认PA13/PA14不在两条20针长排，必须通过独立SWD排针连接；5V针与USB VBUS直连，参考板无反向保护。56个位号已分配并经焊盘编号核验的封装；U1、M1、F1/F2、D1～D4保持阻塞，详见[封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)。仍需本块克隆板丝印/照片、每排针数、实际针宽与中心距、LDO/VDDA/USB走线；D仍待确认。
+- **P0-M**：M1的1～17是逻辑编号；已建立到F103 LQFP48和标准Blue Pill孔位的对应。[Blue Pill复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)确认PA13/PA14不在两条20针长排，必须通过独立SWD排针连接；5V针与USB VBUS直连，参考板无反向保护。60个位号已分配并经焊盘编号核验的封装；U1、M1、F1/F2保持阻塞，详见[封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)。仍需本块克隆板丝印/照片、每排针数、实际针宽与中心距、LDO/VDDA/USB走线；D仍待确认。
 
 ## 4. 验证记录与复现
 
@@ -64,9 +64,9 @@
 | PR #1 Blue Pill尺寸工具 | 专用4项通过；补齐隔离worktree的网表夹具后全仓24项通过 | [PR专用日志](reviews/2026-10-23-v2.3-footprint-development/evidence/pr1-target-tests.log)、[全仓日志](reviews/2026-10-23-v2.3-footprint-development/evidence/pr1-full-tests-with-fixtures.log) |
 | KiCad ERC | 0 violations；仍保留4项既有忽略规则 | [erc.json](reviews/2026-10-23-v2.3-footprint-development/evidence/erc.json) |
 | 原生网表 | 64元件、47命名网、183接线、5NC、3供电声明；与蓝图一致 | [netlist-verification.json](reviews/2026-10-23-v2.3-footprint-development/evidence/netlist-verification.json) |
-| 封装/焊盘结构 | 56个已分配封装全部解析成功，焊盘编号与符号引脚一致；8个未分配 | [footprint-verification.json](reviews/2026-10-23-v2.3-footprint-development/evidence/footprint-verification.json) |
+| 封装/焊盘结构 | 60个已分配封装全部解析成功，焊盘编号与符号引脚一致；4个未分配 | [footprint-verification.json](reviews/2026-10-23-v2.3-footprint-development/evidence/footprint-verification.json) |
 | 自动化回归 | 21项通过 | [regression-tests.log](reviews/2026-10-23-v2.3-footprint-development/evidence/regression-tests.log) |
-| PCB DRC、实物焊接、装配和整机性能 | 未执行 | 当前没有V2.3 PCB；8个阻塞位号未关闭 |
+| PCB DRC、实物焊接、装配和整机性能 | 未执行 | 当前没有V2.3 PCB；4个阻塞位号未关闭 |
 
 ### 2026-10-23文档合并时核验
 
@@ -168,7 +168,8 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py' -
 | 2026-10-23 | 按用户确认写入测量端点并保存生图示意 | 第6.4节明确15.8mm为左右排针金属外表面跨距，并引用已确认图片；D待实际针宽测定后计算，P0-M保持阻塞；仅更新文档与图片 |
 | 2026-10-23 | 归档并发布本轮元器件与真实封装只读调查 | [完整审查及证据](reviews/2026-10-23-component-package-audit/README.md)覆盖64项：完整选型通过0、失败7、待确认57；另保留35项静态子项通过的范围。发布内容中的F102管脚基线已由当前F103复核取代；原生ERC/网表仍有效，7个硬件文件未改 |
 | 2026-10-23 | 更正主控目标为STM32F103C8T6并重新核对Blue Pill | 先前F102目标系型号记录错误，已改回F103；补充ST DS5319 Rev20、标准2×20/0.6in布局、F103管脚与长排针/独立SWD对应；15.8mm外跨不当作中心距，P0-M/P0-R保持阻塞 |
-| 2026-10-23 | 分配56个实际封装并建立项目封装库 | 53个直插、3个手焊贴片；ERC 0、网表183接线一致、焊盘编号全部匹配、21项测试通过；U1/M1/F1/F2/D1～D4仍阻塞，PCB准入未达到 |
+| 2026-10-23 | D1～D4改用Nexperia BAS116H,115（SOD-123F） | 单只两脚低漏电二极管，1=K/2=A与现有符号一致；25°C 5nA、150°C 80nA、VR75V、IF215mA；分配60/64封装；U1/M1/F1/F2仍阻塞 |
+| 2026-10-23 | 分配60个实际封装并建立项目封装库 | 53个直插、7个手焊贴片；ERC 0、网表183接线一致、焊盘编号全部匹配、21项测试通过；U1/M1/F1/F2/D1～D4仍阻塞，PCB准入未达到 |
 
 后续顺序：先完成M1实板尺寸确认，审定U1、D1～D4和F1/F2方案；再关闭其余封装及P0问题，才能创建PCB。原生网表、ERC和封装/焊盘证据已在本阶段归档，PCB布局、固件、上位机及样机实验仍未开始。
 

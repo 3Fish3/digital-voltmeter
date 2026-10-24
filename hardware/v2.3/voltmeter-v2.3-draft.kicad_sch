@@ -2775,6 +2775,7 @@
 		)
 		(embedded_fonts no)
 	)
+
 		(symbol "Device:D"
 		(pin_numbers
 			(hide yes)
@@ -6143,7 +6144,7 @@
 			)
 		)
 	)
-	(property "Value" "LOW-LEAKAGE BLOCKED"
+	(property "Value" "BAS116H,115"
 		(at 99.06 265.43 0)
 		(effects
 			(font
@@ -6151,7 +6152,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Diode_SMD:D_SOD-123F"
 		(at 99.06 261.62 0)
 		(effects
 			(font
@@ -6160,6 +6161,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "BAS116H,115"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 99.06 261.62 0)
 		(effects
@@ -6212,7 +6241,7 @@
 			)
 		)
 	)
-	(property "Value" "LOW-LEAKAGE BLOCKED"
+	(property "Value" "BAS116H,115"
 		(at 157.48 265.43 0)
 		(effects
 			(font
@@ -6220,7 +6249,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Diode_SMD:D_SOD-123F"
 		(at 157.48 261.62 0)
 		(effects
 			(font
@@ -6229,6 +6258,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "BAS116H,115"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 157.48 261.62 0)
 		(effects
@@ -6666,7 +6723,7 @@
 			)
 		)
 	)
-	(property "Value" "LOW-LEAKAGE BLOCKED"
+	(property "Value" "BAS116H,115"
 		(at 99.06 356.87 0)
 		(effects
 			(font
@@ -6674,7 +6731,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Diode_SMD:D_SOD-123F"
 		(at 99.06 353.06 0)
 		(effects
 			(font
@@ -6683,6 +6740,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "BAS116H,115"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 99.06 353.06 0)
 		(effects
@@ -6735,7 +6820,7 @@
 			)
 		)
 	)
-	(property "Value" "LOW-LEAKAGE BLOCKED"
+	(property "Value" "BAS116H,115"
 		(at 157.48 356.87 0)
 		(effects
 			(font
@@ -6743,7 +6828,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Diode_SMD:D_SOD-123F"
 		(at 157.48 353.06 0)
 		(effects
 			(font
@@ -6752,6 +6837,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "BAS116H,115"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 157.48 353.06 0)
 		(effects

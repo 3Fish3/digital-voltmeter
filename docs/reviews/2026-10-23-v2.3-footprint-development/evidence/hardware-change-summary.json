@@ -3,12 +3,12 @@
   "current_hardware_files": 13,
   "unchanged_baseline_files": [
     "hardware/v2.3/V23Draft.kicad_sym",
-    "hardware/v2.3/connections-draft.json",
     "hardware/v2.3/review/voltmeter-v2.3-draft.pdf",
     "hardware/v2.3/sym-lib-table",
     "hardware/v2.3/voltmeter-v2.3-draft.kicad_pro"
   ],
   "changed_baseline_files": [
+    "hardware/v2.3/connections-draft.json",
     "hardware/v2.3/voltmeter-v2.3-draft.kicad_sch"
   ],
   "new_hardware_files": [

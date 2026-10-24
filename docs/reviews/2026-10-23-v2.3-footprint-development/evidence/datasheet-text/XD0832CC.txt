@@ -1,0 +1,301 @@
+                                                                        XL0832DR, XD0832CC
+                                                             8-bit analog-to-digital converter
+
+
+1. DESCRIPTION
+The XL/XD0832 is an 8-bit A/D converter , connected with single -chip microcomputer
+through three -wire interface , low power consumption , suitable for use in a variety of
+intelligentinstruments.
+
+The XL/XD 0832 's maximum resolution can reach 256 levels , which can adapt to the
+general analog conversion requirements .The chip has double data output ,which can be
+used as data verification , reducing a few data errors , fast conversion speed and strong
+stable performance.Independent chipenables input,making multi-device connection and
+processor control more convenient , DI data input side , can easily achieve the choice of
+channelfunctions.
+
+
+
+2. FEATURES
+   8-bit resolution A/D converter
+   5V single power supply
+   Dual-channel A/D conversion
+   Support single-ended or differential mode
+   Total non-adjustable error ±2 LSB MAX
+   The operating frequency is 250KHz and the conversion time is 32uS
+   I/O levels are TTL/CMOS compatible
+   Power consumption as low as 15mW
+   Package option: XL0832DR (SOP8), XD0832CC(DIP8)
+
+
+3. TYPICAL APPLICATION
+    Handheld device
+    Portable monitors and power management
+    Industrial signal monitoring
+    Measurement and control instrument
+
+
+
+
+www.xinluda.com                           1/7                                           Rev 2.5.2
+                                                                                    XL0832DR, XD0832CC
+                                                                         8-bit analog-to-digital converter
+
+
+4. PIN CONFIGURATIONS AND FUNCTIONS
+
+
+
+
+    Pin             Symbol                                       Description
+     1                CS                          Slice selection enabled, low level valid
+     2               CH0                     Analog input channels that can be used as IN+/IN-
+     3               CH1                     Analog input channels that can be used as IN+/IN-
+     4              GND                                            ground
+     5                DI                        Channel selection control, data signal input
+     6               DO                              Data conversion interface output
+     7               CLK                                        Clock input
+     8             VCC/REF                       Power input and reference voltage input
+
+
+
+
+5. LIMITING PARAMETER
+  VCC end to GND voltage.................................................................－0.5V to 6.5V
+  All digital pins to GND voltage........................................................V to VCC+0.3V
+  All analog pins to GND voltage....................................................... V to VCC+0.3V
+  Peak current of all input pins..........................................................15mA
+  Storage temperature...................................................................... －65℃ to +150℃
+  Operating ambient temperature....................................................－20℃ to +85℃
+  Welding temperature (10 seconds)................................................+260℃
+  Maximum junction temperature....................................................+150℃
+  Diffusion power dissipation............................................................0.8W
+  ESD（HBM） withstand voltage..................................................... 4KV
+
+www.xinluda.com                                   2/7                                                Rev 2.5.2
+                                                                                             XL0832DR, XD0832CC
+                                                                                  8-bit analog-to-digital converter
+
+
+6. ELECTRICAL CHARACTERISTIC
+(Unlessotherwisespecified,VDD=5.0V,TA=25℃)
+
+  Symbol                    Parameter                    Conditions        Min        TYPE        Max     Unit
+
+     VCC                   Power Supply                                    4.5                   5.5      V
+     ICC                  Supply Current                                               2         10      mA
+     VIH          Logical “1” Input Voltage (Min)          VCC=5.25V         2                            V
+     VIL       VIN(0), Logical “0” Input Voltage (Max)     VCC=4.75V                             0.8      V
+     IIH       IIN(1), Logical “1” Input Current (Max)      VIN=5.0V                             10       µA
+      IIL      IIN(0), Logical “0” Input Current (Max)       VIN=0V                             −10       µA
+                                                           VCC=4.75V
+     VOH        VOUT(1), Logical “1” Output Voltage      IOUT=−360 µA                            2.4      V
+                               (Min)
+                                                          IOUT=−10 µA                            4.5      V
+                                                           VCC=4.75V         
+     VOL        VOUT(0), Logical “0” Output Voltage       IOUT=1.6 mA                             0.4      V
+                              (Max)                                          
+
+   ISOURCE         Output Source Current (Min)
+                                                            VOUT=0V                    −14        −6.5    mA
+
+    ISINK            Output Sink Current (Min)             VOUT=VCC                                       mA
+                                                                                         16         8
+
+     fCLK          Working Clock Frequency                                 10                    400     kHz
+                                                          Not including
+      tC                 Conversion Time                 MUX Addressing      8                          1/fCLK
+                                                              Time
+                          Clock Duty Cycle                                 40                    60       %
+   tSET-UP     CS Falling Edge or Data Input Valid to
+                                                                           500                           ns
+                           CLK Rising Edge
+    tHOLD      Data Input Valid after CLK Rising Edge                                           200      ns
+                                                           CL=100 pF
+  tpd1, tpd0   CLK Falling Edge to Output Data Valid
+                                                         Data MSB First                         2000      ns
+
+                                                          Data LSB First                        1000      ns
+
+
+               Rising Edge of CS to Data Output and CL=10 pF, RL=10k                            400       ns
+   t1H, t0H
+                            SARS Hi– Z
+                                                    CL=100 pf, RL=2k                   600                ns
+     Cin             Capacitance of Logic Input                                        8                 pF
+    Cout           Capacitance of Logic Outputs                                        8                 pF
+
+
+
+
+www.xinluda.com                                          3/7                                                 Rev 2.5.2
+                                                                         XL0832DR, XD0832CC
+                                                              8-bit analog-to-digital converter
+
+
+7. FUNCTION DESCRIPTION AND SEQUENCE DIAGRAM
+   The XL/XD0832 uses the structure of sample -data-comparator ,adopts the method of
+   successive approximation for conversion ,according to the software configuration of
+   themultiplexer,theinputvoltage tobeconverted isconnected totheinputendandthe
+   ground end under thesingle-ended input mode;Inthedifferential input mode,thetwo
+   input terminals can be assigned as the positive and negative terminals of the power
+   supply,which are configured bythe DIterminal .Itshould be noted that when the input
+   voltage connected to the positive side is lower than the negative side of the power
+   supply,theconversionresultsareallzero.
+
+   The serial communication format makes it possible to place the converter and analog
+   sensor together for serial communication with the remote control processor ,without
+   the need for remote transmission of low - level analog signals . This allows the digital
+   data returned to the processor to be noiseless ,avoiding interference and attenuation
+   intheremotetransmissionofanalogsignals.
+
+                  Single channel mode                           Difference mode
+
+
+
+
+ When 2-bit data is set to 1 or 0, only the CH0 is converted in single channel.
+ If the 2-bit data is set to 1 or 1, only the CH1 is converted in single channel.
+ When 2-bit data is set to 0 or 0, CH0 serves as the IN+ and CH1 serves as the IN- of
+ the positive input end.
+ When 2-bit data is set to 0 or 1, CH0 serves as the negative input IN- and CH1
+ serves as the positive input IN+.
+
+
+
+
+www.xinluda.com                            4/7                                           Rev 2.5.2
+                                                                          XL0832DR, XD0832CC
+                                                               8-bit analog-to-digital converter
+
+
+   The conversion process of XL0832 is:
+
+   1.   Chip selection: Set CS to low and start the conversion to enable all logic circuits.
+        In this case, the DO end has high resistance, and the DI end waits for the
+        command. CS must be set to low throughout the conversion process.
+   2.   Start: Then make the DI end output the first logical high, indicating the start bit,
+        the input configuration of 0832 is carried out in the multiplexer addressing
+        timing, the multiplexer address is moved to the converter through the DI end.
+        The router address selection of the analog input channel also determines
+        whether the input is single-ended or differential. If the input is differential, the
+        input channel polarity needs to be assigned, and both channels can be used as
+        positive or negative. The DI data transfer into the Navel address shift register
+        occurs with each rise jump of the clock, so each time a bit of data is placed into
+        DI, a jump of 0 to 1 is entered into the CLK side.
+   3.   Configuration, the next two bits are 0832 at the rising jump edge of two
+        consecutive clocks, the two bits of configuration are moved into the shift
+        register, the first 0 represents a single-channel differential input, 1 represents
+        a dual-channel unipolar input; The second digit represents polarity selection
+        for a single channel differential input or for a double channel unipolar input.
+   4.   Conversion: When the start bit and configuration bit are moved to the address
+        register, the conversion starts. At the same time, the DI end changes to the
+        high-resistance state and the DO end leaves the high-resistance state to
+        prepare for output data. The DI terminal is detected only when the multiplexer
+        is addressing, and the DO terminal is in a high resistance state. During the
+        conversion process, the DO terminal is out of the high resistance state. At this
+        time, the shift register of the DI terminal and the multiplexer is turned off.
+   5.   Read: At the falling edge of the fourth pulse, start to read one bit of data at the
+        DO end, from high to low, to the 11th pulse, read 8 bits of data, and then the
+        12th to 19th pulse, from low to high output again, the lowest level is shared.
+   6.   End: CS sets high to end the process.
+
+   The whole process is as follows: when three clock pulses arrive, the input level of
+   the DI end loses its input function, and then the DO/DI end begins to read the
+   converted data. From the fourth clock pulse, the DO end outputs the highest bit of
+   data, and then each pulse DO end outputs the next bit of data. Until the 11th pulse
+   emits the lowest data D0, one byte of data output is complete. It then begins to
+   output the next opposite byte of data, which is D0 from the 11th clock pulse. Then
+   output 8 bits of data, to the 19th pulse when the data output is complete, marking
+   the completion of an A/D conversion, CS high level, disable the chip.
+
+
+
+
+www.xinluda.com                            5/7                                            Rev 2.5.2
+                                                                               XL0832DR, XD0832CC
+                                                                    8-bit analog-to-digital converter
+
+
+8. ORDERING INFORMATION
+
+                                      Ordering Information
+    Part          Device    Package      Body size    Temperature              Transport   Package
+                                                                      MSL
+   Number         Marking    Type         (mm)           (°C)                    Media     Quantity
+
+ XL0832DR       XL0832DR    SOP8        4.90  3.90   - 20 to 85     MSL3        T&R         2500
+ XD0832CC       XD0832CC     DIP8       9.25  6.38   - 20 to 85     MSL3      Tube 50       2000
+
+
+
+9. DIMENSIONAL DRAWINGS
+
+
+ SOP8
+
+
+
+
+         PIN1
+
+
+
+
+                                                         UNIT:mm
+
+
+
+                                                             A1
+                                                             A2
+
+
+
+                                                             e
+                                                             D
+                                                             E
+                                                             E1
+                                                             L
+
+
+
+
+www.xinluda.com                              6/7                                               Rev 2.5.2
+                                                                                                 XL0832DR, XD0832CC
+                                                                                      8-bit analog-to-digital converter
+
+
+
+
+ DIP8
+
+
+
+
+          PIN1
+
+
+
+
+                                                                            UNIT:mm
+
+
+
+                                                                                A1
+                                                                                A2
+
+
+
+
+                                                                                 e
+                                                                                 D
+                                                                                 E
+                                                                                 E1
+                                                                                 L
+
+
+
+
+      [ if you need help contact us. Xinluda reserves the right to change the above information without prior notice ]
+www.xinluda.com                                           7/7                                                            Rev 2.5.2
+

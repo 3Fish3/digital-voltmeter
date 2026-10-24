@@ -240,7 +240,7 @@
     "x": 99.06,
     "y": 261.62,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Diode_SMD:D_SOD-123F"
   },
   {
     "reference": "D2",
@@ -249,7 +249,7 @@
     "x": 157.48,
     "y": 261.62,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Diode_SMD:D_SOD-123F"
   },
   {
     "reference": "R12",
@@ -303,7 +303,7 @@
     "x": 99.06,
     "y": 353.06,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Diode_SMD:D_SOD-123F"
   },
   {
     "reference": "D4",
@@ -312,7 +312,7 @@
     "x": 157.48,
     "y": 353.06,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Diode_SMD:D_SOD-123F"
   },
   {
     "reference": "R16",

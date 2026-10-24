@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/voltmeter-v2.3-draft.kicad_sch</source>
-    <date>2026-10-23T21:43:00</date>
+    <date>2026-10-23T21:59:29</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -333,15 +333,22 @@
       </units>
     </comp>
     <comp ref="D1">
-      <value>LOW-LEAKAGE BLOCKED</value>
+      <value>BAS116H,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">BAS116H,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="BAS116H,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -358,15 +365,22 @@
       </units>
     </comp>
     <comp ref="D2">
-      <value>LOW-LEAKAGE BLOCKED</value>
+      <value>BAS116H,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">BAS116H,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="BAS116H,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -383,15 +397,22 @@
       </units>
     </comp>
     <comp ref="D3">
-      <value>LOW-LEAKAGE BLOCKED</value>
+      <value>BAS116H,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">BAS116H,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="BAS116H,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -408,15 +429,22 @@
       </units>
     </comp>
     <comp ref="D4">
-      <value>LOW-LEAKAGE BLOCKED</value>
+      <value>BAS116H,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">BAS116H,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="BAS116H,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>

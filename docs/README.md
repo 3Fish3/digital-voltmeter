@@ -12,7 +12,7 @@
 
 - [V2.3元器件与真实封装审查](reviews/2026-10-23-component-package-audit/README.md)：64个位号开发前审查表、F103/Blue Pill 管脚对应、测量基准、采购资料及原生检查证据；其中55项已在后续开发分支写回封装，9项仍阻塞。
 - [STM32F103C8T6 Blue Pill板级复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)：芯片规格、标准板布局、M1实体孔位、SWD与5V/USB装配限制。
-- [V2.3真实元器件与封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)：56个位号的封装/MPN实施、PR #1验证、ERC/网表/测试原始日志及8个阻塞项。
+- [V2.3真实元器件与封装开发记录](reviews/2026-10-23-v2.3-footprint-development/README.md)：60个位号的封装/MPN实施、PR #1验证、ERC/网表/测试原始日志及4个阻塞项。
 - [逐引脚连接CSV](pin-connections.csv)：当前电路的188条引脚记录；完整逐节点表已并入设计报告附录。
 - [旧V1.1 BOM](archive/legacy-v1.1-bom.csv)：历史物料记录，使用前先确认版本；V2.3采购BOM尚未冻结。
 - [阶段交接记录](handoffs/)：任务恢复、验证和风险摘要。

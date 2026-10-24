@@ -1,12 +1,8 @@
 {
   "status": "assigned footprints resolve and pad numbers match netlist pins; not PCB DRC or dimensional approval",
-  "assigned_count": 56,
-  "unassigned_count": 8,
+  "assigned_count": 60,
+  "unassigned_count": 4,
   "unassigned_references": [
-    "D1",
-    "D2",
-    "D3",
-    "D4",
     "F1",
     "F2",
     "M1",
@@ -472,6 +468,158 @@
           "drill_mm": [
             0.75
           ]
+        }
+      ]
+    },
+    {
+      "reference": "D1",
+      "footprint": "Diode_SMD:D_SOD-123F",
+      "file": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+      "sha256": "8be1e25f240367187beafa1e339963dfdf4aa4f3e671731970e7f2e8491b6246",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "D2",
+      "footprint": "Diode_SMD:D_SOD-123F",
+      "file": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+      "sha256": "8be1e25f240367187beafa1e339963dfdf4aa4f3e671731970e7f2e8491b6246",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "D3",
+      "footprint": "Diode_SMD:D_SOD-123F",
+      "file": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+      "sha256": "8be1e25f240367187beafa1e339963dfdf4aa4f3e671731970e7f2e8491b6246",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "reference": "D4",
+      "footprint": "Diode_SMD:D_SOD-123F",
+      "file": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+      "sha256": "8be1e25f240367187beafa1e339963dfdf4aa4f3e671731970e7f2e8491b6246",
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm": [
+            -1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm": [
+            1.4,
+            0.0
+          ],
+          "size_mm": [
+            1.1,
+            1.1
+          ],
+          "drill_mm": null
         }
       ]
     },

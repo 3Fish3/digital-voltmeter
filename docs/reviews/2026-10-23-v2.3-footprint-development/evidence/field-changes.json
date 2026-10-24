@@ -1,20 +1,98 @@
 [
   {
-    "reference": "J1",
+    "reference": "D1",
     "property": "Footprint",
     "before": "",
-    "after": "Connector_USB:USB_B_TE_5787834_Vertical"
+    "after": "Diode_SMD:D_SOD-123F"
   },
   {
-    "reference": "J1",
+    "reference": "D1",
     "property": "MPN",
-    "before": "",
-    "after": "5787834-1"
+    "before": null,
+    "after": "BAS116H,115"
   },
   {
-    "reference": "J1",
+    "reference": "D1",
     "property": "Manufacturer",
+    "before": null,
+    "after": "Nexperia"
+  },
+  {
+    "reference": "D1",
+    "property": "Value",
+    "before": "LOW-LEAKAGE BLOCKED",
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D2",
+    "property": "Footprint",
     "before": "",
-    "after": "TE Connectivity"
+    "after": "Diode_SMD:D_SOD-123F"
+  },
+  {
+    "reference": "D2",
+    "property": "MPN",
+    "before": null,
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D2",
+    "property": "Manufacturer",
+    "before": null,
+    "after": "Nexperia"
+  },
+  {
+    "reference": "D2",
+    "property": "Value",
+    "before": "LOW-LEAKAGE BLOCKED",
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D3",
+    "property": "Footprint",
+    "before": "",
+    "after": "Diode_SMD:D_SOD-123F"
+  },
+  {
+    "reference": "D3",
+    "property": "MPN",
+    "before": null,
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D3",
+    "property": "Manufacturer",
+    "before": null,
+    "after": "Nexperia"
+  },
+  {
+    "reference": "D3",
+    "property": "Value",
+    "before": "LOW-LEAKAGE BLOCKED",
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D4",
+    "property": "Footprint",
+    "before": "",
+    "after": "Diode_SMD:D_SOD-123F"
+  },
+  {
+    "reference": "D4",
+    "property": "MPN",
+    "before": null,
+    "after": "BAS116H,115"
+  },
+  {
+    "reference": "D4",
+    "property": "Manufacturer",
+    "before": null,
+    "after": "Nexperia"
+  },
+  {
+    "reference": "D4",
+    "property": "Value",
+    "before": "LOW-LEAKAGE BLOCKED",
+    "after": "BAS116H,115"
   }
 ]

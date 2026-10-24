@@ -1,18 +1,18 @@
 {
   "component_count": 64,
-  "assigned_count": 56,
-  "blocked_count": 8,
+  "assigned_count": 60,
+  "blocked_count": 4,
   "blocked_references": [
-    "D1",
-    "D2",
-    "D3",
-    "D4",
     "F1",
     "F2",
     "M1",
     "U1"
   ],
-  "assigned_smd_references": [
+  "assigned_smt_references": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
     "Q1",
     "U4",
     "U5"
