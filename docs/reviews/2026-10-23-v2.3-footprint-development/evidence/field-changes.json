@@ -2,19 +2,19 @@
   {
     "reference": "J1",
     "property": "Footprint",
-    "before": "Connector_USB:USB_B_TE_5787834_Vertical",
-    "after": ""
+    "before": "",
+    "after": "Connector_USB:USB_B_TE_5787834_Vertical"
   },
   {
     "reference": "J1",
     "property": "MPN",
-    "before": "5787834-1",
-    "after": ""
+    "before": "",
+    "after": "5787834-1"
   },
   {
     "reference": "J1",
     "property": "Manufacturer",
-    "before": "TE Connectivity",
-    "after": ""
+    "before": "",
+    "after": "TE Connectivity"
   }
 ]

@@ -1,0 +1,34 @@
+{
+  "drawing": "TE 5787834 Rev C (Customer Drawing A2 00779, 24MAR11), image te-5787834-drawing-revC.png",
+  "method": "pixel measurement of the drawing, calibrated on the 2.50 mm small-hole pitch",
+  "calibration": {
+    "reference_dim_mm": 2.5,
+    "reference_px": 99,
+    "scale_px_per_mm": 39.6,
+    "cross_check_small_hole_dia_nominal_mm": 0.92,
+    "cross_check_small_hole_dia_measured_px": 37,
+    "cross_check_small_hole_dia_measured_mm": 0.934
+  },
+  "vertical_small_hole_row_spacing": {
+    "upper_row_cy_px": 723.5,
+    "lower_row_cy_px": 850.5,
+    "delta_px": 127,
+    "delta_mm": 3.207
+  },
+  "dimension_chain": {
+    "note": "2.705 mm is measured from the upper small-hole row to a reference line 0.505 mm above the lower small-hole row; the two add to the full row spacing.",
+    "segment_mm": [
+      2.705,
+      0.505
+    ],
+    "sum_mm": 3.21
+  },
+  "kicad_footprint": "Connector_USB:USB_B_TE_5787834_Vertical",
+  "kicad_signal_row_spacing_mm": 3.2,
+  "kicad_signal_pitch_mm": 2.5,
+  "kicad_signal_drill_mm": 0.92,
+  "kicad_shield_drill_mm": 2.3,
+  "kicad_shield_span_mm": 12.04,
+  "conclusion": "CONSISTENT. The TE drawing supports the KiCad 3.2 mm signal-row spacing; the earlier 2.705 mm reading was an incomplete dimension chain, not a footprint error.",
+  "status": "Footprint assignment restored; verification limited to drawing geometry, not vendor stock"
+}

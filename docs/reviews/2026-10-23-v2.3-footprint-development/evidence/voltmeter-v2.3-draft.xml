@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/voltmeter-v2.3-draft.kicad_sch</source>
-    <date>2026-10-23T21:29:21</date>
+    <date>2026-10-23T21:43:00</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -484,16 +484,17 @@
     </comp>
     <comp ref="J1">
       <value>USB-B ADAPTER POWER</value>
+      <footprint>Connector_USB:USB_B_TE_5787834_Vertical</footprint>
       <fields>
-        <field name="MPN"/>
-        <field name="Manufacturer"/>
-        <field name="Footprint"/>
+        <field name="MPN">5787834-1</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Footprint">Connector_USB:USB_B_TE_5787834_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
-      <property name="MPN" value=""/>
-      <property name="Manufacturer" value=""/>
+      <property name="MPN" value="5787834-1"/>
+      <property name="Manufacturer" value="TE Connectivity"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="connector USB"/>

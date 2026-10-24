@@ -36,8 +36,8 @@ class NetlistVerificationTests(unittest.TestCase):
         result = VERIFIER.verify(self.blueprint, self.netlist)
         self.assertEqual(result["component_count"], 64)
         self.assertEqual(result["wired_pin_count"], 183)
-        self.assertEqual(result["assigned_footprints"], 55)
-        self.assertEqual(result["unassigned_footprints"], 9)
+        self.assertEqual(result["assigned_footprints"], 56)
+        self.assertEqual(result["unassigned_footprints"], 8)
         self.assertEqual(result["power_declaration_count"], 3)
 
     def test_wrong_net(self):

@@ -69,7 +69,7 @@
     "x": 50.8,
     "y": 63.5,
     "rotation": 0.0,
-    "footprint": ""
+    "footprint": "Connector_USB:USB_B_TE_5787834_Vertical"
   },
   {
     "reference": "J2",

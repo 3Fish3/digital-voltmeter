@@ -6,10 +6,10 @@
 
 | 项目 | 结果 | 证据范围 |
 | --- | --- | --- |
-| 64个现有电路位号 | 55个已分配可解析封装，9个保留阻塞 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
+| 64个现有电路位号 | 56个已分配可解析封装，8个保留阻塞 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
 | 封装种类 | 16种；其中5种为本项目专用封装 | 见[项目封装库说明](../../../hardware/v2.3/V23Draft.pretty/README.md) |
 | 直插/贴片 | 53个直插；Q1、U4、U5为便于手焊的贴片 | 仍须实物试装，不以封装编号替代可焊性验证 |
-| MPN/厂家属性 | 55个已分配位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
+| MPN/厂家属性 | 56个已分配位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
 | 连接 | 64元件、47命名网、183接线、5 NC、3供电声明未改变 | [网表核验](evidence/netlist-verification.json) |
 | ERC | KiCad 10.0.6报告0项违规（沿用4项既有忽略规则） | [ERC原始JSON](evidence/erc.json)；不能证明电气性能 |
 | 自动化 | 21项测试通过 | [原始日志](evidence/regression-tests.log) |
@@ -26,6 +26,7 @@
 | U6 | TL431BCLP | `V23Draft:TL431BCLP_TI_LP0003A_Inline_P1.27mm` | TI LP0003A/4215214-C：直引脚P1.27±0.13、孔0.85mm、本体最大5.21×4.19mm |
 | Q1 | AO3401A | `V23Draft:AO3401A_SOT-23_GSD_HandSoldering` | 原厂1=G、2=S、3=D；封装焊盘直接命名为G/S/D，与现有符号一致 |
 | Q2 | 2N3904BU | `V23Draft:2N3904BU_TO-92_Inline_EBC` | onsemi 1=E、2=B、3=C；TO-92直插、P1.27、孔0.75mm |
+| J1 | TE 5787834-1 | `Connector_USB:USB_B_TE_5787834_Vertical` | Rev C图按2.50mm比例尺实测信号孔纵向中心距≈3.21mm（2.705+0.505链），与库3.2mm一致 |
 | J2～J4 | Phoenix 1715721 | `TerminalBlock_Phoenix:...MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal` | 原厂P5.08、焊脚0.9×0.9、推荐孔1.3mm；库封装P5.08/孔1.3mm |
 | J5～J7 | Samtec TSW-105/103/104-07-G-S | `Connector_PinHeader_2.54mm:PinHeader_1x0N_P2.54mm_Vertical` | 原厂0.025in方针、P2.54、-07直针A10.92/B2.54/C5.84mm |
 | R1～R44（R6除外） | YAGEO MFR-25系列 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal` | 本体L6.3±0.5、D2.4±0.2、线径0.55～0.60mm；孔0.8mm |
@@ -50,11 +51,10 @@
 
 C3/C4已按有极性铝电解的物理封装分配焊盘，但现有原理图仍使用`Device:C`无极性图符。网表脚1在`SYS_5V`/`VANA`、脚2在`GND`，与封装正负极方向相符；PCB前仍应将原理图图符或极性标识改为明确的有极性表示，并人工复核。
 
-## 保留的9个阻塞位号
+## 保留的8个阻塞位号
 
 | 位号 | 原因 | 不会怎么做 |
 | --- | --- | --- |
-| J1 | TE图5787834 Rev C标信号孔纵向中心距2.705mm，KiCad库为3.2mm；孔径0.92/2.30mm相符但孔位冲突 | 不强行使用该库封装；等取得NG_CD_5787834_A4原图或实物测量后再定 |
 | U1 | TI ADC0832CCN/NOPB为停产PDIP-8；SOIC-14候选需要重建14脚图符且公开页缺货 | 不把14脚SOIC直接套到8脚图符，不替换ADC功能 |
 | M1 | 具体Blue Pill克隆板、实际针宽/两排中心距、USB包络未实测；PA13/PA14只在独立SWD排针 | 不猜15.24mm或15.8mm为焊孔中心距，不省略SWD连接 |
 | F1/F2 | 0251001.MXL为候选；熔断额定、I²t、启动浪涌及PICO II轴向焊脚成形未闭合 | 不用普通电阻封装代替保险丝 |
@@ -77,9 +77,9 @@ PR #1 的隔离提交为`93fa411`，相对`origin/main`的`138980f`只增加检�
 | --- | --- | --- |
 | KiCad ERC | 0 violations，4项既有忽略规则 | [erc.json](evidence/erc.json)；不等于电气可用 |
 | 原生网表 | 64元件、47网、183接线、5 NC、3供电声明；蓝图一致 | [netlist-verification.json](evidence/netlist-verification.json) |
-| 封装/焊盘 | 55个已分配封装均可解析，焊盘编号与符号引脚一致；9个未分配 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
-| BOM交叉核对 | 64行；55个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
-| 原理图字段差异 | 55个位号、173个字段变化；未发现Footprint/MPN/Manufacturer/DesignStatus以外的字段变化 | [field-diff-summary.json](evidence/field-diff-summary.json)、[逐项差异](evidence/field-changes.json) |
+| 封装/焊盘 | 56个已分配封装均可解析，焊盘编号与符号引脚一致；8个未分配 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
+| BOM交叉核对 | 64行；56个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
+| 原理图字段差异 | 56个位号、175个字段变化；未发现Footprint/MPN/Manufacturer/DesignStatus以外的字段变化 | [field-diff-summary.json](evidence/field-diff-summary.json)、[逐项差异](evidence/field-changes.json) |
 | 硬件文件差异 | 基线6个跟踪文件：5个未变、原理图1个变更；新增1个库表和6个封装/说明文件 | [hardware-change-summary.json](evidence/hardware-change-summary.json) |
 | 回归测试 | 21项通过 | [regression-tests.log](evidence/regression-tests.log) |
 | KiCad BOM | 成功导出含MPN/厂家/封装的BOM | [native-bom.csv](evidence/native-bom.csv) |
@@ -117,6 +117,6 @@ PR #1的隔离检查命令为`PYTHONDONTWRITEBYTECODE=1 python3 -m unittest disc
 2. M1未取得本块Blue Pill的针宽/中心距、USB位置和底面高度；两条20针排母没有覆盖PA13/PA14。
 3. D1～D4的双管封装拓扑需要用户审定，不能用当前四只单管图符蒙混。
 4. F1/F2额定与专用轴向封装未闭合，不能在保险丝选型前定板。
-5. 55个封装只完成了符号引脚/焊盘编号和资料层面对照；没有PCB DRC、板厂DRC、装配干涉或手工焊接验证。
+5. 56个封装只完成了符号引脚/焊盘编号和资料层面对照；没有PCB DRC、板厂DRC、装配干涉或手工焊接验证。
 
 下一步应先用实物确认M1，再决定U1/D1～D4/F1/F2方案；所有方案经用户审定后，才能进入PCB创建与布局。
