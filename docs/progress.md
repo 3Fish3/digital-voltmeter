@@ -171,6 +171,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py' -
 | 2026-10-23 | D1～D4改用Nexperia BAS116H,115（SOD-123F） | 单只两脚低漏电二极管，1=K/2=A与现有符号一致；25°C 5nA、150°C 80nA、VR75V、IF215mA；分配64/64封装；U1/M1/F1/F2仍阻塞 |
 | 2026-10-23 | 按用户确认将U1定为ADC0832CCN/NOPB（PDIP-8） | 依TI P(R-PDIP-T8) 4040082/E核对本体与排距，分配Package_DIP:DIP-8_W7.62mm；TI该料号官方为Obsolete，采购须核批次真伪；封装达64/64，剩M1与F1/F2 |
 | 2026-10-23 | F1/F2改Littelfuse 37011000000、M1建立BluePill模块封装 | 原PICO II 251缺成型焊脚尺寸，改用TR5 Ø8.5×8mm、P5.08、1A/250V快断，KiCad `Fuse_Littelfuse_372_D8.50mm`；M1按开源BluePill封装确认排距15.24mm、首末48.26mm、孔1.016mm，建 `V23Draft:BluePill_STM32F103C8T6_Module`；封装达64/64，ERC 0、21项测试通过 |
+| 2026-10-23 | 登记 STM32F103C8T6 Blue Pill 模块规格（M1） | 新增[模块规格记录](reviews/2026-10-23-stm32f103c8t6-module-spec.md)：芯片参数、排距15.24mm（开源封装+用户15.8mm外跨互证）、17脚映射、SWD/USB回灌约束、待实测项 |
 | 2026-10-23 | 分配64个实际封装并建立项目封装库 | 57个直插、7个手焊贴片；ERC 0、网表183接线一致、焊盘编号全部匹配、21项测试通过；U1/M1/F1/F2/D1～D4仍阻塞，PCB准入未达到 |
 
 后续顺序：先完成M1实板尺寸确认，审定U1、D1～D4和F1/F2方案；再关闭其余封装及P0问题，才能创建PCB。原生网表、ERC和封装/焊盘证据已在本阶段归档，PCB布局、固件、上位机及样机实验仍未开始。

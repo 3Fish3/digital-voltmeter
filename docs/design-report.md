@@ -212,6 +212,8 @@ U4.1低有效OE直接接GND，2脚输入ADC_DO_5V，3脚GND，4脚经R30=100Ω�
 
 ### 6.4 核心板排母与机械参数记录
 
+**正式规格登记：[STM32F103C8T6 Blue Pill 模块规格（M1）](reviews/2026-10-23-stm32f103c8t6-module-spec.md)**：芯片参数、两排中心距 15.24mm、48.26mm 首末、Ø1.016mm 孔、17 脚映射、供电与 SWD 约束及待实测项。
+
 本轮[元器件与真实封装专项审查](reviews/2026-10-23-component-package-audit/README.md)保存64个位号审查表、F103/Blue Pill 管脚对应及原始检查证据；完整的[Blue Pill板级信息复核](reviews/2026-10-23-stm32f103-blue-pill-investigation.md)单独记录标准布局、供电风险和装配限制。
 
 记录日期：2026-10-23（America/New_York）。用户已确认主控为 **STM32F103C8T6 Blue Pill**，通过核心板下方公排针插入底板两条焊接排母。**具体克隆板品牌/板号、LDO、USB接口、实际针宽、两排中心距D和实体针序尚未确认。**
