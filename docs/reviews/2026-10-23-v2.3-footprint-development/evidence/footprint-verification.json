@@ -1,7 +1,7 @@
 {
   "status": "assigned footprints resolve and pad numbers match netlist pins; not PCB DRC or dimensional approval",
-  "assigned_count": 56,
-  "unassigned_count": 8,
+  "assigned_count": 55,
+  "unassigned_count": 9,
   "unassigned_references": [
     "D1",
     "D2",
@@ -9,6 +9,7 @@
     "D4",
     "F1",
     "F2",
+    "J1",
     "M1",
     "U1"
   ],
@@ -471,111 +472,6 @@
           ],
           "drill_mm": [
             0.75
-          ]
-        }
-      ]
-    },
-    {
-      "reference": "J1",
-      "footprint": "Connector_USB:USB_B_TE_5787834_Vertical",
-      "file": "/usr/share/kicad/footprints/Connector_USB.pretty/USB_B_TE_5787834_Vertical.kicad_mod",
-      "sha256": "820ecd534a5049794f4a2a475d3e58121682f9064db069da5938dd5c340a0a69",
-      "symbol_pins": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "SH"
-      ],
-      "pads": [
-        {
-          "number": "1",
-          "type": "thru_hole",
-          "at_mm": [
-            0.0,
-            0.0
-          ],
-          "size_mm": [
-            1.4,
-            1.4
-          ],
-          "drill_mm": [
-            0.92
-          ]
-        },
-        {
-          "number": "2",
-          "type": "thru_hole",
-          "at_mm": [
-            -2.5,
-            0.0
-          ],
-          "size_mm": [
-            1.4,
-            1.4
-          ],
-          "drill_mm": [
-            0.92
-          ]
-        },
-        {
-          "number": "3",
-          "type": "thru_hole",
-          "at_mm": [
-            -2.5,
-            3.2
-          ],
-          "size_mm": [
-            1.4,
-            1.4
-          ],
-          "drill_mm": [
-            0.92
-          ]
-        },
-        {
-          "number": "4",
-          "type": "thru_hole",
-          "at_mm": [
-            0.0,
-            3.2
-          ],
-          "size_mm": [
-            1.4,
-            1.4
-          ],
-          "drill_mm": [
-            0.92
-          ]
-        },
-        {
-          "number": "SH",
-          "type": "thru_hole",
-          "at_mm": [
-            -7.27,
-            2.71
-          ],
-          "size_mm": [
-            3.0,
-            3.0
-          ],
-          "drill_mm": [
-            2.3
-          ]
-        },
-        {
-          "number": "SH",
-          "type": "thru_hole",
-          "at_mm": [
-            4.77,
-            2.71
-          ],
-          "size_mm": [
-            3.0,
-            3.0
-          ],
-          "drill_mm": [
-            2.3
           ]
         }
       ]

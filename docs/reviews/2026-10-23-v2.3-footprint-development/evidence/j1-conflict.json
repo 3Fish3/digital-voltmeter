@@ -1,0 +1,23 @@
+{
+  "reference": "J1",
+  "mpn": "5787834-1",
+  "manufacturer": "TE Connectivity",
+  "te_drawing": "5787834 Rev C (Customer Drawing A2 00779, 24MAR11)",
+  "te_signal_holes_dia_mm": 0.92,
+  "te_signal_hole_tolerance_mm": 0.08,
+  "te_signal_row_y_mm": 2.705,
+  "te_signal_col_x_mm": 2.5,
+  "te_signal_col_y_mm": 0.505,
+  "te_shield_holes_dia_mm": 2.3,
+  "te_shield_span_x_mm": 12.04,
+  "kicad_footprint": "Connector_USB:USB_B_TE_5787834_Vertical",
+  "kicad_signal_row_y_mm": 3.2,
+  "kicad_signal_col_x_mm": 2.5,
+  "kicad_signal_col_y_mm": 0.0,
+  "kicad_shield_span_x_mm": 12.04,
+  "kicad_signal_drill_mm": 0.92,
+  "kicad_shield_drill_mm": 2.3,
+  "conflict": "signal hole row spacing 2.705 vs 3.2 mm",
+  "status": "BLOCKED - footprint unassigned pending exact drawing or physical measurement",
+  "evidence_image": "te-5787834-drawing-revC.png"
+}

@@ -8,7 +8,7 @@
 "C10,C11","100n","R82DC3100AA50J","KEMET/YAGEO","Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm","2"
 "D1-D4","LOW-LEAKAGE BLOCKED","","","","4"
 "F1,F2","FUSE MPN BLOCKED","","","","2"
-"J1","USB-B ADAPTER POWER","5787834-1","TE Connectivity","Connector_USB:USB_B_TE_5787834_Vertical","1"
+"J1","USB-B ADAPTER POWER","","","","1"
 "J2","EXT +5V/GND","1715721","Phoenix Contact","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","1"
 "J3","CH0 SIG/GND","1715721","Phoenix Contact","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","1"
 "J4","CH1 SIG/GND","1715721","Phoenix Contact","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","1"

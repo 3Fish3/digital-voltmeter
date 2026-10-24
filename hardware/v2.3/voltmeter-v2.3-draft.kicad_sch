@@ -4682,7 +4682,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_USB:USB_B_TE_5787834_Vertical"
+	(property "Footprint" ""
 		(at 50.8 63.5 0)
 		(effects
 			(font
@@ -4691,7 +4691,7 @@
 			(hide yes)
 		)
 	)
-	(property "MPN" "5787834-1"
+	(property "MPN" ""
 		(at 0 0 0)
 		(effects
 			(font
@@ -4700,7 +4700,7 @@
 			(hide yes)
 		)
 	)
-	(property "Manufacturer" "TE Connectivity"
+	(property "Manufacturer" ""
 		(at 0 0 0)
 		(effects
 			(font

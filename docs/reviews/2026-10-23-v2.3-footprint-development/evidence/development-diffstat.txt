@@ -1,53 +1,28 @@
- README.md                                          |    8 +-
- docs/README.md                                     |    3 +-
- docs/design-report.md                              |   25 +-
- .../2026-10-23_v2.3-footprint-development.md       |   38 +
- docs/pin-connections.csv                           |  378 +--
- docs/progress.md                                   |   26 +-
- .../2026-10-23-component-package-audit/README.md   |    2 +
- .../README.md                                      |  122 +
- .../component-footprint-bom.csv                    |   65 +
- .../evidence/README.md                             |   23 +
- .../evidence/bom-crosscheck.json                   |   23 +
- .../evidence/bom-export.stderr.log                 |    0
- .../evidence/bom-export.stdout.log                 |    1 +
- .../evidence/component-inventory.json              |  605 ++++
- .../evidence/erc.json                              |   37 +
- .../evidence/erc.stderr.log                        |    0
- .../evidence/erc.stdout.log                        |    2 +
- .../evidence/field-changes.json                    | 1052 +++++++
- .../evidence/field-diff-summary.json               |   11 +
- .../evidence/footprint-svg-export.log              |   15 +
- .../evidence/footprint-verification.json           | 2976 ++++++++++++++++++++
- .../evidence/footprint-verification.stdout.log     | 2976 ++++++++++++++++++++
- .../evidence/git-baseline.txt                      |    3 +
- .../evidence/hardware-change-summary.json          |   23 +
- .../evidence/hardware-sha256-after.txt             |   13 +
- .../evidence/hardware-sha256-before.txt            |    6 +
- .../evidence/head-before.txt                       |    1 +
- .../evidence/kicad-version.txt                     |    1 +
- .../evidence/label-inventory.json                  |  932 ++++++
- .../evidence/native-bom.csv                        |   42 +
- .../evidence/netlist-export.stderr.log             |    0
- .../evidence/netlist-export.stdout.log             |    0
- .../evidence/netlist-verification.json             |   10 +
- .../evidence/pr1-commits.txt                       |    3 +
- .../evidence/pr1-diffstat.txt                      |    4 +
- .../evidence/pr1-full-tests-with-fixtures.log      |   33 +
- .../evidence/pr1-target-tests.log                  |   13 +
- .../evidence/regression-tests.log                  |   26 +
- .../evidence/voltmeter-v2.3-draft.xml              | 2498 ++++++++++++++++
- .../evidence/workspace-status-before.txt           |    1 +
- .../2N3904BU_TO-92_Inline_EBC.kicad_mod            |  209 ++
- .../AO3401A_SOT-23_GSD_HandSoldering.kicad_mod     |  254 ++
- ...K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod |  153 +
- hardware/v2.3/V23Draft.pretty/README.md            |   13 +
- .../TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod       |  229 ++
- .../TL431BCLP_TI_LP0003A_Inline_P1.27mm.kicad_mod  |  172 ++
- hardware/v2.3/fp-lib-table                         |    4 +
- hardware/v2.3/voltmeter-v2.3-draft.kicad_sch       | 1166 +++++++-
- scripts/verify_v2_3_footprints.py                  |  160 ++
- scripts/verify_v2_3_netlist.py                     |   13 +-
- tests/test_v2_3_footprints.py                      |   30 +
- tests/test_v2_3_netlist.py                         |    3 +-
- 52 files changed, 14111 insertions(+), 292 deletions(-)
+ README.md                                          |    2 +-
+ docs/README.md                                     |    4 +-
+ docs/design-report.md                              |    6 +-
+ .../2026-10-23_v2.3-footprint-development.md       |    8 +-
+ docs/pin-connections.csv                           |   10 +-
+ docs/progress.md                                   |   14 +-
+ .../README.md                                      |   16 +-
+ .../component-footprint-bom.csv                    |    2 +-
+ .../evidence/README.md                             |    3 +-
+ .../evidence/bom-crosscheck.json                   |    7 +-
+ .../evidence/component-inventory.json              |    2 +-
+ .../evidence/erc.json                              |    2 +-
+ .../evidence/field-changes.json                    | 1046 +-------------------
+ .../evidence/field-diff-summary.json               |   13 +-
+ .../evidence/footprint-verification.json           |  110 +-
+ .../evidence/footprint-verification.stdout.log     |  110 +-
+ .../evidence/hardware-change-summary.json          |    2 +-
+ .../evidence/hardware-sha256-after.txt             |    2 +-
+ .../evidence/j1-conflict.json                      |   23 +
+ .../evidence/native-bom.csv                        |    2 +-
+ .../evidence/netlist-verification.json             |    4 +-
+ .../evidence/regression-tests.log                  |    2 +-
+ .../evidence/te-5787834-drawing-revC.png           |  Bin 0 -> 438310 bytes
+ .../evidence/voltmeter-v2.3-draft.xml              |   13 +-
+ hardware/v2.3/voltmeter-v2.3-draft.kicad_sch       |    6 +-
+ tests/test_v2_3_footprints.py                      |    6 +-
+ tests/test_v2_3_netlist.py                         |    4 +-
+ 27 files changed, 101 insertions(+), 1318 deletions(-)

@@ -10,4 +10,4 @@ d7eef564b1443a46f2629dda92c2b70c5364fc51b2dc1d892f436511e760fb0f  hardware/v2.3/
 26a8b14206bfd2fed2045f1443a76d04e3e5628125c446e3f31985a07e331635  hardware/v2.3/V23Draft.pretty/TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod
 e5107f7262731557ad06e8b4f2f04222b804c6ff34b5df2d2043aad8f0092897  hardware/v2.3/V23Draft.pretty/TL431BCLP_TI_LP0003A_Inline_P1.27mm.kicad_mod
 3a17ef7bf6d8e59f03d056eb85fda05faf3d1f82574a4ea2c2b10dd9abdd587c  hardware/v2.3/voltmeter-v2.3-draft.kicad_pro
-2dd50fe53bc9b6fc3e0fe019ab13513a6726d18ecd12d76519925474b4b060d4  hardware/v2.3/voltmeter-v2.3-draft.kicad_sch
+ef8f256d219554735476fd605e9dcee6973c7bbadcfc44494aae2b83d351b379  hardware/v2.3/voltmeter-v2.3-draft.kicad_sch
