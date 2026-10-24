@@ -117,7 +117,7 @@
     {
       "reference": "M1",
       "lib_id": "V23Draft:BluePill_Logical_Interface",
-      "value": "BLUE_PILL_LOGICAL",
+      "value": "STM32F103C8T6 BluePill Module",
       "x": 728.98,
       "y": 416.56,
       "rotation": 0,
@@ -174,7 +174,7 @@
     {
       "reference": "F1",
       "lib_id": "Device:Fuse",
-      "value": "FUSE MPN BLOCKED",
+      "value": "37011000000",
       "x": 109.22,
       "y": 60.96,
       "rotation": 90,
@@ -187,7 +187,7 @@
     {
       "reference": "F2",
       "lib_id": "Device:Fuse",
-      "value": "FUSE MPN BLOCKED",
+      "value": "37011000000",
       "x": 109.22,
       "y": 127,
       "rotation": 90,

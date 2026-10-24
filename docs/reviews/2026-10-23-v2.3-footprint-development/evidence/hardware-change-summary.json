@@ -1,6 +1,6 @@
 {
   "baseline_tracked_files": 6,
-  "current_hardware_files": 13,
+  "current_hardware_files": 14,
   "unchanged_baseline_files": [
     "hardware/v2.3/V23Draft.kicad_sym",
     "hardware/v2.3/review/voltmeter-v2.3-draft.pdf",
@@ -14,6 +14,7 @@
   "new_hardware_files": [
     "hardware/v2.3/V23Draft.pretty/2N3904BU_TO-92_Inline_EBC.kicad_mod",
     "hardware/v2.3/V23Draft.pretty/AO3401A_SOT-23_GSD_HandSoldering.kicad_mod",
+    "hardware/v2.3/V23Draft.pretty/BluePill_STM32F103C8T6_Module.kicad_mod",
     "hardware/v2.3/V23Draft.pretty/C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm.kicad_mod",
     "hardware/v2.3/V23Draft.pretty/README.md",
     "hardware/v2.3/V23Draft.pretty/TI_N14_PDIP-14_W7.62mm_P2.54mm.kicad_mod",

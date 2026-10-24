@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/kekeyuyu/projects/digital-voltmeter/hardware/v2.3/voltmeter-v2.3-draft.kicad_sch</source>
-    <date>2026-10-23T22:16:09</date>
+    <date>2026-10-23T22:29:28</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -461,15 +461,22 @@
       </units>
     </comp>
     <comp ref="F1">
-      <value>FUSE MPN BLOCKED</value>
+      <value>37011000000</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">37011000000</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse_372_D8.50mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="37011000000"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -486,15 +493,22 @@
       </units>
     </comp>
     <comp ref="F2">
-      <value>FUSE MPN BLOCKED</value>
+      <value>37011000000</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">37011000000</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="DesignStatus">CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse_372_D8.50mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="37011000000"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="DesignStatus" value="CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -716,15 +730,22 @@
       </units>
     </comp>
     <comp ref="M1">
-      <value>BLUE_PILL_LOGICAL</value>
+      <value>STM32F103C8T6 BluePill Module</value>
+      <footprint>V23Draft:BluePill_STM32F103C8T6_Module</footprint>
       <fields>
-        <field name="DesignStatus">BLOCKED - candidate; not qualified for PCB</field>
-        <field name="Footprint"/>
+        <field name="MPN">STM32F103C8T6 BluePill (clone)</field>
+        <field name="Manufacturer">Generic / board vendor TBD</field>
+        <field name="DesignStatus">MODULE FOOTPRINT ASSIGNED - row spacing from open-source footprint; clone board tolerance and USB envelope to be verified</field>
+        <field name="DesignStatus_1">BLOCKED - candidate; not qualified for PCB</field>
+        <field name="Footprint">V23Draft:BluePill_STM32F103C8T6_Module</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="" part="BluePill_Logical_Interface" description=""/>
-      <property name="DesignStatus" value="BLOCKED - candidate; not qualified for PCB"/>
+      <property name="MPN" value="STM32F103C8T6 BluePill (clone)"/>
+      <property name="Manufacturer" value="Generic / board vendor TBD"/>
+      <property name="DesignStatus" value="MODULE FOOTPRINT ASSIGNED - row spacing from open-source footprint; clone board tolerance and USB envelope to be verified"/>
+      <property name="DesignStatus_1" value="BLOCKED - candidate; not qualified for PCB"/>
       <property name="Sheetname" value="voltmeter-v2.3-draft"/>
       <property name="Sheetfile" value="voltmeter-v2.3-draft.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

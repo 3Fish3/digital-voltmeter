@@ -12,8 +12,10 @@
 | `component-inventory.json`、`label-inventory.json` | 用于回归比对的元件和标签清单；后两项由当前原理图与既有独立清单组成 |
 | `netlist-verification.json` | 蓝图、XML、元件清单逐引脚比对结果 |
 | `erc.json`、`erc.*.log` | ERC JSON及标准输出/错误输出 |
-| `footprint-verification.json` | 61个已分配封装的解析、焊盘编号和孔径结构核对 |
+| `footprint-verification.json` | 64个已分配封装的解析、焊盘编号和孔径结构核对 |
 | `j1-conflict.json`、`te-5787834-drawing-revC.png` | J1的TE Rev C图纸与KiCad封装孔位冲突记录及原图 |
+| `opensource-BluePill_STM32F103C.kicad_mod` | 开源BluePill封装原始文件（tomaskovacik/kicad-library），用于交叉核对排距15.24mm |
+| `datasheet-text/Littelfuse-370.txt` | Littelfuse TR5 370系列原厂手册文本（P5.08、Ø8.5×8mm、1A） |
 | `open-item-assessments.md` | U1、F1/F2、M1、C3/C4 的完整评估与结论 |
 | `datasheet-text/` | BAS116H、XD0832CC、Littelfuse 251 原厂PDF的文本提取（原始PDF的公开来源见评估文档，不入库以避免二进制与空白检查冲突） |
 | `BAS116H-SOD123F-outline.png` | Nexperia SOD-123F 原厂封装图（本体3.6×1.7mm） |

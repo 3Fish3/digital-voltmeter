@@ -4589,7 +4589,7 @@
 			)
 		)
 	)
-	(property "Value" "BLUE_PILL_LOGICAL"
+	(property "Value" "STM32F103C8T6 BluePill Module"
 		(at 728.98 420.37 0)
 		(effects
 			(font
@@ -4597,7 +4597,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "V23Draft:BluePill_STM32F103C8T6_Module"
 		(at 728.98 416.56 0)
 		(effects
 			(font
@@ -4606,6 +4606,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "STM32F103C8T6 BluePill (clone)"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Generic / board vendor TBD"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "MODULE FOOTPRINT ASSIGNED - row spacing from open-source footprint; clone board tolerance and USB envelope to be verified"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 728.98 416.56 0)
 		(effects
@@ -4866,7 +4894,7 @@
 			)
 		)
 	)
-	(property "Value" "FUSE MPN BLOCKED"
+	(property "Value" "37011000000"
 		(at 109.22 64.77 0)
 		(effects
 			(font
@@ -4874,7 +4902,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Fuse:Fuse_Littelfuse_372_D8.50mm"
 		(at 109.22 60.96 0)
 		(effects
 			(font
@@ -4883,6 +4911,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "37011000000"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Littelfuse"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 109.22 60.96 0)
 		(effects
@@ -4935,7 +4991,7 @@
 			)
 		)
 	)
-	(property "Value" "FUSE MPN BLOCKED"
+	(property "Value" "37011000000"
 		(at 109.22 130.81 0)
 		(effects
 			(font
@@ -4943,7 +4999,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Fuse:Fuse_Littelfuse_372_D8.50mm"
 		(at 109.22 127 0)
 		(effects
 			(font
@@ -4952,6 +5008,34 @@
 			(hide yes)
 		)
 	)
+	(property "MPN" "37011000000"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Manufacturer" "Littelfuse"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "DesignStatus" "CANDIDATE FOOTPRINT ASSIGNED - procurement and electrical validation pending"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+
 	(property "Datasheet" "~"
 		(at 109.22 127 0)
 		(effects

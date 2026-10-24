@@ -6,10 +6,10 @@
 
 | 项目 | 结果 | 证据范围 |
 | --- | --- | --- |
-| 64个现有电路位号 | 61个已分配可解析封装，3个保留阻塞 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
+| 64个现有电路位号 | 64个已分配可解析封装 | 见[逐位号BOM](component-footprint-bom.csv)和[焊盘核验](evidence/footprint-verification.json) |
 | 封装种类 | 16种；其中5种为本项目专用封装 | 见[项目封装库说明](../../../hardware/v2.3/V23Draft.pretty/README.md) |
-| 直插/贴片 | 54个直插；D1～D4、Q1、U4、U5为便于手焊的贴片 | 仍须实物试装，不以封装编号替代可焊性验证 |
-| MPN/厂家属性 | 61个已分配位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
+| 直插/贴片 | 57个直插；D1～D4、Q1、U4、U5为便于手焊的贴片 | 仍须实物试装，不以封装编号替代可焊性验证 |
+| MPN/厂家属性 | 64个位号已写入原理图的`MPN`、`Manufacturer`字段 | KiCad原生BOM见[evidence/native-bom.csv](evidence/native-bom.csv) |
 | 连接 | 64元件、47命名网、183接线、5 NC、3供电声明未改变 | [网表核验](evidence/netlist-verification.json) |
 | ERC | KiCad 10.0.6报告0项违规（沿用4项既有忽略规则） | [ERC原始JSON](evidence/erc.json)；不能证明电气性能 |
 | 自动化 | 21项测试通过 | [原始日志](evidence/regression-tests.log) |
@@ -29,6 +29,8 @@
 | Q2 | 2N3904BU | `V23Draft:2N3904BU_TO-92_Inline_EBC` | onsemi 1=E、2=B、3=C；TO-92直插、P1.27、孔0.75mm |
 | J1 | TE 5787834-1 | `Connector_USB:USB_B_TE_5787834_Vertical` | Rev C图按2.50mm比例尺实测信号孔纵向中心距≈3.21mm（2.705+0.505链），与库3.2mm一致 |
 | D1～D4 | BAS116H,115 | `Diode_SMD:D_SOD-123F` | 1=K/2=A与现有Device:D一致；25°C漏电5nA、150°C 80nA、VR75V、IF215mA、Ptot375mW；本体最大3.6×1.7mm，库庭院4.4×2.3mm |
+| F1/F2 | 37011000000 | `Fuse:Fuse_Littelfuse_372_D8.50mm` | Littelfuse TR5 Ø8.5×8mm，P5.08mm；1A/250V 快断 IEC60127-3；库孔1.0mm、庭院Ø9.0mm |
+| M1 | STM32F103C8T6 BluePill 模块 | `V23Draft:BluePill_STM32F103C8T6_Module` | 2×1×20，P2.54，排距 **15.24mm**（与开源BluePill封装一致；15.8mm外跨−0.56针宽），首末48.26mm，孔1.016mm；PA13/PA14走独立SWD |
 | J2～J4 | Phoenix 1715721 | `TerminalBlock_Phoenix:...MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal` | 原厂P5.08、焊脚0.9×0.9、推荐孔1.3mm；库封装P5.08/孔1.3mm |
 | J5～J7 | Samtec TSW-105/103/104-07-G-S | `Connector_PinHeader_2.54mm:PinHeader_1x0N_P2.54mm_Vertical` | 原厂0.025in方针、P2.54、-07直针A10.92/B2.54/C5.84mm |
 | R1～R44（R6除外） | YAGEO MFR-25系列 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal` | 本体L6.3±0.5、D2.4±0.2、线径0.55～0.60mm；孔0.8mm |
@@ -53,12 +55,11 @@
 
 C3/C4已按有极性铝电解的物理封装分配焊盘，但现有原理图仍使用`Device:C`无极性图符。网表脚1在`SYS_5V`/`VANA`、脚2在`GND`，与封装正负极方向相符；PCB前仍应将原理图图符或极性标识改为明确的有极性表示，并人工复核。
 
-## 保留的3个阻塞位号
+## 封装层已无阻塞项
 
-| 位号 | 原因 | 不会怎么做 |
-| --- | --- | --- |
-| M1 | 具体Blue Pill克隆板、实际针宽/两排中心距、USB包络未实测；PA13/PA14只在独立SWD排针 | 不猜15.24mm或15.8mm为焊孔中心距，不省略SWD连接 |
-| F1/F2 | 0251001.MXL为候选；熔断额定、I²t、启动浪涌及PICO II轴向焊脚成形未闭合 | 不用普通电阻封装代替保险丝 |
+64/64 个位号均已分配封装并通过“符号引脚均有对应焊盘”的核验。U1 按用户确认使用 ADC0832CCN/NOPB（TI 该料号官方为 Obsolete，须核批次真伪）；F1/F2 由停产的 PICO II 251 改为在产的 Littelfuse 37011000000（TR5）；M1 用两条 1×20 排母，排距 15.24mm。
+
+**仍不能进入 PCB 的原因不是封装缺失**：M1 克隆板的实际针宽、排距公差和 USB 包络未实测；尚未做 PCB DRC 与装配干涉检查。
 
 ## 验证结果与证据
 
@@ -77,8 +78,8 @@ PR #1 的隔离提交为`93fa411`，相对`origin/main`的`138980f`只增加检�
 | --- | --- | --- |
 | KiCad ERC | 0 violations，4项既有忽略规则 | [erc.json](evidence/erc.json)；不等于电气可用 |
 | 原生网表 | 64元件、47网、183接线、5 NC、3供电声明；蓝图一致 | [netlist-verification.json](evidence/netlist-verification.json) |
-| 封装/焊盘 | 61个已分配封装均可解析，焊盘编号与符号引脚一致；3个未分配 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
-| BOM交叉核对 | 64行；61个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
+| 封装/焊盘 | 64个已分配封装均可解析，符号引脚均有对应焊盘 | [footprint-verification.json](evidence/footprint-verification.json)；不是DRC |
+| BOM交叉核对 | 64行；64个已分配项的封装、MPN、厂家与网表字段一致 | [bom-crosscheck.json](evidence/bom-crosscheck.json) |
 | 原理图字段差异 | 56个位号、175个字段变化；未发现Footprint/MPN/Manufacturer/DesignStatus以外的字段变化 | [field-diff-summary.json](evidence/field-diff-summary.json)、[逐项差异](evidence/field-changes.json) |
 | 硬件文件差异 | 基线6个跟踪文件：5个未变、原理图1个变更；新增1个库表和6个封装/说明文件 | [hardware-change-summary.json](evidence/hardware-change-summary.json) |
 | 回归测试 | 21项通过 | [regression-tests.log](evidence/regression-tests.log) |
@@ -111,12 +112,12 @@ PR #1的隔离检查命令为`PYTHONDONTWRITEBYTECODE=1 python3 -m unittest disc
 
 ## PCB设计准入
 
-当前**未达到PCB设计准入**。阻断条件按优先级：
+当前**仍未达到PCB设计准入**，但原因已经变化——不再是“封装缺失”：
 
-1. U1没有可追溯的在产采购版本与相应14脚图符，不能生成可信的ADC封装。
-2. M1未取得本块Blue Pill的针宽/中心距、USB位置和底面高度；两条20针排母没有覆盖PA13/PA14。
-3. D1～D4的双管封装拓扑需要用户审定，不能用当前四只单管图符蒙混。
-4. F1/F2额定与专用轴向封装未闭合，不能在保险丝选型前定板。
-5. 61个封装只完成了符号引脚/焊盘编号和资料层面对照；没有PCB DRC、板厂DRC、装配干涉或手工焊接验证。
+1. **M1 的克隆板实体公差未实测。** 排距 15.24mm 来自开源 BluePill 封装并与 15.8mm 外跨−0.56mm 针宽互证，但具体这块板的针宽、排距公差、USB 接口类型与伸出量、板底元件高度仍需实测。
+2. **PA13/PA14 不在两条长排。** 必须通过独立 4 针 SWD 对接；底板 J5 需单独连到板载 SWD，不能只靠排母。
+3. **USB 回灌风险。** Blue Pill 的 5V 针与 USB VBUS、LDO 输入同一网络，参考板无反向保护；由底板供电时必须禁止板载 USB 同时接入。
+4. **尚未执行 PCB DRC、板厂 DRC、装配干涉和手工焊接验证。** 64 个封装目前只完成符号引脚/焊盘编号与资料层面对照。
+5. **U1 的采购状态。** ADC0832CCN/NOPB 在 TI 官方为 Obsolete，须核对批次真伪。
 
-下一步应先用实物确认M1，再决定U1/D1～D4/F1/F2方案；所有方案经用户审定后，才能进入PCB创建与布局。
+下一步：取得本块 Blue Pill 的 1:1 实测（针宽、排距公差、USB 包络）后创建 PCB，并在布局阶段做 DRC 与装配检查。

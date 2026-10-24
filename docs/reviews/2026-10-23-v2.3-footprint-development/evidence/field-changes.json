@@ -1,26 +1,74 @@
 [
   {
-    "reference": "U1",
+    "reference": "F1",
     "property": "Footprint",
     "before": "",
-    "after": "Package_DIP:DIP-8_W7.62mm"
+    "after": "Fuse:Fuse_Littelfuse_372_D8.50mm"
   },
   {
-    "reference": "U1",
+    "reference": "F1",
     "property": "MPN",
     "before": null,
-    "after": "ADC0832CCN/NOPB"
+    "after": "37011000000"
   },
   {
-    "reference": "U1",
+    "reference": "F1",
     "property": "Manufacturer",
     "before": null,
-    "after": "Texas Instruments"
+    "after": "Littelfuse"
   },
   {
-    "reference": "U1",
+    "reference": "F1",
     "property": "Value",
-    "before": "ADC0832",
-    "after": "ADC0832CCN"
+    "before": "FUSE MPN BLOCKED",
+    "after": "37011000000"
+  },
+  {
+    "reference": "F2",
+    "property": "Footprint",
+    "before": "",
+    "after": "Fuse:Fuse_Littelfuse_372_D8.50mm"
+  },
+  {
+    "reference": "F2",
+    "property": "MPN",
+    "before": null,
+    "after": "37011000000"
+  },
+  {
+    "reference": "F2",
+    "property": "Manufacturer",
+    "before": null,
+    "after": "Littelfuse"
+  },
+  {
+    "reference": "F2",
+    "property": "Value",
+    "before": "FUSE MPN BLOCKED",
+    "after": "37011000000"
+  },
+  {
+    "reference": "M1",
+    "property": "Footprint",
+    "before": "",
+    "after": "V23Draft:BluePill_STM32F103C8T6_Module"
+  },
+  {
+    "reference": "M1",
+    "property": "MPN",
+    "before": null,
+    "after": "STM32F103C8T6 BluePill (clone)"
+  },
+  {
+    "reference": "M1",
+    "property": "Manufacturer",
+    "before": null,
+    "after": "Generic / board vendor TBD"
+  },
+  {
+    "reference": "M1",
+    "property": "Value",
+    "before": "BLUE_PILL_LOGICAL",
+    "after": "STM32F103C8T6 BluePill Module"
   }
 ]

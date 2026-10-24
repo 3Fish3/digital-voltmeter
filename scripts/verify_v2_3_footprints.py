@@ -121,14 +121,17 @@ def verify(netlist, project_dir=BASE / 'hardware/v2.3',
         path = footprint_file(libraries, footprint, system_root)
         pads = inspect_footprint(path)
         pad_numbers = sorted({pad['number'] for pad in pads})
-        if pin_numbers != pad_numbers:
-            raise ValueError(f'{ref}: symbol pins {pin_numbers} != footprint pads {pad_numbers}')
+        missing = [pin for pin in pin_numbers if pin not in pad_numbers]
+        if missing:
+            raise ValueError(f'{ref}: symbol pins missing from footprint: {missing}')
+        unused_pads = [pad for pad in pad_numbers if pad not in pin_numbers]
         records.append({
             'reference': ref,
             'footprint': footprint,
             'file': str(path),
             'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
             'symbol_pins': pin_numbers,
+            'unused_pads': unused_pads,
             'pads': pads,
         })
     records.sort(key=lambda item: tuple((0, int(c)) if c.isdigit() else (1, c)

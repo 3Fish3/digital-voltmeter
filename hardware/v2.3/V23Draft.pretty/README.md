@@ -8,6 +8,7 @@
 | `2N3904BU_TO-92_Inline_EBC` | 2N3904BU | onsemi Rev 3（2024-10）：1=E、2=B、3=C；TO-92 直插、P1.27、孔0.75 | 实际 BU 批次引线成形仍待来料核对 |
 | `TL431BCLP_TI_LP0003A_Inline_P1.27mm` | TL431BCLP | TI SLVS543S LP0003A / 4215214/C：直引脚 P1.27±0.13、孔φ0.85；本体5.21×4.19、最大高5.34 | 定制封装；到货须为直引脚，板厂成品孔径需复核 |
 | `C320C104K5R5TA_Radial_L5.08mm_W3.18mm_P2.54mm` | C320C104K5R5TA | KEMET C320 GoldMax：L≤5.08、T≤3.18、H≤5.84、S2.54±0.78、F0.51(+0.10/−0.025) | 引线成形后的实际安装高度待样件确认 |
+| `BluePill_STM32F103C8T6_Module` | STM32F103C8T6 BluePill 模块 | 两条1×20、P2.54、排距15.24mm、首末48.26mm、孔1.016mm；与开源BluePill封装及用户15.8mm外跨互证；PA13/PA14走独立SWD |
 | `TI_N14_PDIP-14_W7.62mm_P2.54mm` | SN74AHCT125N | TI N (R-PDIP-T) Rev C：14脚、P2.54、排距7.62；最大本体19.94×7.19 | 替代通用库中偏短的DIP-14庭院；当前只用于U3 |
 
 这些封装用于原理图封装字段和后续 PCB 设计输入，尚未通过 PCB DRC、装配干涉、面板开孔或实物焊接验证。

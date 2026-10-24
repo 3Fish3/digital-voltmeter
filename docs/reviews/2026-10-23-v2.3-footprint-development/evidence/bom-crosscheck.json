@@ -1,12 +1,8 @@
 {
   "component_count": 64,
-  "assigned_count": 61,
-  "blocked_count": 3,
-  "blocked_references": [
-    "F1",
-    "F2",
-    "M1"
-  ],
+  "assigned_count": 64,
+  "blocked_count": 0,
+  "blocked_references": [],
   "assigned_smt_references": [
     "D1",
     "D2",
@@ -16,7 +12,7 @@
     "U4",
     "U5"
   ],
-  "assigned_through_hole_count": 54,
+  "assigned_through_hole_count": 57,
   "mpn_and_manufacturer_fields_match_netlist": true,
   "footprint_fields_match_netlist": true
 }

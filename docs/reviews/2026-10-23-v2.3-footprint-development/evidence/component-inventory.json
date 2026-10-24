@@ -60,7 +60,7 @@
     "x": 728.98,
     "y": 416.56,
     "rotation": 0.0,
-    "footprint": ""
+    "footprint": "V23Draft:BluePill_STM32F103C8T6_Module"
   },
   {
     "reference": "J1",
@@ -87,7 +87,7 @@
     "x": 109.22,
     "y": 60.96,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Fuse:Fuse_Littelfuse_372_D8.50mm"
   },
   {
     "reference": "F2",
@@ -96,7 +96,7 @@
     "x": 109.22,
     "y": 127.0,
     "rotation": 90.0,
-    "footprint": ""
+    "footprint": "Fuse:Fuse_Littelfuse_372_D8.50mm"
   },
   {
     "reference": "Q1",

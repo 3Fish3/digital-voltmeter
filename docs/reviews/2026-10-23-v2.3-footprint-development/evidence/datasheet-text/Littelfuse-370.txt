@@ -1,0 +1,302 @@
+                                                                                                                    Fuse Datasheet
+
+
+370 Series
+TR5 ® Fuse, Fast Acting
+
+                                                                    HF RoHS Pb                             PS
+                                                                                                           E
+
+
+
+
+                                                             Description
+                                                             The 370 Series are sub-miniature TR5® fuses, fast acting type,
+                                                             250V rated fuses, designed in accordance to IEC 60127-3.
+
+
+
+                                                             Features & Benefits
+                                                             ■ Reduced PCB space                  ■ Available from 0.040A
+                                                               requirements                         to 6.3A
+                                                             ■ Direct solderable or               ■ UL Recognized to UL/CSA/
+                                                               plug-in versions                     NMX 248-1 and UL/CSA/NMX
+                                                             ■ Internationally approved             248-14
+                                                             ■ Low internal resistance            ■ Conforms to EN/J 60127-1
+                                                                                                    and EN/J 60127-3
+                                                             ■ Shock safe casing
+                                                                                                  ■ Conforms to GB/T9364.1 and
+                                                             ■ Vibration resistant                  GB/T9364.3
+                                                             ■ Lead-free, Halogen free and
+Additional Information                                         RoHS compliant
+
+
+
+                                                             Applications
+                                                             ■ Battery Chargers                   ■ Power supplies
+                                                             ■ Consumer Electronics               ■ Industrial Controllers
+    Resources            Accessories        Samples
+
+
+
+
+                   Agency Approvals                                             Electrical Characteristics
+
+  Agency         Certificate Number     Ampere Range          % of Ampere Rating                      Opening Time
+
+                        NA              0.040A - 6.3A                150%                           1 Hour, Min.
+                       NA               0.040A - 6.3A                210%                        30 Minutes, Max.
+                    40021074           0.050A - 0.080A               275%                    10 ms, Min. ; 3 Sec., Max.
+                      98941               0.100A - 5A                400%                    3 ms, Min. ; 300 ms, Max.
+                    40005316                 6.3A                   1000%                          20 ms, Max.
+                    40024532                0.040A
+                     E67006             0.040A - 6.3A
+    PS
+    E           NBK291021-JP1021           1A - 5A
+                2020970207000050        0.050A - 6.3A
+                 SU05024-12001            1A - 2.5A
+                 SU05024-12002          3.15A - 6.3A
+                 SU05024-12003         0.050A - 0.100A
+                 SU05024-12004         0.125A - 0.800A
+
+
+
+
+                                                                                                                             © 2026 Littelfuse, Inc.
+                                                         1                                    Specifications are subject to change without notice.
+                                                                                                                             Revised: GK. 07/21/26
+                                                                                                                                                                                              Fuse Datasheet
+
+
+370 Series
+TR5 ® Fuse, Fast Acting
+
+
+
+                                                                                               Electrical Characteristics
+
+                                                                                                                    Power                          Melting                       Agency Approvals
+                                                                                Nominal Cold Voltage Drop
+  Amp                              Rated          Voltage         Breaking                                        Dissipation                      Integral
+                                                                                 Resistance      1.0×IN
+  Code                            Current         Rating          Capacity3                                          1.5×IN                          10×IN
+                                                                                  (Ohms)2     max. (mV)                                                                                                  PS
+                                                                                                                                                                                                         E
+                                                                                                                  max. (mW)                       max. (A2s)
+ 0040                          40mA               250V                               6.0000        900               100                           0.0002      X   X        X        -         X         -          -   -
+ 0050                          50mA               250V                               4.0224        320                80                           0.0004      X   X        -        X         X         -          X   X
+ 0063                          63mA               250V                               2.6740        350               100                           0.0005      X   X        -        X         X         -          X   X
+ 0080                          80mA               250V                               2.0000        370               120                           0.0014      X   X        -        X         X         -          X   X
+ 0100                         100mA               250V                               4.6100        600               130                           0.0038      X   X        -        X         X         -          X   X
+ 0125                         125mA               250V                               3.2400        550               172                           0.0066      X   X        -        X         X         -          X   X
+ 0160                         160mA               250V                               2.2520        500               165                           0.0140      X   X        -        X         X         -          X   X
+ 0200                         200mA               250V                               1.6900        465               190                           0.0300      X   X        -        X         X         -          X   X
+ 0250                         250mA               250V                               1.3420        400               250                           0.0510      X   X        -        X         X         -          X   X
+ 0315                         315mA               250V          35A @ 250VAC         0.9300        380               250                           0.1000      X   X        -        X         X         -          X   X
+ 0400                         400mA               250V          125VDC @ 35A         0.1610        120               135                           0.0250      X   X        -        X         X         -          X   X
+ 0500                         500mA               250V                               0.1210        120               155                           0.0420      X   X        -        X         X         -          X   X
+ 0630                         630mA               250V                               0.0920        115               200                           0.0760      X   X        -        X         X         -          X   X
+ 0800                         800mA               250V                               0.0760        120               310                           0.1200      X   X        -        X         X         -          X   X
+ 1100                          1.00A              250V                               0.0676        110               310                           0.2000      X   X        -        X         X         X          X   X
+ 1125                          1.25A              250V                               0.0518        100               360                           0.3100      X   X        -        X         X         X          X   X
+ 1160                          1.60A              250V                               0.0420        100               600                           0.5300      X   X        -        X         X         X          X   X
+ 1200                          2.00A              250V                               0.0325         85               500                           0.9800      X   X        -        X         X         X          X   X
+ 1250                          2.50A              250V                               0.0246         80               660                           1.8000      X   X        -        X         X         X          X   X
+ 1315                          3.15A              250V                               0.0184         90               950                           3.1000      X   X        -        X         X         X          X   X
+                                                                 40A / 250VAC
+ 1400                             4.00A           250V                               0.0129         80               920                           6.7000      X   X         -       X         X         X          X   X
+                                                                125VDC @ 35A
+                                                                 50A / 250VAC
+ 1500                             5.00A           250V                               0.0105         80              1000                          12.0000      X   X         -       X         X         X          X   X
+                                                                125VDC @ 35A
+                                                                 63A / 250VAC
+  1630 6.30A*                                     250V                               0.0073         70              1200                          24.0000      X   X         -       X         X          -         X   X
+                                                                125VDC @ 35A
+Notes:
+1) 1.00 means the number one with two decimal places. 1,000 means the number one thousand.
+2) Resistance is measured at 10% of rated current, 25ºC.
+3) Breaking Capacity may differ based on Agency Approval. See Agency Approval certificate for more details.
+
+
+                                              Temperature Rerating Curve                                                                              Average Time Current Curves
+                                                                                                                                                     0.040A
+                                                                                                                                                     0.050A
+                                                                                                                                                     0.063A
+                                                                                                                                                     0.080A
+                                                                                                                                                     0.100A
+                                                                                                                                                     0.125A
+                                                                                                                                                     0.160A
+                                                                                                                                                     0.200A
+                                                                                                                                                     0.250A
+                                                                                                                                                     0.315A
+                                                                                                                                                     0.400A
+                                                                                                                                                     0.500A
+                                                                                                                                                     0.630A
+                                                                                                                                                     0.800A
+                      140
+                                                                                                                                                     1.00A
+                                                                                                                                                     1.25A
+                                                                                                                                                     1.60A
+                                                                                                                                                     2.00A
+                                                                                                                                                     2.50A
+                                                                                                                                                     3.15A
+                                                                                                                                                     4.00A
+                                                                                                                                                     5.00A
+                                                                                                                                                     6.30A
+                                                                                                                       100000
+                      120
+
+
+
+
+  PERCENT OF RATING
+                      100
+                                                                                                                           10000
+                      80
+
+                      60
+                                                                                                                                 1000
+                      40                                           23°C
+
+                      20
+                                                                                                                                         100
+
+
+
+
+                                                                                                                       TIME IN SECONDS
+                       0
+                            -40             -20             0         20        40        60       80
+
+                                                         AMBIENT TEMPERATURE (°C)
+                                                                                                                                         10
+
+
+
+
+                                                                                                                                          1
+Note
+1. Rerating depicted in this curve is in addition to the standard derating of 25% for
+continuous operation.
+                                                                                                                           0.100
+
+
+
+
+                                                                                                                           0.010
+
+
+
+
+                                                                                                                           0.001
+                                                                                                                                           0.02       0.100         1                    10                   100
+                                                                                                                                                               CURRENT IN AMPERES
+
+                                                                                                                                                                                                      © 2026 Littelfuse, Inc.
+                                                                                                              2                                                        Specifications are subject to change without notice.
+                                                                                                                                                                                                      Revised: GK. 07/21/26
+                                                                                                                                                                                                                                                                                                 Fuse Datasheet
+
+
+370 Series
+TR5 ® Fuse, Fast Acting
+
+
+
+Soldering Parameters - Wave Soldering
+                                                                                                                                                                                                                      Recommended Process Parameters:
+                                                        300
+
+                                                        280                                                                                                                                                                         Wave Parameter                               Lead-Free Recommendation
+
+
+
+
+  Temperature (°C) - Measured on bottom side of board
+                                                        260
+
+                                                        240
+                                                                                                                                                                                                                       Preheat:
+                                                                                                                                                                                                                       (Depends on Flux Activation Temperature)            (Typical Industry Recommendation)
+                                                        220
+
+                                                        200
+                                                                                                                                                                                                                         Temperature Minimum:                              100°C
+                                                        180                                                                                                                                                              Temperature Maximum:                              150°C
+                                                        160
+                                                                                                                                                                                                                         Preheat Time:                                     60-180 Seconds
+                                                        140
+
+                                                        120
+                                                                                                                                                                                                                       Solder Pot Temperature:                             260°C Maximum
+                                                        100                                                                                                                                                            Solder Dwell Time:                                  2-5 Seconds
+                                                        80                                                                                                                                                            Recommended Hand-Solder Parameters:
+                                                        60                                                                                                                                                              Solder Iron Temperature: 350°C +/- 5°C
+                                                        40
+                                                                                                                                                                                                                        Heating Time: 5 seconds max.
+                                                                                                                                                                                                                      Note: These devices are not recommended for IR or Convection Reflow process.
+                                                        20
+
+                                                         0
+                                                                   10   20    30     40   50   60        70   80   90   100   110   120   130   140   150   160   170   180   190   200   210   220   230   240
+                                                              0
+
+
+                                                        Time (Seconds)
+
+                                                                                                    Preheat Time                                                  Cooling Time
+                                                                                                                                          Dwell Time
+
+
+
+
+                                                                                                                                                                                      Product Characteristics
+
+                                                                                                              Base/Cap: Brown Thermoplastic                                                                              Operating Temperature                 -40ºC to +85ºC (consider de-rating)
+      Materials                                                                                               Polyamide PA 6.6, UL 94 V-0                                                                                                                      -40ºC to +85ºC/21 days
+                                                                                                                                                                                                                         Climatic Category
+                                                                                                              Round Pins: Copper, Tin-plated                                                                                                                   (IEC 60068-1,-2-1,-2-2,-2-78)
+      Lead Pull Strength                                                                                      10 N (IEC 60068-2-21)                                                                                                                            +10ºC to +60ºC
+                                                                                                              260ºC, ≤ 3s. (Wave)                                                                                        Stock Conditions                      RH ≤ 75% yearly average, without dew,
+      Solderability
+                                                                                                              350ºC, ≤ 1s. (Soldering Iron)                                                                                                                    maximum value for 30 days-95%
+      Soldering Heat                                                                                          260ºC, 10s. (IEC 60068-2-20)                                                                                                                     24 cycles at 15 min. each
+      Resistance                                                                                              350ºC, 3s. (Soldering Iron)                                                                                                                      (IEC 60068-2-6)
+                                                                                                                                                                                                                         Vibration Resistance
+                                                                                                                                                                                                                                                               10 - 60 Hz at 0.75 mm amplitude
+                                                                                                                                                                                                                                                               60 - 2000 Hz at 10G acceleration
+
+
+                                                                                                         Dimensions (mm)                                                                                                                            Part Numbering System
+                                                                             ∅ 8.5                                                                                                                                                                                    370 xxxx 0000
+
+                                                                                                                                                                                                                                            Series
+                                                          max. 8
+                                                                                                                                    Long Leads (L=18.8mm)                                                                                   Amp Code
+                                                                             ∅ 0.6                                                  Short Leads (L=4.3mm)                                                                                       Refer to Amp Code column of
+                                                                                               0.5 min
+                                                         L                                                                                                                                                                                      Electrical Characteristics Table
+
+                                                                                                                                                                                                                                            Packaging Code
+                                                                                                                                                                                                                                                0000 Tape/Ammopack (1000 pcs)
+                                                                              5.08
+                                                                                               1 +0.1                                                                                                                                           0410 Tape/Ammopack (1000 pcs)
+                                                                                                                                                                                                                                                0430 Tape/Ammopack (1000 pcs)
+
+                                                         Löcher in der Leiterplatte
+                                                         Holes in the printed circuit board                   Holes in PCB
+
+                                                                                                                                                                                                            Packaging
+                                                                                                                                                                                                                                                     Quantity &
+                                                          Packaging Option                                              Packaging Specification                                                               Quantity                                                                           Taping Width
+                                                                                                                                                                                                                                                   Packaging Code
+                                                                                                                                                                                                            370 Series
+                                                        Tape & Ammopack                                                                         N/A                                                           1,000                                     0000                                          N/A
+                                                           Short Leads                                                                          N/A                                                           1,000                                   0410/0430                                       N/A
+
+Disclaimer Notice - Information furnished is believed to be accurate and reliable. However, users should independently evaluate the suitability of and test each product selected for their own applications. Littelfuse products are
+not designed for, and may not be used in, all applications. Read complete Disclaimer Notice at: www.littelfuse.com/disclaimer-electronics.
+                                                                                                                                                                                                                                                                                                        © 2026 Littelfuse, Inc.
+                                                                                                                                                                                                                  3                                                      Specifications are subject to change without notice.
+                                                                                                                                                                                                                                                                                                        Revised: GK. 07/21/26
+
